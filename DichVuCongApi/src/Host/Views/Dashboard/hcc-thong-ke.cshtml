@@ -1,0 +1,257 @@
+﻿@{
+    Layout = "_Layout-dashboard-tivi";
+}
+<link rel="stylesheet" crossorigin href="~/css/dashboard-tv-thong-ke.css">
+
+<style type="text/css">
+    .yhy-append-wrap {
+        overflow: hidden;
+        width: 100%;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .yhy-append {
+        display: flex;
+        align-items: center;
+    }
+
+        .yhy-append .yhy-append-btn {
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+            padding: 5px 8px;
+            background: #EC3237;
+            box-shadow: 0px -1px 30px rgb(0 0 0 / 15%);
+            border-radius: 10px 10px 0px 0px;
+            border: 0;
+            font-family: 'Arial';
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .yhy-append .yhy-append-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .yhy-append .yhy-btn-btttt .yhy-append-icon {
+            width: 28px;
+            height: 26px;
+        }
+
+        .yhy-append .yhy-btn-btttt .append-icon > img {
+            width: 100%;
+        }
+
+        .yhy-append .yhy-btn-emc .yhy-append-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border-radius: 50%;
+        }
+
+        .yhy-append .yhy-append-txt {
+            margin-left: 5px;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+</style>
+
+<div class='ThongKeTongHopDonViHCCTelevisonSwapper'>
+    <div class='container-fluid header'>
+        <img src='~/images/logo-quoc-huy-2.png' alt='QuocHuy' id='imgQuocHuy' />
+        <h3>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG TỈNH @ViewBag.TenTinh</h3>
+    </div>
+    <div class='container-fluid body'>
+        <div class='title-form'>
+            <strong class='title-form-banner'>
+                BẢNG TÌNH HÌNH TIẾP NHẬN VÀ GIẢI QUYẾT THỦ TỤC HÀNH CHÍNH NĂM @ViewBag.Year
+            </strong><br />
+            <i class='title-bottom-form-banner'>(Số liệu tự động cập nhật đến 00:00 ngày @DateTime.Now.ToString("dd/MM/yyyy"))</i>
+            <br />
+        </div>
+        <table id='table'>
+            <thead>
+                <tr>
+                    <td rowSpan="2" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; width: 2%; text-align: center;">
+                        <strong>STT</strong>
+                    </td>
+                    <td rowSpan="2" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; width: 15%; text-align: center;">
+                        <strong>Đơn vị</strong>
+                    </td>
+                    <td colSpan="3" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center;">
+                        <strong>Tiếp nhận</strong>
+                    </td>
+                    <td colSpan="4" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center;">
+                        <strong>Đã xử lý</strong>
+                    </td>
+                    <td colSpan="2" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center;">
+                        <strong>Đang xử lý</strong>
+                    </td>
+                    <td rowSpan="2" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Bổ sung</strong>
+                    </td>
+                    <td rowSpan="2" style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Trả lại/ Rút HS</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Tổng số</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Kỳ trước</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Trong kỳ</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Trước hạn</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Đúng hạn</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Quá hạn</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Tỷ lệ trước hạn, đúng hạn</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Trong hạn</strong>
+                    </td>
+                    <td style="vertical-align: middle; padding: 5px; border: 1px solid #fff; text-align: center; width: 7%;">
+                        <strong>Quá hạn</strong>
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="data">
+                @foreach (var item in ViewBag.BaoCaoData)
+                {
+                    <tr class="@(ViewBag.BaoCaoData.IndexOf(item) % 2 == 0 ? "rowChan" : "rowLe")">
+                        <td style="vertical-align: middle; text-align: center; padding: 5px;">
+                            @(ViewBag.BaoCaoData.IndexOf(item) + 1)
+                        </td>
+                        <td class="blueText" style="vertical-align: middle; text-align: left; padding: 5px;">
+                            @item.TenThongKe
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.TongSo ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.TiepNhanKyTruoc ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.TiepNhanTrongKy ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.DaXuLyTruocHan ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.DaXuLyDungHan ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.DaXuLyQuaHan ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @{
+                                var totalProcessed = (item.DaXuLyDungHan ?? 0) + (item.DaXuLyTruocHan ?? 0) + (item.DaXuLyQuaHan ?? 0);
+
+                                var percentage = totalProcessed != 0
+                                ? Math.Round((double)((item.DaXuLyDungHan ?? 0) + (item.DaXuLyTruocHan ?? 0)) / totalProcessed * 100, 2).ToString() + "%"
+                                : "";
+                            }
+                            @percentage
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.DangXuLyTrongHan ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.DangXuLyQuaHan ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.TongBoSung ?? 0)
+                        </td>
+                        <td style="vertical-align: middle; padding: 5px; text-align: center;">
+                            @getCurrencyThongKe(item.TongTraLai ?? 0)
+                        </td>
+                    </tr>
+
+
+                }
+                @{
+                    int tongTiepNhan, tiepNhanKyTruoc, tiepNhanTrongKy, daXuLyTruocHan, daXuLyDungHan, daXuLyQuaHan, dangXuLyTrongHan, dangXuLyQuaHan, boSung, rutTraLai;
+                    string tyLeTruocDungHanValue;
+                    countSumary(out tongTiepNhan, out tiepNhanKyTruoc, out tiepNhanTrongKy, out daXuLyTruocHan, out daXuLyDungHan, out daXuLyQuaHan, out dangXuLyTrongHan, out dangXuLyQuaHan, out boSung, out rutTraLai, out tyLeTruocDungHanValue);
+                }
+                <tr>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;"></td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: left;">Tổng số</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@tongTiepNhan</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@tiepNhanKyTruoc</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@tiepNhanTrongKy</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@daXuLyTruocHan</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@daXuLyDungHan</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@daXuLyQuaHan</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@tyLeTruocDungHanValue</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@dangXuLyTrongHan</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@dangXuLyQuaHan</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@boSung</td>
+                    <td style="vertical-align: middle; padding: 5px; text-align: center;">@rutTraLai</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+@functions {
+    public string getCurrencyThongKe(decimal? value)
+    {
+        if (value.HasValue)
+        {
+            return value.Value.ToString("#,##0", System.Globalization.CultureInfo.InvariantCulture).Replace(",", ".");
+        }
+        return "0";
+    }
+
+    public void countSumary(out int tongTiepNhan, out int tiepNhanKyTruoc, out int tiepNhanTrongKy, out int daXuLyTruocHan, out int daXuLyDungHan, out int daXuLyQuaHan, out int dangXuLyTrongHan, out int dangXuLyQuaHan, out int boSung, out int rutTraLai, out string tyLeTruocDungHanValue)
+    {
+        tongTiepNhan = 0;
+        tiepNhanKyTruoc = 0;
+        tiepNhanTrongKy = 0;
+        daXuLyTruocHan = 0;
+        daXuLyDungHan = 0;
+        daXuLyQuaHan = 0;
+        dangXuLyTrongHan = 0;
+        dangXuLyQuaHan = 0;
+        boSung = 0;
+        rutTraLai = 0;
+
+        foreach (var item in ViewBag.BaoCaoData)
+        {
+            tongTiepNhan += item.TongSo ?? 0;
+            tiepNhanKyTruoc += item.TiepNhanKyTruoc ?? 0;
+            tiepNhanTrongKy += item.TiepNhanTrongKy ?? 0;
+            daXuLyTruocHan += item.DaXuLyTruocHan ?? 0;
+            daXuLyDungHan += item.DaXuLyDungHan ?? 0;
+            daXuLyQuaHan += item.DaXuLyQuaHan ?? 0;
+            dangXuLyTrongHan += item.DangXuLyTrongHan ?? 0;
+            dangXuLyQuaHan += item.DangXuLyQuaHan ?? 0;
+            boSung += item.TongBoSung ?? 0;
+            rutTraLai += item.TongTraLai ?? 0;
+        }
+
+        var totalProcessed = daXuLyDungHan + daXuLyTruocHan + daXuLyQuaHan;
+
+        tyLeTruocDungHanValue = totalProcessed != 0
+       ? Math.Round((double)(daXuLyDungHan + daXuLyTruocHan) / totalProcessed * 100, 2).ToString() + "%"
+       : "";
+    }
+}
+<script>
+    function getCurrencyThongKe(value) {
+        return value?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") ?? 0;
+    }
+</script>

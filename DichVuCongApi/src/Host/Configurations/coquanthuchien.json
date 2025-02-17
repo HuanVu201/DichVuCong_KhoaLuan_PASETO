@@ -1,0 +1,94 @@
+{
+  "ListCoQuanThucHienConfigs":
+  {
+    "CoQuanThucHienConfigs": [
+      {
+        "name": "Sở Xây dựng",
+        "code": "842388A0-811F-9031-2781-F62C77CACE28"
+      },
+      {
+        "name": "Sở Y tế",
+        "code": "057FEE8A-7D7F-2120-B74B-90B9CA26D9DA"
+      },
+      {
+        "name": "Sở Thông tin",
+        "code": "606541C4-1892-4AB0-A450-20639AA77DC4"
+      },
+      {
+        "name": "Khu kinh tế Nghi Sơn",
+        "code": "C55B97AA-FC6A-7817-2C88-983E00BD5996"
+      },
+      {
+        "name": "Sở Tài chính",
+        "code": "198DFD7F-A2F0-FCFC-A48D-01E6E00C3343"
+      },
+      {
+        "name": "Sở Kế hoạch",
+        "code": "69ABD75E-B0B7-6F72-0704-D8E37BBE53B2"
+      },
+      {
+        "name": "Sở Nông nghiệp",
+        "code": "16371A97-74B8-DC86-FDEF-7E41D5AC0CAC"
+      },
+      {
+        "name": "Sở Tư pháp",
+        "code": "5E6302BC-E99F-E5EC-27BB-7AAF098D342A"
+      },
+      {
+        "name": "Sở Công thương",
+        "code": "36627344-8F45-C9DA-4818-252BB32468EE"
+      },
+      {
+        "name": "Sở Giao thông",
+        "code": "B32DAEFE-3BE2-B63F-D9F6-B51FA988A92E"
+      },
+      {
+        "name": "Sở Nội vụ",
+        "code": "010E8FCE-CC16-DF4E-F797-9340E2B2C11A"
+      },
+      {
+        "name": "Thanh tra tỉnh",
+        "code": ""
+      },
+      {
+        "name": "Sở Giáo dục",
+        "code": "1C92AB68-33B1-D2D7-88B8-38E05A008146"
+      },
+      {
+        "name": "Sở Tài nguyên",
+        "code": "20398E5B-7427-1E77-7AFA-91B9CA50D6B2"
+      },
+      {
+        "name": "Sở Khoa học",
+        "code": "F9B1FA43-6987-85AA-6E89-A4C716CA309C"
+      },
+      {
+        "name": "Sở Lao động",
+        "code": "8A12ADFE-87AF-69F0-70D2-A56166D2E572"
+      },
+    
+      {
+        "name": "Sở Văn hóa",
+        "code": "C8201B65-FA02-660A-832F-71AD99ECDD2E"
+      },
+      {
+        "name": "Văn phòng UBND tỉnh",
+        "code": "98DB1AAC-6234-BD7F-0B27-EE3092FD2A80"
+      },
+      {
+        "name": "Sở Ngoại vụ",
+        "code": "C6AD33F2-E524-3DFB-85A2-2544796990A7"
+      },
+      {
+        "name": "Ban Dân tộc",
+        "code": "8EA21381-0891-2D4B-0631-020A9FC61F34"
+      },
+      {
+        "name": "đăng ký đất đai",
+        "code": "C13AF559-B656-9D0E-45A6-23734CEB2038"
+      }
+    ]
+  }
+ 
+}
+

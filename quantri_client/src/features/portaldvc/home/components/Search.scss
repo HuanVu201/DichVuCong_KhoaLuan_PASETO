@@ -1,0 +1,171 @@
+.search-home {
+    // background-image: url('/banners/search-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    // margin-left: 32px;
+    margin-bottom: 0px;
+
+    .containerSearch {
+        width: 90%;
+        margin: 24px auto 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .inputBlock {
+            padding: 32px 16px 0px 16px;
+
+            .ant-input {
+                border: none;
+                border-right: 1px solid #e9e7e7 !important;
+                font-size: 17px;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+            }
+
+            .form-control:focus {
+                box-shadow: none;
+            }
+
+            .ant-btn-default {
+                border: none;
+                font-size: 17px;
+
+                &:last-child {
+                    background-color: #e9e7e7;
+                    color: #333;
+
+                }
+            }
+
+            .ant-input:hover {}
+
+            .ant-btn-default:hover {
+                color: #fff !important;
+                background-color: #f0ad4e;
+            }
+
+        }
+
+        .boxBlock {
+            padding: 32px 16px;
+            gap: 16px;
+
+
+            .boxBlock_item:hover {
+                background-color: #f3b23a !important;
+            }
+        }
+
+        .input-group {
+
+            .input-search {}
+
+            .btn-search {
+                height: 46px;
+                transition: none;
+            }
+        }
+
+    }
+
+
+
+    .btn-link {
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+        font-weight: 500;
+
+    }
+
+    .btn-link :hover {
+        text-decoration: none;
+        // background-color: antiquewhite;
+        font-weight: 500;
+
+    }
+
+    .btn-home-search {
+        background-color: "#FFC251" !important;
+        justify-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .search-home {
+        .containerSearch {
+            width: 90% !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .search-home {
+        .containerSearch {
+            width: 95% !important;
+            padding: 0 16px;
+
+            .inputBlock {
+                padding: 0;
+
+                .rowSearch{
+                    height: 35px;
+
+                    .btn-search{
+                        height: 35px;
+                    }
+                }
+            }
+
+            .boxBlock {
+                padding: 16px 0;
+                gap: 8px;
+
+                .boxBlock_item {
+
+                    // padding: auto 0;
+                    .p-2 {
+                        padding: unset;
+                    }
+                }
+            }
+
+            .btn-link {
+                font-size: 13px;
+            }
+        }
+
+    }
+
+    .searchItem {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .timKiemNangCao {
+        display: none;
+    }
+
+    .containerSearch {
+        padding: 0 !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .boxBlock{
+        flex-direction: column;
+    }
+}

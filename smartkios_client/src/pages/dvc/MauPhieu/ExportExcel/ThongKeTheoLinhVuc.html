@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./exportTableToExcel.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="table">
+        <table  
+        style="vertical-align:middle;  border-collapse: collapse; ">
+        <thead>
+            <tr>
+                <td colspan="6" style="vertical-align:middle; padding: 5px;">
+                    <div style="vertical-align:middle; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong><br/>
+                        <span style="vertical-align:middle; font-size: 10px;">------------------</span>
+                    </div>
+                </td>
+                <td colspan="6" style="vertical-align:middle; padding: 5px;">
+                    <div style="vertical-align:middle; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong><br/>
+                        <span style="vertical-align:middle; font-size: 10px;">-------------------------------------------------------</span>
+
+         
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td id="" colspan="12" style="vertical-align:middle;  padding: 5px;"></td>
+            </tr>
+            <tr>
+                <td id="" colspan="12" style="vertical-align:middle;  padding: 5px;"></td>
+            </tr>
+
+            <tr>
+                <td colspan="12" id="title" style="vertical-align:middle;  padding: 5px; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 24px;">
+                    <strong>CÔNG KHAI KẾT QUẢ GIẢI QUYẾT THỦ TỤC HÀNH CHÍNH</strong>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="12" id="titleExpand" style="vertical-align:middle;  padding: 5px; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 24px;">
+                    <span>Từ ngày {TuNgay} Đến ngày {DenNgay}</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="12" id="titleExpand" style="vertical-align:middle;  padding: 5px; text-align: left; font-family: 'Times New Roman', Times, serif; font-size: 24px;">
+                    <strong>Đơn vị chủ trì giải quyết: {DonVi}</strong>
+                </td>
+            </tr>
+            <tr>
+                <td id="" colspan="12" style="vertical-align:middle;  padding: 5px;"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>TT</strong>
+                </td>
+                <td rowspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Mã hồ sơ hành chính</strong>
+                </td>
+                <td rowspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Ngày tiếp nhận hồ sơ</strong>
+                </td>
+                <td rowspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Người nhận</strong>
+                </td>
+                <td colspan="4" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Trạng thái, kết quả giải quyết TTHC</strong>
+                </td>
+                <td colspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Hồ sơ quá hạn giải quyết</strong>
+                </td>
+                <td rowspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Hồ sơ chưa đủ điều kiện giải quyết</strong>
+                </td>
+                <td rowspan="2" id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Hồ sơ không gải quyết</strong>
+                </td>
+            </tr>
+            <tr>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Ngày hẹn trả kết quả</strong>
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Đang giải quyết TTHC</strong>
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Đang chờ bổ sung hồ sơ</strong>
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Đã gửi kết quả về bộ phận TN&TKQ</strong>
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Số ngày quá hạn giải quyết</strong>
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Thời hạn trả kết quả lần sau</strong>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="12" style="vertical-align:middle; text-align: left;border: 1px solid #333; font-family: 'Times New Roman', Times, serif; font-size: 22px;"><strong>{Lĩnh vực}</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    {STT}
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    {MaHoSo}
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    {NgayTiepNhan}
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    {NguoiNhanHoSo}
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    {NgayHenTra}
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    {TenHoSo}
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    7
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    8
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    9
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    10
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    11
+                </td>
+                <td id="" style="vertical-align:middle; border: 1px solid #333; padding: 5px;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    12
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <button style="vertical-align:middle; display: block; margin: auto;" onclick="downloadPhieu('Thống kê tổng hợp theo lĩnh vực')">Download Phiếu</button>
+</body>
+
+
+
+
+
+<!-- <script>
+    function downloadPhieu() {
+        const ExcelJS = require('exceljs');
+
+        // Tạo một Workbook và một Worksheet
+        const workbook = new ExcelJS.Workbook();
+        const worksheet = workbook.addWorksheet('Danh sách Người dùng');
+
+        // Tạo một mảng dữ liệu từ HTML, bao gồm rowspan
+        const data = [
+            ['Tên', 'Tuổi', 'Địa chỉ'],
+            ['John', 30, '123 Main St'],
+            ['Alice', 25, '456 Elm St'],
+            ['Bob', 28, '789 Oak St'],
+            ['Eva', 29, '555 Pine St'],
+            ['Michael', 32, '777 Birch St']
+        ];
+
+        // Thêm dữ liệu vào bảng tính
+        data.forEach(rowData => {
+            const row = worksheet.addRow(rowData);
+        });
+
+        // Thiết lập rowspan cho ô 'Alice' trong cột 'Tên'
+        worksheet.getCell('B2').border = {
+            top: { style: 'thin' },
+            left: { style: 'thin' },
+            right: { style: 'thin' },
+            bottom: { style: 'thin' }
+        };
+        worksheet.getCell('B2').alignment = { vertical: 'middle', horizontal: 'center' };
+        worksheet.getCell('B2').font = { bold: true };
+        worksheet.getCell('B2').fill = {
+            type: 'pattern',
+            pattern: 'solid',
+            fgColor: { argb: 'FFFF00' }
+        };
+        worksheet.getCell('B2').value = 'Alice';
+        worksheet.mergeCells('B2:B3'); // Thiết lập rowspan cho ô 'Alice'
+
+        // Lưu tệp Excel
+        workbook.xlsx.writeFile('danh-sach-nguoi-dung.xlsx')
+            .then(function () {
+                console.log('Tệp Excel đã được tạo và lưu.');
+            })
+            .catch(function (error) {
+                console.error('Lỗi khi tạo tệp Excel:', error);
+            });
+
+    }
+</script> -->
+
+</html>

@@ -1,0 +1,44 @@
+.PhanAnhKienNghiDetail {
+    padding: 0 20px;
+    .componentBox{
+        padding: 10px 5px;
+    }
+    .componentBox + .componentBox {
+        border-top: 1px solid #E9F0F8;
+    }
+
+    .headerBlock {
+        padding-bottom:20px ;
+        padding-top: 0;
+
+        .titlePAKN {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .from {
+            font-size: 15px;
+        }
+    }
+
+    .leftContent {
+        justify-content: center;
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .rightContent {
+        .titleContent {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .content {}
+    }
+
+    .question {}
+}

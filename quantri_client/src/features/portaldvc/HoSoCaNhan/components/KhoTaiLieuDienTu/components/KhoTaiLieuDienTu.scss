@@ -1,0 +1,41 @@
+table {
+    th {
+        text-align: center !important;
+    }
+}
+
+.buttonAddKho {
+    display: inline-block;
+    background-color: #008b72;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(0, 139, 114, 0.8);
+    }
+}
+.buttonToShare {
+    display: inline-block;
+    background-color: #7e760d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(126, 118, 13, 0.8);
+    }
+}
+.buttonShared {
+    display: inline-block;
+    background-color: #fcac2c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(252, 172, 44, 0.8);
+    }
+}
+

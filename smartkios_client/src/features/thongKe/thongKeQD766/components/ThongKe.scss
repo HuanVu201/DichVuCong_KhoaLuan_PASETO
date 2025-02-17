@@ -1,0 +1,28 @@
+#ContainerSwapper {
+    font-size: 14px;
+
+    #tableToExcel {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: auto;
+
+        #headerTable {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        #data {
+            overflow: auto;
+        }
+    }
+
+
+
+    .tdHeader {
+        font-size: 14px;
+        background-color: #ce7a58;
+        color: #fff;
+        font-weight: 600;
+    }
+}

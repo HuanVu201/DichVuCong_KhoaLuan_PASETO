@@ -1,0 +1,56 @@
+.thanhToanBlock {
+    
+padding: 0 20px;
+
+    .header {
+        margin: 20px 0 10px;
+        h3 {
+            color: #777;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+    }
+
+    .bodyThanhToan {
+        margin-top: 20px;
+
+        .form-group {
+
+            .form-select:focus{
+                border-color: #ce7a58;
+                box-shadow: 0 0 0 1px rgba(206, 122, 88, 0.1);
+            }
+
+            .title {
+                width: 100%;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+
+            .data {
+                height: 34px;
+                font-size: 14px;
+            }
+
+            input{
+                background-color: #eee;
+            }
+        }
+
+        .form-group + .form-group {
+            margin-top: 15px;
+        }
+
+        .btnThanhToan {
+            margin: 20px 0;
+            background-color: #337ab7;
+            color: #fff;
+            font-size: 14px;
+            &:hover{
+                background-color: #286090;
+            }
+        }
+    }
+}

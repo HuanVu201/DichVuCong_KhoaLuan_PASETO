@@ -1,0 +1,43 @@
+import { RenderTitle } from "@/components/common"
+import { ISearchThanhPhanHoSo, IThanhPhanHoSo } from "@/features/thanhphanhoso/models"
+import { AntdModal, AntdTable } from "@/lib/antd/components"
+import { useAppSelector } from "@/lib/redux/Hooks"
+import { Form } from "antd"
+import { useEffect, useState } from "react"
+import { useThanhPhanChungThuc } from "./hooks/useThanhPhanChungThuc"
+import { FormInstance } from "antd/lib"
+import { SoChungThucApi } from "@/features/sochungthuc/services"
+import { ISoChungThuc } from "@/features/sochungthuc/models"
+import { getCurrency, numberToCurrencyText } from "@/utils"
+
+
+export const ThanhPhanChungThuc = ({form, thanhPhanHoSos, soChungThucs, tongTien}: {tongTien: number;soChungThucs: ISoChungThuc[]; form: FormInstance<any>; thanhPhanHoSos: IThanhPhanHoSo[] | undefined}) => {
+    const [searchParams, setSearchParams] = useState<ISearchThanhPhanHoSo>({})
+    const [dataSource, setDataSource] = useState<IThanhPhanHoSo[]>([]);
+    
+    useEffect(() => {
+        if(thanhPhanHoSos?.length){
+            setDataSource(thanhPhanHoSos)
+        }
+    }, [thanhPhanHoSos])
+    useEffect(() => {
+        form.setFieldValue("thanhPhanHoSos", dataSource) // có thể sẽ chậm
+    }, [dataSource])
+    
+    const {columns} = useThanhPhanChungThuc({dataSource, setDataSource, form, soChungThucs})
+
+    return <div style={{width: "100%"}}>
+        <RenderTitle title="Thành phần chứng thực"/>
+        <AntdTable 
+            columns={columns}
+            dataSource={dataSource}
+            pagination={{
+                total: dataSource.length
+            }}
+            footer={() => <>Tổng số tiền: {getCurrency(tongTien, ".")} VNĐ ({numberToCurrencyText(tongTien)})</>}
+            setSearchParams={setSearchParams}
+            searchParams={searchParams}
+            onSearch={() => {}}
+        />
+    </div>
+}

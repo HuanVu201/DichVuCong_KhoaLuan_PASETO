@@ -1,0 +1,65 @@
+.title {
+  color: #ce7a58;
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+.overflow-auto{
+  
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow-y: hidden !important;
+
+    .item{
+      font-size: 15px;
+      border-bottom: 1px dashed #ce7a58;
+      padding: 0.5rem 0rem;
+      color: red;
+      cursor: pointer;
+      span{
+        color: #333;
+      }
+
+      &:hover{
+        span{
+          color: red !important;
+
+        }
+      }
+    } 
+  }
+
+.hoso_fade-out{
+  max-height: 0;
+  padding: 0 !important;
+  transition: max-height 1s linear, padding 0.5s linear;
+  overflow: hidden;
+}
+.hoso_fade-in{
+  max-height: auto;
+  padding: 0.75rem 0rem !important;
+  transition: max-height 1s linear, padding 0.5s linear;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1250px) {
+
+}
+
+@media screen and (min-width: 700px) and ( max-width: 1023px) {
+    
+}
+
+@media screen and ( max-width: 700px) {
+  .title{
+    font-size: 14px;
+  }
+
+  .item {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+}

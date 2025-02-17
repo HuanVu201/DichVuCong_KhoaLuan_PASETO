@@ -1,0 +1,62 @@
+.selectBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 15px 15px 0 15px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    
+
+    .row {
+        &:last-child {
+            text-align: center;
+        }
+
+
+    }
+
+  
+    .buttonSearchPortal {
+        color: #fff;
+        font-weight: 600;
+
+        &:hover {
+            background-color: rgb(211, 153, 72);
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+}
+
+@media screen and (min-width: 700px) and ( max-width: 1023px) {
+    
+}
+
+@media screen and ( max-width: 700px) {
+    .selectBlock{
+        .ant-select-single .ant-select-selector{
+            font-size: 11px;
+        }
+        .ant-input{
+            font-size: 11px;
+        }
+        .ant-btn{
+            font-size: 11px;
+            height: 25px;
+        }
+        .ant-form-item{
+            margin-bottom: 5px;
+            padding: 0 2px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}

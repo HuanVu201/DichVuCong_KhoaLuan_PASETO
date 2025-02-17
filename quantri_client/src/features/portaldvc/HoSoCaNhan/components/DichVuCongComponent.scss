@@ -1,0 +1,296 @@
+.dichVuCongCuaToi {
+
+    .main-title {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+
+        .icon {
+            background-color: #ce7a58;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            border-radius: 4px;
+
+            img {
+                margin: auto;
+                width: 60%;
+            }
+        }
+
+        .title {
+            flex: 1;
+            margin-left: 10px;
+            background-color: rgba(255, 198, 0, 0.15);
+            border-radius: 4px;
+            background-image: url("../../../../assets/images/bg_hac.svg");
+            padding: 30px 20px;
+            background-position: center right;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            height: 100px;
+            text-align: left;
+            font-size: 26px;
+
+        }
+    }
+
+    .form {
+        border-bottom: 1px solid #E9F0F8;
+
+       .form-group{
+        margin-top: 20px;
+       }
+
+        .label-text {
+            font-size: 18px;
+            font-weight: 500;
+            // margin-bottom: 7px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        label {
+            display: flex;
+        }
+
+        input {}
+
+        .select-custom {
+            .trangThaiSearch {
+
+                .trangThaiSearch_item {
+                    color: #333;
+                    background-color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: #36B37E !important;
+                    }
+                }
+            }
+
+        }
+
+        .btnSearch {
+            font-size: 16px;
+            height: auto;
+
+            button {
+                background-color: #ce7a58;
+                max-width: 150px;
+                margin: auto;
+                color: #fff;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
+    .form-control:focus {
+        border-color: transparent !important;
+        box-shadow: 0 0 0 0.01rem rgb(206, 122, 88, 0.8);
+
+    }
+
+
+    .navbar {
+
+        display: flex;
+        justify-content: left !important;
+        // flex-wrap: wrap;
+
+        .navbar_item {
+            background-color: #ce7a58;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            margin: 1px;
+            border-radius: 2px;
+            flex: auto;
+            padding: 8px 0;
+            text-align: center;
+        }
+
+        .navbar_item.active {
+            background-color: #7e3a00;
+        }
+
+
+
+        .navbar_item:hover {
+            background-color: rgb(126, 58, 0, 0.9);
+        }
+
+    }
+
+    .mydvc-list {
+        padding: 20px 0;
+        cursor: default;
+
+        .table-dvc {
+            width: 100%;
+
+            tr+tr {
+                border-top: 1px solid #E9F0F8;
+            }
+
+            .table-dvc_item {
+                display: block;
+                padding: 20px 0;
+
+                .head {
+                    padding: 8px 0;
+
+                    a {
+                        font-size: 16px;
+                        color: #333;
+                    }
+
+                    .status {
+                        font-size: 16px;
+                        margin-top: 10px;
+                        text-align: left;
+                    }
+
+                    .-replied {
+                        color: #36B37E;
+
+                    }
+
+                    .-noanswer {
+                        color: #FFAB00;
+
+                    }
+
+                }
+
+                .detail {
+                    padding: 8px 0;
+
+
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+
+                        a {
+                            color: #333 !important;
+
+                            &:hover {
+                                color: #ce7a58 !important;
+                            }
+                        }
+
+                        .key {
+                            color: #000000;
+                        }
+
+                        .data {
+                            color: #484848;
+                        }
+
+                        .actions {
+                            display: flex;
+                            justify-items: center;
+
+                            .btn-img {
+
+                                img {
+                                    width: 18px;
+                                }
+                            }
+
+                            .btn-img+.btn-img {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .reactCustomer {
+                    margin: 15px 0 5px 0;
+                    display: flex;
+
+                    .btn {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 12PX;
+
+                        img {
+                            width: 15px;
+                            margin: auto;
+                            margin-right: 5px;
+                        }
+                    }
+
+                    .btn+.btn {
+                        margin-left: 8px;
+                    }
+
+                    i {
+                        margin: auto;
+                    }
+
+                    span {
+                        margin-left: 5px;
+                    }
+
+                    .sohappy {
+                        border: 1px solid #903938;
+
+                        i {
+                            color: #903938;
+                        }
+
+                        &:hover {
+                            background-color: #903938;
+                            color: #fff;
+
+                            i {
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .happy {
+                        border: 1px solid #67A99F;
+
+                        i {
+                            color: #67A99F;
+                        }
+
+                        &:hover {
+                            background-color: #67A99F;
+                            color: #fff;
+
+                            i {
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .nohappy {
+                        border: 1px solid #8F969C;
+
+                        i {
+                            color: #8F969C;
+                        }
+
+                        &:hover {
+                            background-color: #8F969C;
+                            color: #fff;
+
+                            i {
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

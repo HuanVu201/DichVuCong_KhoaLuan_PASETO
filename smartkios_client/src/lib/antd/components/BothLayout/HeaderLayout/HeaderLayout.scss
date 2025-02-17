@@ -1,0 +1,123 @@
+a {
+    text-decoration: none !important;
+}
+
+.header {
+    width: 100%;
+    min-height: 80px;
+    background: #ffeeaa url('/images/BgPortalHeader.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    border-bottom: 1px solid #ce7a58;
+
+
+    .header-container {
+        transition: all ease 0.5s;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 67.5%;
+        padding: 0 16px;
+        position: relative;
+
+        .headerBlock {
+
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding: 0 16px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+            align-items: baseline;
+
+            .header-title {
+                margin-top: 5px;
+                width: 350px;
+
+                .logo {
+                    margin: 5px 5px 5px 0;
+                    max-width: 650px;
+                }
+            }
+
+            .header-account {
+                display: flex;
+                align-items: center;
+
+                .statusLogin {
+                    position: relative;
+                    top: 10px;
+
+
+                    li {
+                        list-style: none;
+                        display: inline-block;
+                        border: 1px solid #ce7a58;
+                        color: #3a3a3a;
+                        font-size: 17.5px;
+                        border-radius: 5px;
+                        min-width: 120px;
+                        text-align: center;
+                        cursor: pointer;
+
+
+                        a,
+                        span {}
+
+                        &:hover {
+                            background-color: #ce7a58;
+                            color: #fff;
+
+                            a {
+                                color: #fff !important;
+                            }
+                        }
+
+                        a,
+                        span {
+                            display: block;
+                            padding: 6px 10px 6px 10px;
+                            color: #1e2f41;
+                            font-weight: 600;
+
+                            &:hover {
+                                color: #fff !important;
+                            }
+                        }
+                    }
+
+                    li+li {
+                        margin-left: 5px;
+                    }
+
+                    .unLog_Options {
+                        display: flex;
+                    }
+
+                    .loged_Options {
+                        display: flex;
+                        padding: 0;
+
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 1365px) {
+
+    .header-account{
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 1080px) {
+
+   .header-container{
+    width: 100% !important;
+    padding: 0 !important;
+   }
+}

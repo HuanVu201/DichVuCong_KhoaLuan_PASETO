@@ -1,0 +1,179 @@
+a {
+    text-decoration: none !important;
+}
+
+.headerPortal {
+    width: 100%;
+    min-height: 80px;
+    background: #ffeeaa url('/images/BgPortalHeader.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    border-bottom: 1px solid #ce7a58;
+
+
+    .header-container {
+        transition: all ease 0.5s;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+        padding: 0 16px;
+        position: relative;
+
+        .headerBlock {
+
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+            align-items: baseline;
+            position: relative;
+
+            .header-title {
+                margin-top: 5px;
+
+                .logo {
+                    margin: 5px 5px 5px 0;
+                    width: 80%;
+                }
+            }
+
+            .header-account {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                right: 30px;
+                top: 45%;
+
+                .statusLogin {
+                    position: relative;
+                    // top: 10px;
+
+
+                    li {
+                        list-style: none;
+                        display: inline-block;
+                        border: 1px solid #ce7a58;
+                        color: #3a3a3a;
+                        font-size: 18px;
+                        border-radius: 5px;
+                        // min-width: 120px;
+                        text-align: center;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+
+                        a,
+                        span {}
+
+                        &:hover {
+                            background-color: #ce7a58;
+                            color: #fff;
+
+                            a {
+                                color: #fff !important;
+                            }
+                        }
+
+                        a,
+                        span {
+                            display: block;
+                            padding: 6px 10px 6px 10px;
+                            color: #1e2f41;
+                            font-weight: 500;
+
+                            &:hover {
+                                color: #fff !important;
+                            }
+                        }
+                    }
+
+                    li+li {
+                        margin-left: 5px;
+                    }
+
+                    .unLog_Options {
+                        display: flex;
+                    }
+
+                    .loged_Options {
+                        display: flex;
+                        padding: 0;
+
+                    }
+                    .unLog_Options{
+                        margin: 0;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header-container {
+        // width: 80% !important;
+    }
+
+    .headerBlock{
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .header-account{
+        position: relative !important;
+        margin-left: auto;
+    }
+
+    .loged_Options{
+        margin: 0 !important;
+    }
+}
+
+@media screen and (min-width: 700px) and ( max-width: 1023px) {
+    .header-container {
+        width: 90% !important;
+    }
+}
+
+@media screen and ( max-width: 700px) {
+    .header-container {
+        width: 95% !important;
+    }
+    .headerBlock{
+        margin-bottom: 20px !important;
+    }
+    .header-title{
+        width: 100%;
+    }
+
+    .container{
+        width: 100% !important;
+    }
+
+    .statusLogin li{
+        min-width: unset !important;
+        font-size: 11px !important;
+        
+    }
+    .statusLogin li a{
+        padding: 2px 5px !important;
+    }
+
+    li+li{
+        margin-left: 2px !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .header-container{
+        padding: 0 !important;
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "LTQLVBSettings": {
+    "urlLienThongQLVB": "",
+    "tokenLienThongQLVB": "",
+    "authorizationSchema": "Basic",
+    "maDonViDongBo": "H56",
+    "gioiHanSoLuongXuLy": "100",
+    "gioiHanDungLuongUpload": 100,
+    "danhSachDonViUBTinh": [ "" ],
+    "themMaHoSoVaoTrichYeu": true
+  }
+}

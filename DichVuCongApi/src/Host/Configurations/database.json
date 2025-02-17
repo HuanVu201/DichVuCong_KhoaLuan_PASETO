@@ -1,0 +1,6 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Server=HUANVU\\HUANVUSQLSERVER; Database=DVC_KhoaLuan_PASETO;User Id=huanvu; Password=1; Trusted_Connection=False; MultipleActiveResultSets=true; TrustServerCertificate=true;"
+  }
+}

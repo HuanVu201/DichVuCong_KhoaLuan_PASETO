@@ -1,0 +1,107 @@
+.PhanAnhKienNghiPageSwapper {
+
+    .PhanAnhKienNghiBlock {
+        width: 67.5%;
+        margin: auto;
+        padding: 0 16px;
+        font-size: 16px !important;
+
+        .PhanAnhKienNghiContainer {
+
+            .PhanAnhKienNghiSearch {
+                width: 50%;
+                margin: auto;
+
+
+
+            }
+
+            .PhanAnhKienNghiList {
+                width: 90%;
+                margin: auto;
+                // border: 1px solid;
+                padding: 0 16px;
+
+                .paknItem {
+                    cursor: default;
+                    display: flex;
+                    padding: 20px;
+
+                    .logoItem {
+
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .rightItem {
+
+
+                        .titleItem {
+                            font-size: 16px;
+                            color: #0072bc;
+                            text-align: justify;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+
+                        .fromItem {
+                            font-size: 12px;
+                            color: #6A94B6;
+                            font-weight: 700;
+                        }
+
+                        .shortContent {
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+
+                        .buttonSearchPortal_Detail {
+                            cursor: pointer;
+                            float: right;
+                            color: #fff;
+                            font-weight: 500;
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            margin: auto;
+                            padding: 0 5px !important;
+
+                            &:hover {
+                                background-color: rgb(211, 153, 72);
+                            }
+                        }
+                    }
+                }
+
+                .paknItem+.paknItem {
+                    border-top: 1px solid #E9F0F8;
+                }
+            }
+
+            
+
+
+            .buttonSearchPortal {
+                color: #fff;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                font-size: 17px;
+                margin: auto;
+
+                &:hover {
+                    background-color: rgb(211, 153, 72);
+                }
+            }
+
+            .ant-btn-default {
+                border: none;
+            }
+
+        }
+    }
+}

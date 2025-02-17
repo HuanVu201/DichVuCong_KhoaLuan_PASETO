@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>TỔNG HỢP THỦ TỤC PHÁT SINH HỒ SƠ TRẢ QUA BCCI</strong>
+                <i>(Từ ngày … đến ngày … )</i>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <table
+                    style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 12px;">
+                    <tr>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">Mã thủ tục</td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">Mức độ</td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600; width: 40%;">Tên thủ tục hành
+                            chính</td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">Trả kết quả qua BCCI</td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">Tiếp nhận qua BCCI</td>
+                    </tr>
+                    <tr>
+                        <td id="LinhVuc" style="border: 1px solid #333; padding: 5px;">
+                            1.010708.000.00.00.H56
+                        </td>
+                        <td id="MucDo" style="border: 1px solid #333; padding: 5px;">
+                            Mức độ
+                        </td>
+                        <td id="TenThuTuc" style="border: 1px solid #333; padding: 5px;">
+                            Tên thủ tục
+                        </td>
+                        <td id="TraKetQuaBCCI" style="border: 1px solid #333; padding: 5px;">
+                            Trả kết quả BCCI
+                        </td>
+                        <td id="TiepNhanQuaBCCI" style="border: 1px solid #333; padding: 5px;">
+                            Tiếp nhận qua BCCI
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="LinhVuc" style="border: 1px solid #333; padding: 5px;">
+                            1.010708.000.00.00.H56
+                        </td>
+                        <td id="MucDo" style="border: 1px solid #333; padding: 5px;">
+                            Mức độ
+                        </td>
+                        <td id="TenThuTuc" style="border: 1px solid #333; padding: 5px;">
+                            Tên thủ tục
+                        </td>
+                        <td id="TraKetQuaBCCI" style="border: 1px solid #333; padding: 5px;">
+                            Trả kết quả BCCI
+                        </td>
+                        <td id="TiepNhanQuaBCCI" style="border: 1px solid #333; padding: 5px;">
+                            Tiếp nhận qua BCCI
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex;  margin-top: 20px; justify-content: right">
+                <div style="width: 200px; display: flex;flex-direction: column; ">
+                    <i>Thanh Hóa, ...</i>
+                    <strong>Người báo cáo</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;"
+        onclick="downloadPhieu('Thống kê thủ tục phát sinh hồ sơ BCCI')">Download Phiếu</button>
+
+</body>
+
+</html>

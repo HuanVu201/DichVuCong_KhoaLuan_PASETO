@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <script src="./ExportHtmlToPdf.js"></script>
+    
+    <title>Phiếu tiếp nhận hồ sơ và hẹn trả kết quả</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 14px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong>
+                        <hr
+                            style="height:1.5px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1.5px; width: 175px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+                        <span>Mã hồ sơ: <span id="MaHoSo">000.00.06.H56-231027-0361</span></span>
+                        <div style="width: 270px; height: 40px; margin: 5px auto;">
+                            <svg id="BarCode"></svg>
+                        </div>
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+                        <i>Thanh Hóa, <span id="NgayThangNam">ngày 27 tháng 10 năm 2023</span></i>
+                        <div style="display: flex; width: 250px; margin: 15px auto; position: relative; right: 10px;">
+                            <div style="margin: auto; width: 180px;">
+                                <span style="font-size: 13px;">Mã QR dùng để tra cứu tiến độ giải quyết hồ sơ qua
+                                    Zalo</span>
+                            </div>
+                            <div id="QRMaHoSoBox" style="width: 64px; height: 64px; margin-left: 10px; ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Title -->
+            <div style="text-align: center; font-weight: 600; font-size: 16px;">
+                <strong>GIẤY TIẾP NHẬN HỒ SƠ VÀ HẸN TRẢ KẾT QUẢ</strong>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: 0 auto;" page-break-after="auto">
+                <div id="firstCheckBreak">
+                    <p style="margin: 5px 0;">Trung tâm Phục vụ hành chính công tỉnh Thanh Hóa:</p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Tiếp nhận hồ sơ của Ông (Bà):
+                        <strong id="HoTenNguoiNop">NGUYỄN VĂN HƯNG</strong>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Địa chỉ: <span id="DiaChiNguoiNop">X. Định Bình, H. Yên Định, T. Thanh
+                            Hóa</span></p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">
+                        Số điện thoại: <span id="SoDienThoaiNguoiNop">0972376908</span>.
+                        Email: <span id="EmailNguoiNop">tandan123@gmail.com</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Số CMND/Thẻ căn cước/Hộ chiếu: <span id="CMNDNguoiNop">038087042028</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Nội dung yêu cầu giải quyết:
+                        <span id="TenHoSo">Đổi giấy phép lái xe do ngành Giao thông vận tải cấp (Hạng A1)</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Chủ hồ sơ:
+                        <span id="ChuHoSo">NGUYỄN VĂN HƯNG</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Địa chỉ chủ hồ sơ:
+                        <span id="DiaChi">X. Định Bình, H. Yên Định, T. Thanh Hóa</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">Hình thức thu phí, lệ phí:
+                        <span id="HinhThucThuPhi">Thu trước</span>
+                    </p>
+                </div>
+                <div style="width: 100%;">
+                    <p style="margin: 5px 0;">Thành phần hồ sơ, số lượng mỗi loại giấy tờ:</p>
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0;">
+                        <tr>
+                            <td rowspan=2 style="border: 1px solid #333; font-weight: 600; width: 8%;">
+                                <strong>TT</strong>
+                            </td>
+                            <td rowspan=2 style="border: 1px solid #333; font-weight: 600; "><strong>Thành phần hồ
+                                    sơ</strong></td>
+                            <td colspan=3 style="border: 1px solid #333; font-weight: 600; width: 30%; padding: 8px 0;">
+                                <strong>Số lượng</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #333; font-weight: 600; width: 10%; "><strong>Bản
+                                    chính</strong></td>
+                            <td style="border: 1px solid #333; font-weight: 600; width: 10%; "><strong>Bản chứng
+                                    thực</strong></td>
+                            <td style="border: 1px solid #333; font-weight: 600; width: 10%; "><strong>Bản
+                                    photo</strong></td>
+                        </tr>
+
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                Giấy phép lái xe, giấy chứng minh nhân dân hoặc thẻ căn cước công dân hoặc hộ chiếu còn
+                                thời hạn
+                            </td>
+                            <td id="SoBanChinh" style="border: 1px solid #333; padding: 5px;">
+                                0
+                            </td>
+                            <td id="SoBanSao" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="SoBanPhoto" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                Giấy phép lái xe, giấy chứng minh nhân dân hoặc thẻ căn cước công dân hoặc hộ chiếu còn
+                                thời hạn
+                            </td>
+                            <td id="SoBanChinh" style="border: 1px solid #333; padding: 5px;">
+                                0
+                            </td>
+                            <td id="SoBanSao" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="SoBanPhoto" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                Giấy phép lái xe, giấy chứng minh nhân dân hoặc thẻ căn cước công dân hoặc hộ chiếu còn
+                                thời hạn
+                            </td>
+                            <td id="SoBanChinh" style="border: 1px solid #333; padding: 5px;">
+                                0
+                            </td>
+                            <td id="SoBanSao" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="SoBanPhoto" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                Giấy phép lái xe, giấy chứng minh nhân dân hoặc thẻ căn cước công dân hoặc hộ chiếu còn
+                                thời hạn
+                            </td>
+                            <td id="SoBanChinh" style="border: 1px solid #333; padding: 5px;">
+                                0
+                            </td>
+                            <td id="SoBanSao" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="SoBanPhoto" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                Giấy phép lái xe, giấy chứng minh nhân dân hoặc thẻ căn cước công dân hoặc hộ chiếu còn
+                                thời hạn
+                            </td>
+                            <td id="SoBanChinh" style="border: 1px solid #333; padding: 5px;">
+                                0
+                            </td>
+                            <td id="SoBanSao" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="SoBanPhoto" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </div>
+
+                <div>
+                    <p style="margin: 5px 0;">2. Số lượng hồ sơ:
+                        <span id="SoLuongHoSo">01 bộ</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">3. Thời gian giải quyết hồ sơ theo quy định là:
+                        <span id="SoNgay">5</span>
+                        <span id="ThoiGianKhac">ngày làm việc</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">4. Thời gian nhận hồ sơ:
+                        <span id="GioNhan">9 giờ 32 phút</span>,
+                        <span id="NgayNhan">ngày 27/10/2023</span>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">5. Thời gian trả kết quả giải quyết hồ sơ: Sau
+                        <span id="GioTra">9 giờ 00 phút</span>,
+                        <span id="NgayTra">ngày 03/11/2023</span><br />
+                        <i>(Hồ sơ có thể giải quyết xong trước thời gian quy định, Trung tâm sẽ gửi thông báo qua
+                            tin nhắn điện thoại và thư điện tử (nếu có) đến người nộp/chủ hồ sơ. Ngoài ra người nộp/chủ
+                            hồ sơ tra cứu tình hình giải quyết TTHC; biên lai điện tử thu phí, lệ phí tại Website:
+                            https://hcc.thanhhoa.gov.vn hoặc liên hệ số điện thoại:02373.900.900 để biết thông tin)</i>
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;">6. Đăng ký nhận kết quả tại:
+                        <span id="DangKyNhanKQTai">Trung tâm Phục vụ hành chính công tỉnh</span>.
+                    </p>
+                </div>
+                <div>
+                    <p style="margin: 5px 0;"><span style="font-weight: 600;">Khi đến nhận kết quả:</span> Người nộp
+                        mang theo Giấy này (trường hợp pháp luật có
+                        quy định Chủ hồ sơ phải trực tiếp đến nhận kết quả nhưng không đến được thì phải
+                        có giấy ủy quyền cho người khác đi nhận thay theo quy định).</p>
+                </div>
+                <div id="lastCheckBreak"></div>
+            </div>
+        </div>
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div id="lastCheckBreak" style="display: flex; text-align: center; font-weight: 600; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <strong>NGƯỜI NỘP HỒ SƠ</strong>
+                    <div style="width: 120px; height: 90px; margin: 10px auto; ">
+                        <!-- <img id="chuKyNguoiNopHoSo" src="" style="width: 100%; object-fit: cover; margin: auto;"> -->
+                    </div>
+                    <strong id="HoTenNguoiNop">Nguyễn Văn Hưng</strong>
+                </div>
+                <div style="flex: 1;">
+                    <strong>NGƯỜI TIẾP NHẬN HỒ SƠ</strong>
+                    <div style="width: 120px; height: 90px; margin: 10px auto;">
+                        <!-- <img id="chuKyNguoiTiepNhan" src="" style="width: 100%; object-fit: cover; margin: auto;"> -->
+                    </div>
+                    <strong id="NguoiTiepNhan">Phạm Văn Thuận</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="downloadPhieuPdf('Phiếu tiếp nhận hồ sơ')">Download Phiếu tiếp nhận hồ sơ</button>
+</body>
+<script>
+    const qrcodeImage = document.querySelector('#QRMaHoSo')
+    const barcodeImage = document.querySelector('#BarCode')
+
+    const rootApiGetQRCode = 'https://api.qrserver.com/v1/create-qr-code/?size=50x50&data='
+    const rootAPIHCC = 'https://hcc.thanhhoa.gov.vn/portaldvc/KenhTin/tra-cuu.aspx?mahs='
+    const maHoSo = '000.00.06.H56-231027-0361'
+
+    JsBarcode("#BarCode", maHoSo, {
+        format: 'code39',
+        height: 28,
+        width: 0.86,
+        text: maHoSo,
+        fontSize: 12,
+        font: "Times New Roman"
+    });
+    const qrcodeBox = document.querySelector('#QRMaHoSoBox')
+    new QRCode(qrcodeBox, {
+        text: `${rootAPIHCC}${maHoSo}`,
+        height: 64,
+        width: 64,
+        colorLight: '#fff',
+        colorDark: '#333'
+    })
+
+</script>
+
+</html>

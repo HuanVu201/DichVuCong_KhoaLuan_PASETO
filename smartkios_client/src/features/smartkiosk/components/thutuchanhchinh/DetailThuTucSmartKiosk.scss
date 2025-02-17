@@ -1,0 +1,82 @@
+.chi-tiet-thu-tuc-dvcqg {
+    margin: 20px 0;
+    font-size: 14px !important;
+
+    .main-title {
+        color: #0066b3;
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px 0 20px;
+        border: 1px solid #e9e5d7;
+        border-left: 3px solid #666ac0;
+        border-radius: 4px;
+
+        h2 {
+            font-size: 20px;
+            margin: 0;
+
+            img {
+                margin-right: 8px;
+                width: 32px;
+            }
+
+        }
+
+    }
+
+    .actionThuTucDetail {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        font-size: 16px;
+
+        .nopTrucTuyen {
+            position: relative;
+
+            a {
+                display: flex;
+                align-items: center;
+                width: 220px;
+                background: #0066b3;
+                padding: 3px 10px;
+                color: #fff;
+                text-decoration: dotted;
+                border-radius: 5px;
+            }
+        }
+
+        .download {
+            cursor: pointer;
+            padding: 3px 10px;
+            background-color: #4343ff;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+
+    .content {
+
+        .info-row {
+            margin: auto;
+            width: 100%;
+            padding: 8px 0;
+            // border-top: 1px solid #333;
+
+            .titleColumnn {}
+
+            .contentColumn {}
+
+        }
+
+        .info-row+.info-row {
+            border-top: 1px solid #e9e5d7;
+        }
+
+    }
+
+    .btn {
+        margin: 20px 0;
+        color: #fff;
+    }
+}

@@ -1,0 +1,41 @@
+.custom-table-qlvb-qlvb th {
+  white-space: nowrap;
+  /* Ngăn các nội dung quá dài tràn ra ngoài */
+  text-align: center;
+}
+
+.custom-table-qlvb th:nth-child(1),
+.custom-table-qlvb td:nth-child(1) {
+  width: 5%;
+  /* Chiều rộng cột STT */
+  text-align: center;
+}
+
+.custom-table-qlvb th:nth-child(2),
+.custom-table-qlvb td:nth-child(2) {
+  width: 20%;
+}
+
+.custom-table-qlvb th:nth-child(3),
+.custom-table-qlvb td:nth-child(3) {
+  width: 10%;
+}
+
+.custom-table-qlvb th:nth-child(4),
+.custom-table-qlvb td:nth-child(4) {
+  width: 20%;
+}
+
+.custom-table-qlvb th:nth-child(5),
+.custom-table-qlvb td:nth-child(5) {
+  width: 45%;
+  text-align: center;
+}
+
+.custom-table-qlvb th:nth-child(6),
+.custom-table-qlvb td:nth-child(6) {
+  width: 10%;
+  text-align: center;
+}
+
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div class="containerBlock" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+                        <i>Thanh Hóa, <span id="NgayThangNam">ngày 27 tháng 10 năm 2023</span></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>BÁO CÁO KẾT QUẢ ĐÁNH GIÁ SỰ HÀI LÒNG </strong>
+                <i>(Từ ngày … đến ngày … )</i>
+            </div>
+            <!-- Content -->
+            <div style=" margin: auto;">
+                <div style="margin-bottom: 8px; padding-left: 30px;">
+                    Nội dung đánh giá: Ông/Bà đánh giá như thế nào về thái độ công chức khi tiếp nhận và hướng dẫn giải
+                    quyết hồ sơ? <br />
+                    Kết quả đánh giá của tổ chức, cá nhân như sau:
+                </div>
+                <table
+                    style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                    <tr>
+                        <td rowspan="2" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Đơn vị
+                        </td>
+                        <td rowspan="2" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Công chức tiếp nhận
+
+                        </td>
+                        <td rowspan="2" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Tổng số phiếu
+                        </td>
+                        <td colspan="2" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Rất hài lòng
+                        </td>
+                        <td colspan="2" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Hài lòng
+                        </td>
+                        <td colspan="2" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Không hài lòng
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Số phiếu
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Tỷ lệ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Số phiếu
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Tỷ lệ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Số phiếu
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Tỷ lệ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="DonVi" style="border: 1px solid #333; padding: 5px;">
+                            1
+                        </td>
+                        <td id="TenNguoiDung" style="border: 1px solid #333; padding: 5px;">
+                            2
+                        </td>
+                        <td id="TongDanhGia" style="border: 1px solid #333; padding: 5px;">
+                            3
+                        </td>
+                        <td id="RHL" style="border: 1px solid #333; padding: 5px;">
+                            4
+                        </td>
+                        <td id="TiLeRHL" style="border: 1px solid #333; padding: 5px;">
+                            5
+                        </td>
+                        <td id="HL" style="border: 1px solid #333; padding: 5px;">
+                            6
+                        </td>
+                        <td id="TiLeHL" style="border: 1px solid #333; padding: 5px;">
+                            7
+                        </td>
+                        <td id="KHL" style="border: 1px solid #333; padding: 5px;">
+                            8
+                        </td>
+                        <td id="TiLeKHL" style="border: 1px solid #333; padding: 5px;">
+                            9
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Thống kê thủ tục phát sinh hồ sơ BCCI')">Download Phiếu</button>
+
+</body>
+
+</html>

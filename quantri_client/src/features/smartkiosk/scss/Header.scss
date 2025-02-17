@@ -1,0 +1,22 @@
+.Header {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .04);
+
+    .title {
+        color: #cd171e;
+        font-size: 24px;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+
+    .box-button-text {
+        height: 48px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background: #0066b3;
+        border-radius: 8px;
+        border-color: transparent;
+    }
+}

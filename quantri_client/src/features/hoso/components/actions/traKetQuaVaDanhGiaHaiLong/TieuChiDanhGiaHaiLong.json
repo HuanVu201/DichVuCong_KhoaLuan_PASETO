@@ -1,0 +1,94 @@
+{
+    "tieuChiDanhGiaHaiLong": [
+        {
+            "chiso1": {
+                "tieuDe": "Chỉ số 1: Tổng thời gian giải quyết thủ tục hành chính so với thời gian cho phép theo quy định của pháp luật với các mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi tổng thời gian ngắn hơn so với quy định",
+                    "b": "Điểm 1 khi tổng thời gian bằng thời gian quy định",
+                    "c": "Điểm 0 khi tổng thời gian dài hơn so với quy định"
+                }
+            },
+            "chiso2": {
+                "tieuDe": "Chỉ số 2: Thời gian thực hiện của từng cơ quan, đơn vị tham gia giải quyết (kể cả đơn vị phối hợp) so với quy định với các mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi cơ quan, đơn vị xử lý ngắn hơn so với thời hạn quy định",
+                    "b": "Điểm 1 khi cơ quan, đơn vị xử lý bằng thời hạn quy định",
+                    "c": "Điểm 0 khi cơ quan, đơn vị xử lý dài hơn so với thời hạn quy định"
+                }
+            },
+            "chiso3": {
+                "tieuDe": "Chỉ số 3: Số lần phải liên hệ với nơi tiếp nhận hồ sơ để hoàn thiện hồ sơ thủ tục hành chính (kể cả liên hệ theo hình thức trực tuyến) với các mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi không phải liên hệ với nơi tiếp nhận hồ sơ thủ tục hành chính lần nào để hoàn thiện hồ sơ",
+                    "b": "Điểm 1 khi chỉ phải một lần liên hệ với nơi tiếp nhận hồ sơ thủ tục hành chính để hoàn thiện hồ sơ",
+                    "c": "Điểm 0 khi phải hơn một lần liên hệ với nơi tiếp nhận hồ sơ thủ tục hành chính để hoàn thiện hồ sơ, trừ trường hợp nguyên nhân do lỗi của người nộp hồ sơ"
+                }
+            },
+            "chiso4": {
+                "tieuDe": "Chỉ số 4: Số lượng cơ quan, đơn vị, tổ chức phải liên hệ để hoàn thiện hồ sơ thủ tục hành chính (kể cả liên hệ theo hình thức trực tuyến) với các mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi không phải liên hệ với cơ quan, đơn vị, tổ chức nào để hoàn thiện hồ sơ thủ tục hành chính",
+                    "b": "Điểm 1 khi phải liên hệ với một cơ quan, đơn vị, tổ chức là Bộ phận Một cửa để hoàn thiện hồ sơ thủ tục hành chính. Trường hợp theo quy định pháp luật, tổ chức, cá nhân phải trực tiếp tham gia và hoàn thiện hồ sơ giải quyết theo kết quả kiểm tra, xác minh thực địa, họp Hội đồng thẩm định, thẩm tra trong quá trình giải quyết thủ tục hành chính, thì số lượng được cộng thêm cơ quan, đơn vị, tổ chức được pháp luật giao chủ trì kiểm tra, xác minh thực địa, tổ chức Hội đồng thẩm định, thẩm tra",
+                    "c": "Điểm 0 khi phải liên hệ với hơn một cơ quan, đơn vị, tổ chức"
+                }
+            },
+            "chiso5": {
+                "tieuDe": "Chỉ số 5: Thực hiện tổ chức tiếp nhận hồ sơ, giải quyết, trả kết quả tại Bộ phận Một cửa với các mức điểm cụ thể như sau",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi tổ chức mô hình Bộ phận Một cửa của bộ, cơ quan ngang bộ, Bộ phận Tiếp nhận và Trả kết quả của Tổng cục hoặc tương đương, Cục tiếp nhận, xem xét, thẩm định hồ sơ, phê duyệt hoặc trình phê duyệt, trả kết quả đối với tối thiểu 20% số lượng thủ tục hành chính theo danh mục thủ tục hành chính tiếp nhận tại Bộ phận Một cửa do Bộ trưởng, Thủ trưởng cơ quan ngang bộ ban hành; Trung tâm Phục vụ hành chính công cấp tỉnh, Bộ phận Tiếp nhận và Trả kết quả cơ quan chuyên môn cấp tỉnh tiếp nhận, xem xét, thẩm định hồ sơ, phê duyệt kết quả đối với tối thiểu 20% số lượng thủ tục hành chính theo danh mục thủ tục hành chính tiếp nhận tại Bộ phận Một cửa do Chủ tịch Ủy ban nhân dân cấp tỉnh ban hành; Bộ phận Tiếp nhận và Trả kết quả cấp huyện tiếp nhận, xem xét, thẩm định hồ sơ, trình phê duyệt kết quả đối với tối thiểu 50% số lượng thủ tục hành chính theo danh mục tiếp nhận của cấp huyện; Bộ phận Một cửa cấp xã tiếp nhận, xem xét, thẩm định hồ sơ, phê duyệt kết quả đối với 100% thủ tục hành chính thuộc danh mục tiếp nhận của cấp xã",
+                    "b": "Điểm 1 khi 100% thủ tục hành chính không thuộc đối tượng quy định tại các điểm a, b khoản 5 Điều 14 Nghị định số 61/2018/NĐ-CP được tiếp nhận hồ sơ và trả kết quả tại Bộ phận Một cửa các cấp.",
+                    "c": "Điểm 0 khi dưới 100% thủ tục hành chính không thuộc đối tượng quy định tại các điểm a, b khoản 5 Điều 14 Nghị định số 6172018/NĐ-CP được tiếp nhận hồ sơ và trả kết quả tại Bộ phận Một cửa các cấp."
+                }
+            },
+            "chiso6": {
+                "tieuDe": "Chỉ số 6: Công khai các thủ tục hành chính với các mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi thủ tục hành chính thực hiện tại Bộ phận Một cửa được công khai chính xác, đầy đủ, kịp thời bằng cả hình thức niêm yết và điện tử theo đúng quy định pháp luật về công khai thủ tục hành chính.",
+                    "b": "Điểm 1 khi thủ tục hành chính thực hiện tại Bộ phận Một cửa được công khai chính xác, đầy đủ, kịp thời bằng hình thức niêm yết hoặc điện tử theo đúng quy định pháp luật về công khai thủ tục hành chính",
+                    "c": "Điểm 0 khi thủ tục hành chính thực hiện tại Bộ phận Một cửa không được công khai chính xác, đầy đủ, kịp thời."
+                }
+            },
+            "chiso7": {
+                "tieuDe": "Chỉ số 7: Thái độ của cán bộ, công chức, viên chức khi hướng dẫn lập hồ sơ, tiếp nhận hồ sơ và giải quyết thủ tục hành chính với các mức điểm cụ thể như sau",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi tiếp nhận, xử lý, trả kết quả hồ sơ sớm hơn thời hạn quy định và không có ý kiến phản ánh, kiến nghị về hành vi, thái độ nhũng nhiễu, gây phiền hà, không thực hiện hoặc thực hiện không đúng quy định pháp luật",
+                    "b": "Điểm 1 khi tiếp nhận, xử lý, trả kết quả hồ sơ đúng thời hạn quy định và không có ý kiến phản ánh, kiến nghị về hành vi, thái độ nhũng nhiễu, gây phiền hà, không thực hiện hoặc thực hiện không đúng quy định pháp luật",
+                    "c": "Điểm 0 khi có ý kiến phản ánh, kiến nghị về hành vi, thái độ nhũng nhiễu, gây phiền hà, không thực hiện hoặc thực hiện không đúng quy định pháp luật. Trường hợp phản ánh, kiến nghị được cơ quan có thẩm quyền xác minh, kết luận là không đúng hoặc vu cáo thì không được tính vào đánh giá này."
+                }
+            },
+            "chiso8": {
+                "tieuDe": "Chỉ số 8: Tiếp thu, giải trình đối với các ý kiến phản ánh, kiến nghị của tổ chức, cá nhân với mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi không có phản ánh, kiến nghị hoặc 100% phản ánh, kiến nghị được xử lý đúng thời hạn theo quy định và không có phản ánh, kiến nghị kéo dài.",
+                    "b": "Điểm 1 khi tối thiểu từ 90% phản ánh, kiến nghị trở lên được xử lý đúng thời hạn theo quy định và không có phản ánh, kiến nghị kéo dài.",
+                    "c": "Điểm 0 khi dưới 90% phản ánh, kiến nghị được xử lý đúng thời hạn theo quy định hoặc có phản ánh, kiến nghị kéo dài."
+                }
+            },
+            "chiso9": {
+                "tieuDe": "Chỉ số 9: Tiến độ và chất lượng cung cấp dịch vụ công trực tuyến của cơ quan có thẩm quyền với các mức điểm cụ thể như sau:",
+                "cauTraLoi": {
+                    "a": "Điểm 2 khi tối thiểu 20% thủ tục hành chính đáp ứng yêu cầu được đưa vào triển khai dịch vụ công trực tuyến mức độ 3, 4; tỷ lệ hồ sơ trực tuyến trong tổng số hồ sơ đạt tối thiểu 30%; và không có hồ sơ trực tuyến nào không giải quyết hoặc giải quyết quá hạn.",
+                    "b": "Điểm 1 khi có triển khai dịch vụ công trực tuyến mức độ 3, 4 đối với thủ tục hành chính đáp ứng yêu cầu; tỷ lệ hồ sơ trực tuyến trong tổng số hồ sơ đạt tối thiểu 15% đến dưới 30%; và không có hồ sơ trực tuyến không được giải quyết hoặc giải quyết quá hạn.",
+                    "c": "Điểm 0 khi không triển khai dịch vụ công trực tuyến mức độ 3, 4 hoặc tỷ lệ hồ sơ trực tuyến trong tổng số hồ sơ đạt dưới 15%; hoặc có hồ sơ trực tuyến không được giải quyết hoặc giải quyết quá hạn."
+                }
+            },
+            "chiso10": {
+                "tieuDe": "Chỉ số 10: Mức độ thuận tiện khi sử dụng dịch vụ (dịch vụ dễ sử dụng, thời gian đáp ứng của dịch vụ khi giao tiếp, xử lý dữ liệu)",
+                "cauTraLoi": {
+                    "a": "Rất hài lòng",
+                    "b": "Hài lòng",
+                    "c": "Không hài lòng"
+                }
+            },
+            "chiso11": {
+                "tieuDe": "Chỉ số 11: Đánh giá tổng thể dịch vụ",
+                "cauTraLoi": {
+                    "a": "Rất hài lòng",
+                    "b": "Hài lòng",
+                    "c": "Không hài lòng"
+                }
+            }
+        }
+    ]
+}

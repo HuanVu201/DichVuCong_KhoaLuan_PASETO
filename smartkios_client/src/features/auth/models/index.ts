@@ -1,0 +1,30 @@
+import { UserType } from "@/features/user/models";
+import { IBaseExt} from "../../../models/basemodel";
+
+export interface ICredential {
+    refreshToken: string,
+    refreshTokenExpiryTime: string,
+    token: string,
+}
+
+export interface ILogin {
+    username: string,
+    password: string,
+}
+
+export interface IForgotPassword extends ILogin{
+    confirmPassword: string,
+}
+
+export interface IParseUserToken {
+    groupCode: string;
+    email: string;
+    fullName: string;
+    groupName: string;
+    officeCode: string;
+    officeName: string;
+    typeUser: UserType;
+    uid: string;
+    sub: string;
+    maDinhDanh:string;
+}

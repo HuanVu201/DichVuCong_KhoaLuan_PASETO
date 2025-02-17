@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0; font-size: 14px;">
+                <strong>GIẤY BÀN GIAO HỒ SƠ</strong>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <div style="margin-bottom: 8px;">
+                    Nội dung hồ sơ:
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Người nộp: ….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Địa chỉ người nộp: ….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Số điện thoại người nộp:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Email: ….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Chủ hồ sơ: ….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Địa chỉ chủ hồ sơ: ….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Mã hồ sơ: ………………………………………..……………………………..
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Ngày nhận: ……………………………………, ………………………………
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Thời gian giải quyết hồ sơ theo quy định là: ... …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Thời gian hẹn trả kết quả cho tổ chức, cá nhân: Bắt đầu …, ............. Đề nghị đơn vị giải quyết
+                    TTHC và trả kết quả về Trung tâm Phục vụ hành chính công tỉnh chậm nhất …, ….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <strong>* Thành phần hồ sơ:</strong>
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0;">
+                        <tr>
+                            <td rowspan=2 style="border: 1px solid #333; font-weight: 600; width: 8%;">
+                                <strong>TT</strong>
+                            </td>
+                            <td rowspan=2 style="border: 1px solid #333; font-weight: 600; "><strong>Thành phần hồ
+                                    sơ</strong></td>
+                            <td colspan=3 style="border: 1px solid #333; font-weight: 600; width: 30%; padding: 8px 0;">
+                                <strong>Số lượng</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #333; font-weight: 600; width: 10%; "><strong>Bản
+                                    chính</strong></td>
+                            <td style="border: 1px solid #333; font-weight: 600; width: 10%; "><strong>Bản chứng
+                                    thực</strong></td>
+                            <td style="border: 1px solid #333; font-weight: 600; width: 10%; "><strong>Bản
+                                    photo</strong></td>
+                        </tr>
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                Giấy phép lái xe, giấy chứng minh nhân dân hoặc thẻ căn cước công dân hoặc hộ chiếu còn
+                                thời hạn
+                            </td>
+                            <td id="SoBanChinh" style="border: 1px solid #333; padding: 5px;">
+                                0
+                            </td>
+                            <td id="SoBanSao" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="SoBanPhoto" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <strong>Số lượng hồ sơ: ...</strong>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <strong>I.GIAO HỒ SƠ</strong>
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                        <tr>
+                            <td style="border: 1px solid #333; padding: 5px; width: 25%;">
+                                <strong>TÊN CƠ QUAN</strong>
+                            </td>
+                            <td colspan="2" style="border: 1px solid #333; padding: 5px; width: 50%;">
+                                <strong>THỜI GIAN GIAO, NHẬN</strong>
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px; width: 25%;">
+                                <strong>XÁC NHẬN CỦA TRUNG TÂM</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                <div style="min-height: 40px;">
+                                    <strong>1. Giao:</strong><br />
+                                    <span>Trung tâm phục vụ hành chính công tỉnh</span>
+                                </div>
+                                <div style="margin-top: 10px; min-height: 40px;">
+                                    <strong>2.Nhận: </strong>
+
+                                </div>
+                            </td>
+                            <td colspan="2" style="border: 1px solid #333; padding: 5px;">…giờ…phút, …</td>
+                            <td rowspan="2">
+                                <div>
+                                    <strong>
+                                        KT.GIÁM ĐỐC<br />
+                                        PHÓ GIÁM ĐỐC
+                                    </strong>
+                                    <div style="display: block; height: 60px; width: 100px;"></div>
+                                    <strong>Nguyễn Văn Tuyên</strong>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #333; padding: 5px; ">
+                                <div style="display: block; min-height: 60px;">
+                                    <strong>Người giao</strong>
+                                </div>
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px;">
+                                <div style="display: block; min-height: 60px;">
+                                    <strong>Người nhận</strong>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <strong>II. NHẬN KẾT QUẢ</strong>
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                        <tr>
+                            <td style="border: 1px solid #333; padding: 5px; width: 25%;">
+                                <strong>TÊN CƠ QUAN</strong>
+                            </td>
+                            <td colspan="2" style="border: 1px solid #333; padding: 5px; width: 50%;">
+                                <strong>THỜI GIAN GIAO, NHẬN</strong>
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px; width: 12.5%;">
+                                <strong>KẾT QUẢ XỬ LÝ</strong>
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px; width: 12.5%;">
+                                <strong>GHI CHÚ</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                <div style="min-height: 40px;">
+                                    <strong>1. Giao:</strong><br />
+                                    <span>...</span>
+                                </div>
+                                <div style="margin-top: 10px; min-height: 40px;">
+                                    <strong>2.Nhận: </strong>
+                                    <br/>
+                                    <span>Trung tâm phục vụ hành chính công tỉnh</span>
+                                </div>
+                            </td>
+                            <td colspan="2" style="border: 1px solid #333; padding: 5px;">
+                                …giờ…phút, ngày … tháng … năm....
+                            </td>
+                            <td  style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px;">2</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #333; padding: 5px; ">
+                                <div style="display: block; min-height: 60px;">
+                                    <strong>Người giao</strong>
+                                </div>
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px;">
+                                <div style="display: block; min-height: 60px;">
+                                    <strong>Người nhận</strong>
+                                </div>
+                            </td>
+                            <td style="border: 1px solid #333; padding: 5px;">3</td>
+                            <td style="border: 1px solid #333; padding: 5px;">4</td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Giấy bàn giao hồ sơ này được lập thành 02 bản, mỗi bên giữ 01 bản có giá trị như nhau để làm cơ sở
+                    thực hiện./.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Phiếu kiểm soát')">Download Phiếu</button>
+
+</body>
+
+</html>

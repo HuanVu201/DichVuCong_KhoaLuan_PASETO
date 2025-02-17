@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>DANH SÁCH HỒ SƠ THỦ TỤC HÀNH CHÍNH THEO ĐỊA BÀN</strong>
+                <i>(Từ ngày … đến ngày … )</i>
+                <strong>Khu vực: … - …</strong>
+
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <table
+                    style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                    <tr>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            TT
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Mã hồ sơ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Họ tên chủ hồ sơ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Nội dung hồ sơ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                            STT
+                        </td>
+                        <td id="MaHoSo" style="border: 1px solid #333; padding: 5px;">
+                            MaHoSo
+                        </td>
+                        <td id="NguoiNop" style="border: 1px solid #333; padding: 5px;">
+                            NguoiNop
+                        </td>
+                        <td id="TenThuTuc" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                            TenThuTuc
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Thống kê địa bàn')">Download Phiếu</button>
+
+</body>
+
+</html>

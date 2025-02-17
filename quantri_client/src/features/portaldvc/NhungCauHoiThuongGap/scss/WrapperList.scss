@@ -1,0 +1,14 @@
+.wrap-tab {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #ce7a58;
+    }
+    .ant-tabs-tab:hover .ant-tabs-tab-btn {
+        color: #ce7a58;
+    }
+
+
+}

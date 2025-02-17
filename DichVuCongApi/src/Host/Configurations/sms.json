@@ -1,0 +1,92 @@
+﻿{
+  "SMSSettings": {
+    "Viettel": [ "086", "096", "097", "098", "032", "033", "034", "035", "036", "037", "038", "039" ],
+    "VinaPhone": ["094"],
+    "MobilePhone": [],
+    "UrlSendMessage": "",
+    "TemplateId": "767523",
+    "TokenSendMessage": "",
+    "GoiTrucTiep": true,
+    "NoiDungTinNhan":
+    {
+      "NopTrucTuyen": { //
+        "Active": false,
+        "Template": "Ho so #MaHoSo da duoc gui!"
+      },
+      "TuChoiTrucTuyen": { //
+        "Active": true,
+        "Template": "Ho so #MaHoSo khong du dieu kien giai quyet!"
+      },
+      "TiepNhan": { 
+        "TrucTuyen": { //
+          "Active": false,
+          "Template": "Ho so #MaHoSo da duoc tiep nhan. Ngay hen tra: #NgayHenTra"
+        },
+        "TrucTiep": { //
+          "Active": false,
+          "Template": "Ho so #MaHoSo da duoc tiep nhan. Ngay hen tra: #NgayHenTra"
+        },
+        "BCCI": { //
+          "Active": true,
+          "Template": "Ho so #MaHoSo da duoc tiep nhan. Ngay hen tra: #NgayHenTra"
+        }
+      },
+      "CoKetQua": {
+        "TrucTuyen": { // 
+          "Active": false,
+          "Template": "Ho so #MaHoSo da duoc xu ly xong."
+        },
+        "TrucTiep": { // 
+          "Active": true,
+          "Template": "Ho so #MaHoSo da duoc xu ly xong. Moi chu ho so hoac nguoi uy quyen den nhan ket qua!"
+        },
+        "BCCI": { //
+          "Active": false,
+          "Template": "Ho so #MaHoSo da duoc xu ly xong."
+        }
+      },
+      "TraKetQua": {
+        "TrucTuyen": {//
+          "Active": false,
+          "Template": "Ho so #MaHoSo da tra ket qua."
+        },
+        "TrucTiep": {//
+          "Active": false,
+          "Template": "Ho so #MaHoSo da tra ket qua."
+        },
+        "BCCI": {//
+          "Active": true,
+          "Template": "Ho so #MaHoSo da duoc giai quyet. Buu dien se tra ket qua den dia chi cua Ong(ba) da dang ky."
+        }
+      },
+      "YeuCauBoSung": {
+        "TrucTuyen": {//
+          "Active": true,
+          "Template": "Ho so #MaHoSo duoc yeu cau bo sung!"
+        },
+        "TrucTiep": {//
+          "Active": false,
+          "Template": "Ho so #MaHoSo duoc yeu cau bo sung!"
+        },
+        "BCCI": {//
+          "Active": true,
+          "Template": "Ho so #MaHoSo duoc yeu cau bo sung!"
+        }
+      },
+      "TraLai": {
+        "TrucTuyen": {
+          "Active": true,
+          "Template": "Ho so #MaHoSo khong du dieu kien giai quyet."
+        },
+        "TrucTiep": {
+          "Active": false,
+          "Template": "Ho so #MaHoSo khong du dieu kien giai quyet."
+        },
+        "BCCI": {
+          "Active": true,
+          "Template": "Ho so #MaHoSo khong du dieu kien giai quyet."
+        }
+      }
+    }
+  }
+}

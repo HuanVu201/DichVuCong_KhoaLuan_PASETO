@@ -1,0 +1,42 @@
+.selectBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 15px 15px 0 15px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    .row {
+        &:last-child {
+            text-align: center;
+        }
+
+
+    }
+
+    .row-search {
+
+
+        .buttonSearchPortal {
+            color: #fff;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(211, 153, 72);
+            }
+        }
+    }
+
+    // :where(.css-dev-only-do-not-override-1o9mztp).ant-input:hover {
+    //     border-color: #e1b19e;
+    // }
+
+    // :where(.css-dev-only-do-not-override-1o9mztp).ant-input:focus, :where(.css-dev-only-do-not-override-1o9mztp).ant-input-focused {
+    //     border-color: #e1b19e;
+    //     box-shadow: 0 0 0 2px rgba(206, 122, 88, 0.15);
+    //     border-inline-end-width: 1px;
+    //     outline: 0;
+    // }
+}

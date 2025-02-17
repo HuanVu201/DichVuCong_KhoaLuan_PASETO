@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>...</strong><br />
+                        <strong>BỘ PHẬN TIẾP NHẬN
+                            & TRẢ KẾT QUẢ
+                            HỒ SƠ HÀNH CHÍNH
+                        </strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+                        <div style="width: 270px; height: 40px; margin: 5px auto;">
+                            <img id="BarCode" alt="image"></img>
+                        </div>
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>GIẤY TIẾP NHẬN HỒ SƠ VÀ HẸN TRẢ KẾT QUẢ</strong>
+                <strong>Mã hồ sơ: …</strong>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+
+                <div style="margin-bottom: 8px;">
+                    Bộ phận tiếp nhận và trả kết quả …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Tiếp nhận hồ sơ của : …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Địa chỉ: …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <span>Số điện thoại:
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Email: ...</span>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Nội dung yêu cầu giải quyết: …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Thành phần hồ sơ :
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                        <tr>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                STT
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600; width: 40%;">
+                                Tên thành phần
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Số trang
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Số bản
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Lệ phí
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                                STT
+                            </td>
+                            <td id="TenThanhPhan" style="border: 1px solid #333; padding: 5px; text-align: left;">
+                                TenThanhPhan
+                            </td>
+                            <td id="SoTrang" style="border: 1px solid #333; padding: 5px;">
+                                SoTrang
+                            </td>
+                            <td id="SoBanChungThuc" style="border: 1px solid #333; padding: 5px;">
+                                SoBanChungThuc
+                            </td>
+                            <td id="LePhiChungThuc" style="border: 1px solid #333; padding: 5px;">
+                                LePhiChungThuc
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Thời gian nhận hồ sơ: …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Thời gian trả kết quả giải quyết hồ sơ: …
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex; text-align: center; margin-top: 20px;">
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <strong>NGƯỜI NỘP HỒ SƠ</strong>
+                    <i>(Ký và ghi rõ họ tên)</i>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <strong>NGƯỜI TIẾP NHẬN HỒ SƠ</strong>
+                    <i>(Ký và ghi rõ họ tên)</i>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Phiếu tiếp nhận chứng thực')">Downlaod
+        Phiếu</button>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+﻿{
+  "DvcPaymentSettings": {
+    "InitUrl": "",
+    "InitReceiptUrl": "",
+    "CheckConfirmUrl": "",
+    "ReceiptFolder": "DvcPaymentReceipts",
+    "AccessToken": "",
+    "InitPaymentSecretKey": "",
+    "InitPayMentParnerCode": ""
+  }
+}

@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TD.DichVuCongApi.Application.Business.VBDLIS.Services;
+
+namespace TD.DichVuCongApi.Application.Business.VBDLIS.CapNhatTrangThaiBoSungHoSo;
+public class CapNhatTrangThaiBoSungHoSoGuiVBDLISRequest : IRequest<Result>
+{
+    public string MaHoSo { get; set; }
+    public DateTime? NgayHenTraMoi { get; set; }
+    public string? GhiChu { get; set; } = string.Empty;
+    public List<VBDLISThongTinGiayToDinhKem>? DanhSachGiayToBoSung { get; set; }
+}

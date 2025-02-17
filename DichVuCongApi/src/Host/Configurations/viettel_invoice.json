@@ -1,0 +1,9 @@
+{
+  "ViettelInvoiceSettings": {
+    "AuthApi": "",
+    "InitApi": "",
+    "GetReservationCodeApi": "",
+    "GetInvoiceApi": "",
+    "TokenCacheTime": 3
+  }
+}

@@ -1,0 +1,157 @@
+.TraCuuHCCTelevisonSwapper {
+    cursor: pointer;
+
+    .header {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        color: #fff;
+        min-height: 60px;
+        padding: 12px 20px;
+        border-bottom: 1px solid #ECECEC;
+        box-shadow: 0px 0px 5px #6d6d6d;
+
+        #imgQuocHuy {
+            float: left;
+            min-width: 70px;
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        h3 {
+            font-weight: 800;
+            font-size: 30px;
+            margin-top: 15px;
+            color: #cd0b26;
+        }
+    }
+
+    .body {
+        padding: 20px;
+
+        .FormTraCuu {
+            .formTitle {
+                background-color: #21669d;
+                text-align: center;
+                padding: 15px;
+                font-size: 1.2rem;
+                color: #fff;
+            }
+
+            .formBody {
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .form-check {
+                    font-size: 1.1rem;
+                }
+
+                .inputValue {
+                    .form-control {
+                        width: 100%;
+                        text-transform: uppercase;
+                        border: 1px solid #b00600;
+                        border-radius: 5px;
+                        min-height: 45px;
+                        font-size: 18px;
+                        font-family: robotocondensedbold;
+                        color: #b00600;
+                        box-shadow: none;
+                        text-align: center;
+                        font-weight: 800;
+                    }
+
+                    .form-control::placeholder {
+                        color: #21669d;
+                        font-weight: 900;
+                        text-align: center;
+                        font-size: 0.9rem;
+                        text-transform: none !important;
+                    }
+                }
+
+                .buttonConfirm {
+                    display: flex;
+
+                    input {
+                        margin: auto;
+                        background: #b00600;
+                        color: #fff;
+                        padding: 8px 15px;
+                        font-family: robotocondensedbold;
+                        font-size: 18px;
+                        font-weight: 600;
+                        border: none;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background: rgba(176, 6, 0, 0.8);
+                        }
+                    }
+                }
+            }
+        }
+
+
+        table {
+            margin-top: 10px;
+
+
+            td {
+                padding: 10px;
+            }
+
+            tbody {
+                border-top: 1px solid #ddd;
+
+                tr:hover {
+                    background-color: #faf0f0;
+                }
+            }
+
+            tr+tr {
+                border-top: 1px solid #ddd;
+            }
+
+            .rowLe {
+                background-color: #f9f9f9;
+            }
+
+
+        }
+
+        .title {
+            position: relative;
+            font-size: 18px;
+            font-size: 1.5em;
+            font-family: robotocondensedbold;
+            color: #b00600;
+            text-transform: uppercase;
+            overflow: hidden;
+
+            &::after {
+                position: absolute;
+                height: 5px;
+                background: #b00600;
+                width: 100%;
+                content: '';
+                bottom: 15px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+
+
+    .ant-tabs-tab-active {
+        background-color: #ad0f0a !important;
+
+        .ant-tabs-tab-btn {
+            color: #fff !important;
+
+        }
+    }
+
+}

@@ -1,0 +1,110 @@
+.containerDVCTrucTuyen {
+    margin: auto;
+    padding: 50px 16px;
+    width: 90%;
+    min-height: 80vh;
+
+    .button {
+        padding-top: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttonSearchPortal {
+        color: #fff;
+        font-weight: 600;
+
+        &:hover {
+            background-color: rgb(211, 153, 72);
+        }
+    }
+
+    .ant-btn-default {
+        border: none;
+    }
+
+    .ant-col {
+        margin-top: auto;
+    }
+    .countDanhMucTT{
+        font-size: 17px;
+    }
+    .ant-btn{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .containerDVCTrucTuyen {
+        width: 90%;
+    }
+    .countDanhMucTT{
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .containerDVCTrucTuyen {
+        margin: 30px auto;
+        width: 95%;
+
+        .countDanhMucTT{
+            font-size: 14px !important;
+        }
+
+        .button {
+            padding-top: 0;
+        }
+
+        .anticon {
+            width: 25px;
+        }
+
+        .ant-typography {
+            font-size: 14px !important;
+        }
+
+
+        .ant-form label {
+            font-size: 12px !important;
+        }
+
+        .ant-input {
+            font-size: 12px;
+        }
+
+        .ant-btn {
+            font-size: 11px;
+            height: 25px;
+        }
+
+        .ant-select-selection-search-input {
+            font-size: 12px !important;
+        }
+
+        .ant-select-selection-item{
+            font-size: 12px;
+        }
+
+        .ant-select-selection-search-input ::placeholder{
+            font-size: 12px !important;
+        }
+        p {
+            font-size: 13px !important;
+        }
+
+        h5 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+
+    .ant-select-item-option-content {
+        font-size: 12px !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {}

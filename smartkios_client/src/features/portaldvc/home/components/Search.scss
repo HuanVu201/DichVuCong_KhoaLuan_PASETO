@@ -1,0 +1,119 @@
+.search-home {
+    // background-image: url('/banners/search-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    // margin-left: 32px;
+    margin-bottom: 0px;
+
+    .containerSearch {
+        max-width: 67.5%;
+        margin: 24px auto 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .inputBlock{
+        
+            
+            .ant-input {
+                border: none;
+                border-right: 1px solid #e9e7e7 !important;
+                font-size: 18px;
+                &:focus{
+                    box-shadow: none;
+                }
+                
+            }
+
+            .form-control:focus{
+                box-shadow: none;
+            }
+        
+            .ant-btn-default {
+                border: none;
+                border-left: 1px solid #e9e7e7 !important;
+                font-size: 18px;
+                
+                &:last-child{
+                    background-color: #e9e7e7;
+        
+                }
+            }
+        
+            .ant-input:hover {
+            }
+        
+            .ant-btn-default:hover {
+                // color: #333 !important;
+                // background-color: #ffc251;
+                color: #fff !important;
+        
+            }
+
+        }
+
+        .boxBlock{
+            
+            
+            
+            .boxBlock_item:hover{
+                background-color: #f3b23a !important;
+            }
+        }
+
+        .input-group {
+
+            .input-search {}
+
+            .btn-search {
+                height: 46px;
+                transition: none;
+            }
+        }
+
+    }
+
+    
+
+    .btn-link {
+        color: white;
+        font-size: medium;
+        text-decoration: none;
+        font-weight: 500;
+
+    }
+
+    .btn-link :hover {
+        font-size: medium;
+        text-decoration: none;
+        // background-color: antiquewhite;
+        font-weight: 500;
+
+    }
+
+
+
+}
+
+.btn-home-search {
+    background-color: "#FFC251" !important;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-home .container {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .timKiemNangCao{
+        display: none;
+    }
+}
+
+:where(.css-dev-only-do-not-override-tr1ar4).ant-btn {
+    transition: none;
+}

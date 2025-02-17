@@ -1,0 +1,61 @@
+.expandItem_support {
+    position: fixed;
+    right: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    .connectWidget {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        margin: 2px 0px;
+
+        .iconWidget {
+            width: 40px;
+            vertical-align: middle;
+        }
+
+        .blockAlert {
+            vertical-align: middle;
+            width: auto;
+            background-color: #ce7a58;
+            color: #fff;
+            padding: 5px 8px;
+            border-radius: 50px;
+            margin-right: 10px;
+            display: none;
+            pointer-events: none;
+        }
+    }
+
+
+
+
+
+}
+
+.goHead {
+    img {
+        display: none;
+        width: 40px;
+        border-radius: 100%;
+    }
+
+    .UpIcon {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .iconWidget {
+        width: 30px !important;
+    }
+
+    .goHead {
+        img {
+            width: 30px;
+        }
+    }
+
+}

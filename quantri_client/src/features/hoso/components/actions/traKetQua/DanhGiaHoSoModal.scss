@@ -1,0 +1,107 @@
+.reactCustomer {
+    margin: 15px 0;
+    display: flex;
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        font-size: 12PX;
+
+        img {
+            width: 15px;
+            margin: auto;
+            margin-right: 5px;
+        }
+    }
+
+    .btn+.btn {
+        margin-left: 8px;
+    }
+
+    i {
+        margin: auto;
+    }
+
+    span {
+        margin-left: 5px;
+    }
+
+    .sohappy {
+        border: 1px solid #903938;
+
+        i {
+            color: #903938;
+        }
+
+        &:hover {
+            background-color: #903938;
+            color: #fff;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .sohappy.actived {
+        background-color: #903938;
+        color: #fff;
+
+        i {
+            color: #fff;
+        }
+    }
+
+    .happy {
+        border: 1px solid #67A99F;
+
+        i {
+            color: #67A99F;
+        }
+
+        &:hover {
+            background-color: #67A99F;
+            color: #fff;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .happy.actived {
+        background-color: #67A99F;
+        color: #fff;
+
+        i {
+            color: #fff;
+        }
+    }
+
+    .nohappy {
+        border: 1px solid #8F969C;
+
+        i {
+            color: #8F969C;
+        }
+
+        &:hover {
+            background-color: #8F969C;
+            color: #fff;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .nohappy.actived {
+        background-color: #8F969C;
+        color: #fff;
+
+        i {
+            color: #fff;
+        }
+    }
+
+}

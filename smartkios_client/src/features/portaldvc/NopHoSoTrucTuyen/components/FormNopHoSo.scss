@@ -1,0 +1,81 @@
+#NopHoSoTrucTuyen {
+    margin-top: 30px !important;
+    
+    // font-size: 17px !important;
+
+    .container {
+        .loaiDVC {
+            span {
+                font-size: 13px;
+                background-color: #f0ad4e;
+                color: #fff;
+                padding: 5px 8px;
+                border-radius: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        .tepTinDinhKem {
+            table {
+                // border: 1px solid #333;
+                margin-top: 10px;
+
+                th {
+                    border: 1px solid #e5e5e5;
+                    background-color: #aee9fa;
+                    font-size: 16px;
+                }
+
+                tbody {
+                    tr+tr {
+                        border-top: 1px solid #333;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+    .mb-1 {
+        margin-bottom: 10px !important;
+    }
+
+    .py-3 {
+        padding-bottom: 5px !important;
+    }
+
+    :where(.css-dev-only-do-not-override-1usfyua).ant-table-wrapper .ant-table-tbody>tr>td {
+        border: 1px solid #e5e5e5;
+    }
+    :where(.css-dev-only-do-not-override-1ubh8ig).ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+        background-color: transparent;
+    }
+    :where(.css-dev-only-do-not-override-1ubh8ig).ant-table-wrapper .ant-table-tbody >tr >td {
+        border: 1px solid #e5e5e5;
+    }
+
+
+    :where(.css-dev-only-do-not-override-1usfyua).ant-form-item {
+        margin-bottom: 10px;
+    }
+
+    .ant-col.ant-form-item-label.css-dev-only-do-not-override-1usfyua {
+        label {
+            font-weight: 700 !important;
+        }
+    }
+
+    .ant-form-item.css-dev-only-do-not-override-1ubh8ig.ant-form-item-has-success {
+        font-weight: 700 !important;
+        label{
+            font-size: 15px !important;
+
+        }
+    }
+
+    :where(.css-dev-only-do-not-override-1usfyua).ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+        height: 0 !important;
+    }
+}

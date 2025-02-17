@@ -1,0 +1,72 @@
+.contentBlock {
+    padding: 20px 0;
+
+    .thongKeSoLuong{
+        color: #b00600;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .tableDanhMucThuTuc {
+
+        .ant-table {
+            border-radius: 0;
+            border-collapse: initial !important;
+
+            .ant-table-thead {
+                th {
+                    background-color: #ce7a58;
+                    border-radius: 0 !important;
+                    text-align: center;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 14px;
+                    padding: 8px !important;
+                    border: 1px solid #dfb6a5 !important;
+
+                    &::before {
+                        position: relative !important;
+                    }
+                }
+
+            }
+
+            .ant-table-tbody {
+                tr{
+                    &:hover{
+                        background-color: #f5f5f5 !important;
+                        transition: none !important;
+                    }
+
+                    td {
+                        
+                        font-weight: 500 ;
+                        cursor: pointer;
+                        padding: 5px !important;
+                        font-size: 15px;
+                        border: 1px solid #dfb6a5 !important;
+    
+    
+                        a{
+                            color: #333 ;
+    
+                            &:hover{
+                                color: #ce7a58;
+                            }
+                        }
+    
+                    }
+                }
+
+
+
+            }
+
+            .ant-table-tbody {}
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+    }
+}

@@ -1,0 +1,156 @@
+.guiPakn-container {
+    background-color: #f0f0f0 !important;
+    min-height: 90vh;
+
+    .pakn-form {
+        width: 90%;
+        margin: auto;
+        padding: 50px 16px;
+
+
+        .pakn_header {
+            text-align: center;
+            background-color: #f0ad4e;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px;
+            color: #fff;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+        }
+
+        .pakn_body {
+            background-color: rgb(255, 255, 255, 0.5);
+            padding: 30px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-right: 1px solid rgb(240, 173, 78, 0.5);
+            border-bottom: 1px solid rgb(240, 173, 78, 0.5);
+            border-left: 1px solid rgb(240, 173, 78, 0.5);
+            .inputThongTinLienHe{
+                .col-12{
+                    padding: 5px 0;
+                }
+               
+            }
+            .form-group {
+                margin-top: 25px;
+                font-size: 17px;
+
+                .form-control {
+                    font-size: 17px;
+
+                    &:focus {
+                        border-color: #f0ad4e;
+                        box-shadow: 0 0 0 3px rgba(240, 173, 78, 0.1);
+                    }
+                }
+
+                .form-select {
+                    font-size: 17px;
+
+                    &:focus {
+                        border-color: #f0ad4e;
+                        box-shadow: 0 0 0 3px rgba(240, 173, 78, 0.1);
+                    }
+                }
+
+            }
+
+            .row+.row {
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+
+
+    .buttonSearchPortal {
+        color: #fff;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        margin: 20px auto;
+
+        &:hover {
+            background-color: rgb(211, 153, 72);
+        }
+    }
+
+    .ant-btn-default {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 700px) {
+    .guiPakn-container {
+
+        .pakn-form {
+            width: 95%;
+
+            .pakn_header {
+                font-size: 13px;
+                padding: 5px;
+            }
+
+            .pakn_body {
+                padding: 10px;
+
+                p {
+                    font-size: 12px !important;
+                }
+
+                i {
+                    font-size: 11px !important;
+                }
+
+
+                .form-group {
+                    .row {
+                        align-items: flex-start;
+
+                        .titleContent {
+                            font-size: 12px;
+                        }
+
+                        
+
+                        .form-control {
+                            font-size: 12px;
+                        }
+
+                        .form-select {}
+                    }
+                    .row+.row {
+                        margin-top: 10px;
+                    }
+
+                }
+            }
+        }
+
+
+
+
+        .buttonSearchPortal {
+            font-size: 11px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .guiPakn-container {
+
+        .pakn-form {
+            padding: 30px 0;
+        }
+    }
+}

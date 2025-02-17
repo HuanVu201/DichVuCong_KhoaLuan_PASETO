@@ -1,0 +1,179 @@
+.main-layout_Navbar {
+    background-color: #ce7a58;
+    position: relative;
+    z-index: 0;
+
+    .container-menu {
+        position: absolute;
+        right: 50%;
+        top: 0;
+        transform: translate(50%, -50%);
+        padding: 0;
+        border-radius: 3px;
+        z-index: 999;
+        width: 67.5%;
+        padding: 0 16px;
+        // width: 67.5% !important;
+
+        .ant-menu {
+            font-size: 17px !important;
+        }
+        .ant-menu-light.ant-menu-submenu > .ant-menu{
+            font-size: 17px !important;
+            
+        }
+
+
+
+
+    }
+
+    ul {
+        background-color: #ce7a58;
+        margin: 0 auto;
+        border-radius: 3px;
+        transition: none !important;
+        justify-content: center;
+
+        .ant-menu.ant-menu-root {}
+
+        li {
+            padding: 0;
+            // line-height: 42px;
+            color: #fff !important;
+            // font-weight: 600;
+            font-size: 17px !important;
+
+            .ant-menu-title-content {
+                transition: none !important;
+            }
+
+
+            a {
+                color: #333;
+                transition: none !important;
+                // font-weight: 500;
+
+                &:hover {
+                    color: #fff !important;
+                }
+            }
+
+            &:hover {
+                background-color: #f0ad4e !important;
+                color: #fff !important;
+                border-bottom: none !important;
+
+            }
+
+            &::after {
+
+                border-bottom: none !important;
+            }
+
+
+        }
+
+        .ant-menu-item-selected {
+            background-color: #f0ad4e !important;
+            color: #fff !important;
+            border: none !important;
+
+        }
+
+
+
+        .ant-menu-item {
+            border: none !important;
+            border-bottom-color: #ce7a58 !important;
+
+            &::after {
+
+                border-bottom: none !important;
+            }
+
+
+        }
+
+    }
+
+    .ant-menu.ant-menu-root .ant-menu-item {
+        font-size: 17 !important;
+        line-height: 25px !important;
+        padding-top: 11px !important;
+    }
+
+    .main-layout_Navbar .ant-menu.ant-menu-root .ant-menu-item {
+        // padding-top: 0 !important;
+    }
+
+    .main-layout_Navbar ul li .ant-menu-title-content {
+        font-size: 14px !important;
+    }
+
+    .ant-menu.ant-menu-root>.ant-menu-submenu>.ant-menu-submenu-title {
+        padding: 0px !important;
+    }
+
+    .ant-menu.ant-menu-root>.ant-menu-submenu.ant-menu-submenu-selected>.ant-menu-submenu-title {
+        color: #fff !important;
+    }
+
+    .ant-menu.ant-menu-root .ant-menu-submenu-selected .ant-menu-submenu-title {
+        background-color: transparent !important;
+    }
+
+    .ant-menu.ant-menu-root > .ant-menu-submenu > .ant-menu-submenu-title {
+    font-size: 17px;
+    }
+
+    
+}
+
+.ant-menu.ant-menu-root>.ant-menu-submenu>.ant-menu-submenu-title {
+    // padding-left: 0 !important;
+    // font-weight: 600;
+}
+
+.ant-menu-light.ant-menu-submenu>.ant-menu {
+    background-color: #ce7a58 !important;
+    color: #fff;
+    font-size: 17.5px;
+    // font-weight: 600;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover,
+:where(.css-dev-only-do-not-override-1qf53cp).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: #f0ad4e !important;
+    color: #fff;
+    transition: none;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover,
+:where(.css-dev-only-do-not-override-1qf53cp).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover {
+    background-color: #f0ad4e !important;
+    color: #fff;
+    transition: none;
+}
+
+.ant-menu-light>.ant-menu .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected):hover {
+    color: #fff;
+
+}
+
+.ant-menu-light .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected):hover {
+    color: #fff;
+
+}
+
+.ant-menu-light>.ant-menu .ant-menu-item-selected{
+    color: #333;
+}
+.ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title{
+    color: #333;
+}
+
+.ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {
+    color: #fff;
+    background-color: #f0ad4e;
+}

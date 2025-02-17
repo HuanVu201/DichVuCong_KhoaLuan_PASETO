@@ -1,0 +1,167 @@
+.dashboardContainer {
+    padding: 50px 16px;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    cursor: pointer;
+
+    .listThongKeBlock {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        // padding: 10px;
+
+        .thongKeTongHop766Block {
+            height: 100%;
+
+            .itemChart {
+                padding: 10px;
+                background-color: rgba(252, 247, 247, 0.9);
+                // margin: 0 -3px;
+                border-radius: 8px;
+            }
+        }
+
+        .thongKeBlock {
+            min-height: 50px;
+            border: 1px solid #D9D9D9;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #fff;
+
+            .number {
+                padding: 10px 15px;
+                margin: 5px auto;
+                font-weight: bold;
+                background: #dbe9ff;
+                border-radius: 8px;
+                min-width: 260px;
+                text-align: center;
+                font-size: 1rem;
+            }
+
+            .chart-progress-box {
+                display: flex;
+                margin: 20px auto;
+
+                .percent-val-first {
+                    border-top-left-radius: 6px;
+                    border-bottom-left-radius: 6px;
+                    background: #5899DA;
+                    color: #5899DA;
+                    padding: 3px 0;
+                }
+
+                .percent-val-last {
+                    border-top-right-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    background: #ed5050;
+                    color: #ed5050;
+                    padding: 3px 0;
+                }
+            }
+
+
+            .averageThongKeBlock {
+                display: flex;
+                height: 100%;
+
+                .titleBlock {
+                    padding: 0 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    text-transform: uppercase;
+                }
+
+                .contentBlock {
+                    flex: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    background-color: aliceblue;
+                    background-image: url("../../../../assets/images/bg_hac.svg");
+                    background-position: center right;
+                    background-repeat: no-repeat;
+                    background-size: auto 100%;
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+
+                }
+            }
+        }
+
+        .childBlockInBlock {
+            padding: 0;
+        }
+
+        .divider {
+            background-color: rgba(217, 217, 217, 0.3);
+            height: 1px;
+            margin: 12px 0;
+
+        }
+    }
+
+    .ant-badge.ant-badge-status .ant-badge-status-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 30%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .dashboardContainer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .dashboardContainer {
+        margin: 30px auto;
+        width: 95%;
+    }
+}
+
+
+.leaflet-control-attribution {
+    display: none;
+    /* Hide the attribution control */
+}
+
+.info.legend {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    /* Nền trắng trong suốt 50% */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.legend-title {
+    font-weight: bold;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-color {
+    width: 20px;
+    /* Kích thước ô vuông */
+    height: 20px;
+    /* Kích thước ô vuông */
+    margin-right: 5px;
+    /* Khoảng cách giữa ô và văn bản */
+}

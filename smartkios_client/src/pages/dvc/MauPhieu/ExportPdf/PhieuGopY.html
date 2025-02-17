@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; ">
+                    <div style="flex: 1;  text-align: center;">
+                        <span>VĂN PHÒNG ỦY BAN NHÂN DÂN TỈNH THANH HÓA</span><br />
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>*****</strong>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>PHIẾU GÓP Ý CỦA TỔ CHỨC, CÁ NHÂN</strong>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <div style="margin-bottom: 8px;">
+                    <strong>Ông (Bà) vui lòng cho ý kiến của mình về các nội dung sau:</strong>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Cán bộ cần góp ý: …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Nội dung giải quyết TTHC: …
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Nhận xét về chất lượng giải quyết TTHC của Trung tâm:
+
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                        <tr>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Stt
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Nội dung nhận xét
+                            </td>
+                            <td colspan="3" style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Ý kiến đánh giá
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                1
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                Thời gian giải quyết TTHC
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div>
+                                    <span>Đúng hạn:</span>
+                                    <div style="border: 1px solid #333; width: 50px; height: 20px; margin: 3px auto 0;">
+                                    </div>
+                                </div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div>
+                                    <span>Trước hạn:</span>
+                                    <div style="border: 1px solid #333; width: 50px; height: 20px; margin: 3px auto 0;">
+                                    </div>
+                                </div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div>
+                                    <span>Chậm:</span>
+                                    <div style="border: 1px solid #333; width: 50px; height: 20px; margin: 3px auto 0;">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                2
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                Phong cách phục vụ
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div>
+                                    <span>Tốt:</span>
+                                    <div style="border: 1px solid #333; width: 50px; height: 20px; margin: 3px auto 0;">
+                                    </div>
+                                </div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div>
+                                    <span>Bình thường:</span>
+                                    <div style="border: 1px solid #333; width: 50px; height: 20px; margin: 3px auto 0;">
+                                    </div>
+                                </div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div>
+                                    <span>Chưa tốt:</span>
+                                    <div style="border: 1px solid #333; width: 50px; height: 20px; margin: 3px auto 0;">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Ý kiến đánh giá khác (nếu có):
+                    <div style="width: 100%; min-height: 60px;"></div>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Họ tên người góp ý (không bắt buộc):…………………………………………….
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Số điện thoại:………………………………………………………………………
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <div style="display: flex;  margin-top: 20px; justify-content: right">
+                        <div style="width: 200px; display: flex;flex-direction: column; ">
+                            <span>Thanh Hóa, ...</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>TRUNG TÂM HÀNH CHÍNH CÔNG TỈNH THANH HÓA</strong>
+                <strong>TRÂN TRỌNG CẢM ƠN!</strong>
+            </div>
+
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Phiếu góp ý')">Download Phiếu</button>
+
+</body>
+
+</html>

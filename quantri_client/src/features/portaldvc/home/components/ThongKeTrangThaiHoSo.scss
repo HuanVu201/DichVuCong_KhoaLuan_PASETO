@@ -1,0 +1,143 @@
+@import '../../ultis/Variables.scss';
+
+.thongKe-home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: 0px;
+
+    .containerThongKeTrangThai {
+        width: 85%;
+        margin: 0 auto 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .thongKeBlock {
+            margin: 0 auto !important;
+
+            .statistic-title {
+                color: #ce7a58;
+                font-size: 23px;
+
+                font-weight: 600;
+            }
+
+            .statistic-number {
+                font-size: 24px;
+                font-weight: 600;
+
+            }
+
+            .statistic-type {
+
+                font-weight: 600;
+
+
+            }
+
+
+        }
+
+        .thongKeTrangThaiBlock {
+            width: 100%;
+            padding: 0 16px;
+            gap: 32px;
+
+            .thongKeItem {
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+
+
+                .thongKeItem_title {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #ce7a58;
+                    margin-top: auto;
+                    text-align: center;
+                }
+
+                h5 {
+                    font-size: 20px !important;
+                    font-weight: 600;
+                }
+
+                span {}
+
+
+            }
+        }
+    }
+}
+
+.divider {
+    background-color: $COLOR-PRIMARY;
+    height: 4px;
+    border-radius: 10px;
+    margin: 12px 0;
+
+}
+
+
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .thongKe-home {
+        .containerThongKeTrangThai {
+            width: 90%;
+
+            .thongKeTrangThaiBlock {
+                .thongKeItem {
+                    .thongKeItem_title {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen  and (max-width: 700px) {
+    .thongKe-home {
+        .containerThongKeTrangThai {
+            width: 95%;
+
+            .thongKeTrangThaiBlock {
+                // padding: 0;
+                gap: 16px;
+
+                .thongKeItem {
+                    font-size: 12px;
+
+                    .thongKeItem_title {
+                        font-size: 13px;
+                    }
+
+                    .divider {
+                        height: 2px;
+                        margin: 8px 0;
+                    }
+
+                    h5 {
+                        font-size: 13px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .thongKe-home {
+        .thongKeTrangThaiBlock {
+            padding: 0 !important;
+        }
+    }
+}

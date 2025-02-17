@@ -1,0 +1,47 @@
+.Home-head {
+    background: #fff1b8 url('/images/bgPortalBody.png') no-repeat center center;
+
+    background-position: center bottom;
+    background-size: 100% auto;
+    overflow: hidden;
+    padding-bottom: 80px;
+    border-top: 1px solid #ce7a58;
+}
+
+.containerBody {
+    width: 90%;
+    margin: auto;
+    padding: 0 16px;
+    padding-bottom: 50px;
+}
+
+.containerBody_duoItems {
+
+    .item {
+        min-width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .Home-head {
+        padding-bottom: 45px !important;
+    }
+
+    .containerBody {
+        width: 95% !important;
+
+        .divider {
+            height: 2px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .containerBody {
+        padding: 0;
+    }
+}

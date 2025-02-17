@@ -1,0 +1,254 @@
+.main-layout_Navbar {
+    background-color: #ce7a58;
+    position: relative;
+    z-index: 0;
+
+    .container-menu {
+        position: absolute;
+        right: 50%;
+        top: 0;
+        transform: translate(50%, -50%);
+        padding: 0;
+        border-radius: 3px;
+        z-index: 999;
+        width: 100%;
+        padding: 0 16px;
+        // width: 67.5% !important;
+
+        .ant-menu {
+            font-size: 17px !important;
+        }
+
+        .ant-menu-light.ant-menu-submenu>.ant-menu {
+            font-size: 17px !important;
+
+        }
+
+        .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu {
+            padding-top: 2px !important;
+        }
+
+
+
+
+    }
+
+    ul {
+        background-color: #ce7a58;
+        margin: 0 auto;
+        border-radius: 3px;
+        transition: none !important;
+        justify-content: center;
+
+        .ant-menu.ant-menu-root {}
+
+        li {
+            padding: 0;
+            color: #fff !important;
+            font-size: 17px;
+
+            .ant-menu-title-content {
+                transition: none !important;
+                background: transparent !important;
+
+                &>span {
+                    font-weight: 400;
+                }
+            }
+
+            .ant-menu-submenu-title {
+                background-color: transparent !important;
+            }
+
+            a {
+                color: #333;
+                transition: none !important;
+                // font-weight: 500;
+
+                &:hover {
+                    color: #fff !important;
+                }
+            }
+
+            &:hover {
+                background-color: #f0ad4e !important;
+                color: #fff !important;
+                border-bottom: none !important;
+
+            }
+
+            &::after {
+
+                border-bottom: none !important;
+            }
+
+
+        }
+
+        .ant-menu-item-selected {
+            background-color: #f0ad4e !important;
+            color: #fff !important;
+            border: none !important;
+
+        }
+
+
+
+        .ant-menu-item {
+            border: none !important;
+            border-bottom-color: #ce7a58 !important;
+            display: flex;
+            align-items: center;
+
+            &::after {
+
+                border-bottom: none !important;
+            }
+
+            .anticon-home {
+                font-size: 16px;
+            }
+
+
+        }
+
+    }
+
+    .ant-menu.ant-menu-root .ant-menu-item {
+        font-size: 17 !important;
+    }
+
+    .main-layout_Navbar .ant-menu.ant-menu-root .ant-menu-item {
+        // padding-top: 0 !important;
+    }
+
+    .main-layout_Navbar ul li .ant-menu-title-content {
+        font-size: 14px !important;
+    }
+
+    .ant-menu.ant-menu-root>.ant-menu-submenu>.ant-menu-submenu-title {
+        padding: 0px !important;
+    }
+
+    .ant-menu.ant-menu-root>.ant-menu-submenu.ant-menu-submenu-selected>.ant-menu-submenu-title {
+        color: #fff !important;
+    }
+
+    .ant-menu.ant-menu-root .ant-menu-submenu-selected .ant-menu-submenu-title {
+        background-color: transparent !important;
+    }
+
+    .ant-menu.ant-menu-root>.ant-menu-submenu>.ant-menu-submenu-title {
+        font-size: 17px;
+    }
+
+
+
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-submenu {
+    display: flex;
+    align-items: center;
+}
+
+.main-layout_Navbar .ant-menu.ant-menu-root>.ant-menu-submenu>.ant-menu-submenu-title {
+    font-size: 16px;
+}
+
+.ant-menu-light.ant-menu-submenu>.ant-menu {
+    font-size: 16px;
+}
+
+.ant-menu-light.ant-menu-submenu>.ant-menu {
+    font-size: 16px !important;
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+    li {
+        font-size: 12px !important;
+    }
+
+    .ant-menu-submenu-placement-bottomRight {
+        // left: 0 !important;
+        // right: 0 !important;
+    }
+
+    .ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light {
+        height: 35px !important;
+        line-height: 35px !important;
+
+    }
+
+    .ant-menu-submenu-popup .ant-menu-vertical .ant-menu-item {
+        height: 35px !important;
+        line-height: 35px !important;
+    }
+
+    .ant-menu-submenu .ant-menu-submenu-vertical {
+        height: 35px !important;
+        line-height: 35px !important;
+    }
+
+    .ant-menu-submenu-popup .ant-menu-vertical>.ant-menu-submenu>.ant-menu-submenu-title {
+        height: 35px !important;
+        line-height: 35px !important;
+    }
+
+    .anticon-home {
+        font-size: 13px !important;
+    }
+
+    .ant-menu-submenu-popup {
+        inset: 98px 0 auto auto !important;
+
+        ul {
+            width: 300px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container-menu {
+        padding: 0 !important;
+    }
+}
+
+
+.ant-menu-light.ant-menu-submenu>.ant-menu {
+    background-color: #ce7a58 !important;
+    color: #fff;
+    font-size: 17.5px;
+}
+
+.ant-menu-submenu-title {
+    color: #fff !important;
+}
+
+.ant-menu-light .ant-menu-item,
+.ant-menu-light>.ant-menu .ant-menu-item {
+    color: #fff !important;
+}
+.context-menu-wrapper{
+    span{
+        color: #333 !important;
+    }
+}
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover,
+.ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: #f3b23a !important;
+}
+
+.ant-menu-light .ant-menu-item-selected,
+.ant-menu-light>.ant-menu .ant-menu-item-selected {
+    background-color: #f3b23a;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover,
+.ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover {
+    background-color: #f3b23a;
+}

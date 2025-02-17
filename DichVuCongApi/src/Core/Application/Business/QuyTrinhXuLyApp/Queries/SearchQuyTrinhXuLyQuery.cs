@@ -1,0 +1,14 @@
+﻿using Newtonsoft.Json;
+
+namespace TD.DichVuCongApi.Application.Business.QuyTrinhXuLyApp.Queries;
+
+
+public class SearchQuyTrinhXuLyQuery : PaginationFilter, IRequest<PaginationResponse<QuyTrinhXuLyDto>>
+{
+    public DefaultIdType? TruongHopId { get; set; }
+    public bool? Removed { get; set; } = false;
+    [JsonIgnore]
+    public bool? ReFetch { get; set; } = false;
+    public new int PageSize { get; set; } = 10;
+    public new int PageNumber { get; set; } = 1;
+}

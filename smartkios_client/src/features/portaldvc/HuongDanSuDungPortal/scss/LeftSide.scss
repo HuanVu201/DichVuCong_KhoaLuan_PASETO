@@ -1,0 +1,21 @@
+.wrapper-left {
+    border: 1px solid #d7764f;
+    border-radius: 1px;
+    padding: 10px;
+
+    .text-content {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 5px 3px;
+        cursor: pointer;
+        color: #d7764f;
+        font-weight: 500;
+
+        &:hover {
+            color: #333 !important;
+        }
+    }
+
+    .active {
+        color: rgb(43, 21, 21);
+    }
+}

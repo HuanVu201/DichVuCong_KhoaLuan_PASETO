@@ -1,0 +1,9 @@
+.selected-user label {
+    font-weight: bold;
+    // text-shadow: 0 0 5px #0010ee;
+    color: #4650db;
+}
+
+.selected-user .ant-checkbox-wrapper {
+    transform: scale(1.1); 
+}

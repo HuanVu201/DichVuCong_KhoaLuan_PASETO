@@ -1,0 +1,10 @@
+.containerThanhToan{
+    width: 67.5%;
+    margin: 25px auto;
+}
+
+@media screen and (max-width: 1350px) {
+    .containerThanhToan{
+        width: 100%;
+    }
+}

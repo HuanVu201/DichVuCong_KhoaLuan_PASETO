@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>VĂN PHÒNG UBND TỈNH THANH HÓA </strong><br />
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong>
+                        <hr
+                            style="height:1px; width: 110px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column; ">
+                        <span>Số: <span id="MaHoSo"></span>/HCC-HCTH</span>
+                        <span style="width: 250px; margin: auto;">Về việc xin lỗi đối với hồ sơ giải quyết quá hạn và
+                            hẹn lại thời gian trả kết quả</span>
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+                        <i>Thanh Hóa, <span id="NgayThangNam">...</span></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+
+                <span>Kính gửi: Ông/Bà …</span>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <div>
+                    <span style="display: block; margin-bottom: 8px;">Trung tâm Phục vụ hành chính công tỉnh Thanh Hóa
+                        (Trung tâm) đã tiếp nhận hồ sơ của Ông/Bà vào
+                        …, về việc đề nghị giải quyết …, mã hồ sơ: ....... Thời gian hẹn trả kết quả là ….
+                    </span>
+                    <span style="display: block; margin-bottom: 8px;">
+                        Tuy nhiên, do đơn vị chủ trì giải quyết hồ sơ là … chưa có kết quả chuyển cho Trung tâm đúng
+                        thời gian quy định. Trung tâm chân thành xin lỗi vì sự quá hạn nói trên. Rất mong nhận được sự
+                        thông cảm của Ông/Bà.
+                    </span>
+                    <span style="display: block; margin-bottom: 8px;">
+                        Hồ sơ của Ông/Bà được trả kết quả vào …, … tại Trung tâm Phục vụ hành chính công tỉnh Thanh Hóa.
+                    </span>
+                    <span style="display: block; margin-bottom: 8px;">Trân trọng./.</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex; margin-top: 10px;">
+                <div style="font-size: 10px; flex: 1; display: flex; flex-direction: column;">
+                    <strong><i>Nơi nhận:</i></strong>
+                    <span>- Như trên</span>
+                    <span>- VP UBND tỉnh (để b/c);</span>
+                    <span>- Lưu: VT, HCTH.</span>
+                </div>
+                <div style="flex: 1; text-align: center;">
+                    <strong page-break-after="auto" style="font-size: 12px;">GIÁM ĐỐC</strong>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;" page-break-after="auto">
+                        <img id="chuKy" src="" style="width: 100%; object-fit: cover; margin: auto;"
+                            page-break-after="auto">
+                    </div>
+                    <strong id="NguoiTiepNhan" page-break-after="auto">Nguyễn Đức Trung</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Phiếu xin lỗi')">Download Phiếu</button>
+
+</body>
+
+</html>

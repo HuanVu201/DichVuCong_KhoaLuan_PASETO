@@ -1,0 +1,152 @@
+﻿{
+
+  "KetNoiBGTVTSettings": {
+    "ApiKey": "",
+    "MaDonViDVCQG": "",
+    "MaDonVi": "",
+    "URLEndPoint": "",
+    "LaTrucTuyen": true,
+    "Enable": false
+  },
+  "DongBoTaoMoiHoSoSettings": {
+    "DonVi": [ "" ],
+    "MaTTHC": [ "1.003560.000.00.00.H56", "1.001229.000.00.00.H56", "1.000939.000.00.00.H56", "1.004889.000.00.00.H56", "1.007767.000.00.00.H56" ],
+    "Key": ""
+  },
+  "GPLXSetting": {
+    "MaDonVi": "",
+    "SyncApiUrl": "",
+    "UserName": "",
+    "Token": null,
+    "Password": "",
+    "MaDonViXuLy": "",
+    "Enable": false
+  },
+  "TBKM_Config": {
+    "SoCongThuong": {
+      "MaTTHC_ThongBaoKhuyenMai": "",
+      "MaTTHC_BoSungThongBaoKhuyenMai": "",
+      "MaDonVi": "",
+      "Url_ConnectApiDVC": "",
+      "Token": null
+    }
+  },
+  "LLTPServiceSettings": {
+    "UrlAPIDVC": "",
+    "IdCoQuanSoTuPhapHeThongBo": "41",
+    "IdDanhMucHanhChinhTinh": 4777,
+    "Token": null,
+    "MaDinhDanhDonVi": "H56.14",
+    "CodeGet": "",
+    "MaTTHC": "2.000488.000.00.00.H56",
+    "AuthKeyLLTP": "",
+    "BaseUrl": "",
+    "UrlAPIDVC_BTP": "",
+    "VNeIDConfig": {
+      "Url": "",
+      "SoLuongCapNhat": "40"
+    },
+    "LLTPConfig": {
+      "SoLuong": "1000",
+      "UrlNhanTrangThai": ""
+    },
+    "MaTinh": "38",
+    "EnableUpdateStatus": false,
+    "EnableScan": false
+  },
+  "SyncSLDSettings": {
+    "AcceptKey": "",
+    "LoaiDuLieu": "100",
+    "MaTinh": "38",
+    "MaHuyen": "",
+    "MaXa": "",
+    "Token": null,
+    "EnablePull": false,
+    "EnablePush": false,
+    "EnableUpdateWhenExist": false,
+    "DanhSachThuTucDongBoDVC": {
+      "2.000477.000.00.00.H56": "2.000477",
+      "2.000777.000.00.00.H56": "2.000777",
+      "1.001776.000.00.00.H56": "1.001776", //
+      "2.000751.000.00.00.H56": "2.000751", //
+      "1.001731.000.00.00.H56": "1.001731", //
+      "1.001758.000.00.00.H56": "1.001758",
+      "2.000744.000.00.00.H56": "2.000744",
+      "1.001753.000.00.00.H56": "1.001753",
+      "2.000286.000.00.00.H56": "2.000286"
+    },
+    "DongBoLenHoSoTuNgay": "",
+    "UrlPushData": "",
+    "URLEndPoint": ""
+  },
+  "KhaiSinhKhaiTuSettings": {
+    "UrlDVCLT": {
+      "Base": "",
+      "SendStatusUrl": "",
+      "SoLuongGuiTrangThaiDVCLT": "100",
+      "LayDanhSachHoSo": "",
+      "CapNhatDaNhanHoSoUrl": "",
+      "GetToken": "",
+      "User": "",
+      "Password": "",
+      "SoLuongThemHoSoBatDongBo": 5
+    },
+    "DanhSachMaThuTucKhaiSinh": [ "1.000094.000.00.00.H56", "1.000593.000.00.00.H56", "1.000894.000.00.00.H56", "2.000806.000.00.00.H56" ],
+    "DanhSachThuTucDongBoDVC": {
+      "CapXa": {
+        "1.006714": "1.001193.000.00.00.H56",
+        "2.000986": "2.002621.H56",
+        "1.011733": "1.000656.000.00.00.H56",
+        "2.002622": "2.002622.H56"
+      },
+      "CapHuyen": {
+        "1.006714": "2.002622.H56",
+        "2.000986": "2.002621.H56",
+        "1.011733": "1.000656.000.00.00.H56",
+        "2.002622": "2.002622.H56"
+      }
+    },
+    "MaTinh": "58",
+    "BTPConsumerKey": "",
+    "BTPConsumerSecret": "",
+    "UrlBTPApi": {
+      "Base": "",
+      "NhanDKHT": "",
+      "LayKetQua": "",
+      "SoLuongHoSoTraVe": 1000
+    },
+    "UrlBTPTestApi": {
+      "Base": "",
+      "NhanDKHT": "",
+      "LayKetQua": "",
+      "SoLuongHoSoTraVe": 1000
+    },
+    "LayThongTinNguoiNopLamChuHoSoKS": true,
+    "EnableScan": false,
+    "EnableGetData": false,
+    "EnableUpdateStatus": false
+
+  },
+  "SyncLocalDataToDVCQGSetting": {
+    "Base": "",
+    "URLThemMoi": "",
+    "URLCapNhat": "",
+    "URLDongBoTienTrinh": "",
+    "DongBoTuNgay": "",
+    "Enable": false,
+    "MaDinhDanhTinh": ""
+  },
+  "KhoSoHoaDVCQGSettings": {
+    "GetKetQuaGiayTo": "",
+    "GetGiayToByUrl": ""
+  },
+  "LienThongILISSettings": {
+    "user": "",
+    "pass": "",
+    "clientId": "",
+    "clientSecret": "",
+    "urlGetToken": "",
+    "urlSendData": "",
+    "codeGet": ""
+  }
+}

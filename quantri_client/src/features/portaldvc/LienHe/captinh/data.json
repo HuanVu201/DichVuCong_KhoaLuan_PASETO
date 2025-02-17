@@ -1,0 +1,170 @@
+[
+    {
+        "TT": 1,
+        "hoTen": "Trần Thị Lê",
+        "chucVu": "Chuyên viên",
+        "donVi": "Bảo hiểm Xã hội tỉnh",
+        "soMayLeTongDai": "102",
+        "diaChiDienTu": "lett.bhxh@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 2,
+        "hoTen": "Hùng Văn Phúc",
+        "chucVu": "Chuyên viên",
+        "donVi": "Bảo hiểm Xã hội tỉnh",
+        "soMayLeTongDai": "102",
+        "diaChiDienTu": "phuchv.bhxh@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 3,
+        "hoTen": "Nguyễn Mạnh Hùng",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Công Thương",
+        "soMayLeTongDai": "103",
+        "diaChiDienTu": "hungnm.sct@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 4,
+        "hoTen": "Lê Thị Ngọc",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Y tế",
+        "soMayLeTongDai": "104",
+        "diaChiDienTu": "ngoclt.syt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 5,
+        "hoTen": "Cao Đăng Hưng",
+        "chucVu": "Nhân viên",
+        "donVi": "Sở Tài chính, Sở Ngoại vụ, Sở Khoa học và Công nghệ, Sở Thông tin và Truyền thông, Ban Dân tộc, Công ty Điện Lực Thanh Hóa",
+        "soMayLeTongDai": "105",
+        "diaChiDienTu": "hungcd@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 6,
+        "hoTen": "Lê Thị Hòa",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Giáo dục và Đào tạo",
+        "soMayLeTongDai": "107",
+        "diaChiDienTu": "hoalt.sgd@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 7,
+        "hoTen": "Bùi Thị Hạnh",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Lao động, Thương binh và Xã hội",
+        "soMayLeTongDai": "108",
+        "diaChiDienTu": "hanhbt.sldtbxh@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 8,
+        "hoTen": "Nguyễn Thanh Cường",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Tư pháp",
+        "soMayLeTongDai": "109",
+        "diaChiDienTu": "cuongnt.stp@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 9,
+        "hoTen": "Nguyễn Thị Hồng",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Tư pháp",
+        "soMayLeTongDai": "110",
+        "diaChiDienTu": "hongnt.stp@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 10,
+        "hoTen": "Lê Giang Đông",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Văn hóa, Thể thao và Du lịch",
+        "soMayLeTongDai": "111",
+        "diaChiDienTu": "donglg.svhttdl@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 11,
+        "hoTen": "Lê Khắc Hải",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Nông nghiệp và PTNT",
+        "soMayLeTongDai": "112",
+        "diaChiDienTu": "hailk.ccqlcl@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 12,
+        "hoTen": "Nguyễn Thị Hà",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Kế hoạch và Đầu tư",
+        "soMayLeTongDai": "114",
+        "diaChiDienTu": "hantt.skhdt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 13,
+        "hoTen": "Lê Thị Nguyệt",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Kế hoạch và Đầu tư",
+        "soMayLeTongDai": "115",
+        "diaChiDienTu": "nguyetlt.skhdt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 14,
+        "hoTen": "Mỵ Thị Thủy",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Nội vụ",
+        "soMayLeTongDai": "116",
+        "diaChiDienTu": "thuymt.snv@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 15,
+        "hoTen": "Nguyễn Thị Thu",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Tài nguyên và Môi trường",
+        "soMayLeTongDai": "117",
+        "diaChiDienTu": "thunt.stnmt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 16,
+        "hoTen": "Nguyễn Quốc Đạt",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Tài nguyên và Môi trường",
+        "soMayLeTongDai": "118",
+        "diaChiDienTu": "datnq.stnmt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 17,
+        "hoTen": "Trịnh Minh Dũng",
+        "chucVu": "Phó Trưởng phòng",
+        "donVi": "Sở Xây dựng",
+        "soMayLeTongDai": "119",
+        "diaChiDienTu": "dungtm.sxd@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 18,
+        "hoTen": "Lê Quang Long",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Giao thông vận tải",
+        "soMayLeTongDai": "120",
+        "diaChiDienTu": "longlq.sgtvt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 19,
+        "hoTen": "Lê Hoàng Đăng",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Giao thông vận tải",
+        "soMayLeTongDai": "121",
+        "diaChiDienTu": "danglh.sgtvt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 20,
+        "hoTen": "Nguyễn Văn Điệp",
+        "chucVu": "Chuyên viên",
+        "donVi": "Sở Giao thông vận tải",
+        "soMayLeTongDai": "122",
+        "diaChiDienTu": "diepnv.sgtvt@thanhhoa.gov.vn"
+    },
+    {
+        "TT": 21,
+        "hoTen": "Lê Thị Hạnh",
+        "chucVu": "Nhân viên",
+        "donVi": "Bưu điện tỉnh",
+        "soMayLeTongDai": "209",
+        "diaChiDienTu": "hanhkt@gmail.com"
+    }
+]

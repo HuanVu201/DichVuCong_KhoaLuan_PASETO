@@ -1,0 +1,188 @@
+.ChonCoQuanThucHienBlock {
+    .ant-btn {
+        margin-right: 12px;
+    }
+}
+
+#NopHoSoTrucTuyen {
+
+    .titleForm {
+        font-size: 18px;
+    }
+
+}
+
+.actionViewDetailThuTuc {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 700px) {
+    .actionViewDetailThuTuc {
+        font-size: 12px !important;
+    }
+
+    .ant-typography {
+        font-size: 14px !important;
+        margin: 0 !important;
+    }
+
+    .ant-steps-icon {
+        font-size: 25px !important;
+    }
+
+    .ant-steps-item-description {
+        font-size: 10px !important;
+    }
+
+    .ant-select-item-option-content {
+        font-size: 11px !important;
+    }
+
+    .border {
+        border-radius: 5px;
+    }
+
+    .ChonCoQuanThucHienBlock {
+        .titleChonCoQuanThucHien {
+            .ant-tag {
+                font-size: 12px !important;
+                line-height: unset !important;
+            }
+
+            b {
+                font-size: 13px !important;
+            }
+        }
+
+        .ant-typography {
+            font-size: 13px !important;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 12px !important;
+        }
+
+        .ant-select-single.ant-select-show-arrow .ant-select-selection-item {
+            font-size: 12px !important;
+        }
+
+        .ant-btn {
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+    }
+
+    #NopHoSoTrucTuyen {
+        font-size: 12px;
+
+        .ant-table-content {
+            overflow-x: auto;
+        }
+
+        table {
+            min-width: 600px;
+
+            th {
+                font-size: 12px !important;
+            }
+
+            td {
+                font-size: 12px;
+            }
+
+            textarea {
+                font-size: 12px;
+            }
+
+            .warningDungLuong {
+                font-size: 11px !important;
+            }
+        }
+
+        button {
+            font-size: 11px;
+        }
+
+        .card-title {
+            font-size: 13px !important;
+        }
+
+        .card-header {
+            font-size: 13px !important;
+        }
+
+        .ant-tag {
+            font-size: 12px !important;
+        }
+
+        .titleForm {
+            font-size: 14px;
+        }
+
+        h3 {
+            font-size: 13px !important;
+        }
+
+        .ant-typography {
+            font-size: 12px !important;
+        }
+
+        label {
+            font-size: 12px !important;
+        }
+
+        input {
+            font-size: 12px;
+        }
+
+        textarea {
+            font-size: 12px;
+        }
+
+        .ant-select-selection-item {
+            font-size: 12px;
+        }
+
+        .formio-component-htmlelement {
+            p {
+                margin: 0 !important;
+                font-size: 13px;
+            }
+        }
+
+        .form-group {
+            overflow-x: auto;
+
+
+
+
+
+            .choices__list {
+                font-size: 12px;
+            }
+
+        }
+
+        .formio-component-ThongTinCoBan {
+
+
+            input {
+                font-size: 12px;
+            }
+
+            textarea {
+                font-size: 12px;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 400px) {}

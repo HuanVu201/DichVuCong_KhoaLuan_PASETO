@@ -1,0 +1,59 @@
+.imageBlock {
+    img {
+        min-height: 50px;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 5px;
+        width: 80px;
+        height: auto;
+        overflow: hidden;
+        float: left;
+    }
+}
+
+.wrap-list {
+    margin-left: 110px;
+
+    .Hoidap-CH {
+        font-size: 14px;
+        color: #0072bc;
+        text-align: justify;
+    }
+
+    .Hoidap-detail {
+        font-size: 12px;
+        color: #6A94B6;
+        font-weight: 700;
+    }
+
+    .Hoidap-content {
+        font-size: 16px;
+        margin: 10px 0 20px;
+        height: 25px;
+        white-space: nowrap;
+        width: 500px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    .Hoidap-link {
+        text-align: right !important;;
+
+
+        a {
+            font-size: 14px;
+            background-color: #b00600;
+            color: #fff;
+            padding: 3px 8px;
+            border-radius: 5px;
+
+        }
+    }
+
+}
+
+.ant-pagination {
+    text-align: center;
+}

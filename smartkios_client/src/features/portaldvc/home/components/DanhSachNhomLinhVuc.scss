@@ -1,0 +1,70 @@
+@import '../../ultis/Variables.scss';
+
+.container_DSNLV {
+  margin-top: 12px;
+
+  
+  
+  margin-bottom: 50px;
+  .container{
+    padding: 0 ;
+  }
+
+  .title {
+    color: $COLOR-PRIMARY;
+    font-size: 23px;
+    font-weight: 600;
+    
+
+
+  }
+
+  .item {
+    font-size: 18px;
+    color: #333;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    margin-bottom: 10px;
+    padding: 0 !important;
+
+    a {
+      color: #333;
+      padding: 9px 0 9xp 10px !important;
+    }
+
+
+    img {
+      height: 25px;
+      margin: 0 8px;
+    }
+
+
+    .tenLinhVuc {
+      line-height: 25px;
+      flex: 1;
+      
+    }
+
+  }
+
+  .congDan:hover {
+    background-color: #e8f2f1;
+  }
+
+  .doanhNghiep:hover {
+    background-color: #eee1e1;
+  }
+
+}
+@media screen and (max-width: 900px) {
+  /* Các quy tắc CSS cho màn hình có độ rộng từ 768px đến 1024px */
+  .DSNLV_Block{
+    flex-direction: column;
+  }
+
+  .container{
+    margin-bottom: 20px;
+  }
+}

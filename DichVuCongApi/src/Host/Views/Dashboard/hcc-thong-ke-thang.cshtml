@@ -1,0 +1,129 @@
+﻿@{
+    Layout = "_Layout-dashboard-tivi";
+}
+<link rel="stylesheet" crossorigin href="~/css/dashboard-tv-thong-ke-thang.css">
+
+<style type="text/css">
+    .yhy-append-wrap {
+        overflow: hidden;
+        width: 100%;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .yhy-append {
+        display: flex;
+        align-items: center;
+    }
+
+        .yhy-append .yhy-append-btn {
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+            padding: 5px 8px;
+            background: #EC3237;
+            box-shadow: 0px -1px 30px rgb(0 0 0 / 15%);
+            border-radius: 10px 10px 0px 0px;
+            border: 0;
+            font-family: 'Arial';
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .yhy-append .yhy-append-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .yhy-append .yhy-append-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .yhy-append .yhy-btn-btttt .yhy-append-icon {
+            width: 28px;
+            height: 26px;
+        }
+
+        .yhy-append .yhy-btn-btttt .append-icon > img {
+            width: 100%;
+        }
+
+        .yhy-append .yhy-btn-emc .yhy-append-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border-radius: 50%;
+        }
+
+        .yhy-append .yhy-append-txt {
+            margin-left: 5px;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+</style>
+
+@{
+    var nfi = new System.Globalization.NumberFormatInfo
+            {
+                NumberGroupSeparator = "."
+            };
+}
+
+<div class="ThongKeThangHCCTelevisonSwapper">
+    <div class="container-fluid header">
+        <div class="bannerTelevision">
+            <a href="">
+                <img class="logo" src="~/images/logo-TTHC_ThanhHoa.svg" alt="Banner" />
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid body">
+        <div class="title-form">
+            <strong class="title-form-banner">
+                Tình hình xử lý hồ sơ tháng @ViewBag.Month năm @ViewBag.Year
+            </strong>
+        </div>
+        <div class="body-content">
+            <div class="row listStatisticItem">
+
+                @{
+                    var baoCaoData = ViewBag.BaoCaoData;
+                    foreach (var item in baoCaoData)
+                    {
+                        <div class="col-md-6 col-lg-3 statisticItem">
+                            <div class="infoStatistic">
+                                <div class="leftSide">
+                                    <p>Tiếp nhận: @item.TongSo.ToString("N0", nfi) hồ sơ</p>
+                                    <p>Tiếp nhận kỳ trước: @item.TiepNhanKyTruoc.ToString("N0", nfi) hồ sơ</p>
+                                    <p>Đã xử lý: @((item.DaXuLyTruocHan + item.DaXuLyDungHan + item.DaXuLyQuaHan).ToString("N0", nfi)) hồ sơ</p>
+                                    <p>Trước hạn, đúng hạn: @((item.DaXuLyTruocHan + item.DaXuLyDungHan).ToString("N0", nfi)) hồ sơ</p>
+                                </div>
+                                <div class="rightSide">
+                                    <p class="tyLeDungHan">
+                                        @{
+                                            var tyLeDungHan = (item.DaXuLyDungHan + item.DaXuLyTruocHan) / (double)(item.DaXuLyDungHan + item.DaXuLyTruocHan + item.DaXuLyQuaHan);
+                                            @(tyLeDungHan > 0 ? Math.Round(tyLeDungHan * 100, 2).ToString("G") + "%" : "-")
+                                        }
+                                    </p>
+                                    <p>Trước hạn, đúng hạn </p>
+                                </div>
+                            </div>
+
+                            <div class="nameItem">
+                                <p>@item.TenThongKe</p>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>

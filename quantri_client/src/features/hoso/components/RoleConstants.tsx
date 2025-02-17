@@ -1,0 +1,21 @@
+export const QuanTriHeThongRole = "Quản trị hệ thống";
+export const CanBoMotCuaRole = "Cán bộ một cửa";
+export const ChuyenVienRole = "Chuyên viên";
+export const LanhDaoPhongRole = "Lãnh đạo phòng";
+export const LanhDaoDonViRole = "Lãnh đạo đơn vị";
+export const QuanTriDonViRole = "Quản trị đơn vị";
+
+// export const SupperAdminRole = "SupperAdmin";
+export const CanBoThuPhiTTHCCRole = "Cán bộ Thu phí TTHCC";
+export const CanBoTraKQTTHCCRole = "Cán bộ Trả kết quả TTHCC";
+export const CanBoTTHCCRole = "Cán bộ TTHCC";
+export const CanBoXuLyChungThucDienTuRole = "Cán bộ xử lý chứng thực điện tử";
+export const VanThuDonViRole = "Văn thư đơn vị";
+export const CanBoBCCIRole = "Cán bộ bưu chính công ích";
+export const CanBoTraKetQuaCapHuyenRole = "Cán bộ trả kết quả cấp huyện";
+export const VanThuUBNDTinhRole = "Văn thư VPUB Tỉnh";
+export const TheoDoiHoSoDonViRole = "Theo dõi hồ sơ tới hạn, quá hạn đơn vị";
+export const TraCuuHoSoToanDonViRole = "Tra cứu hồ sơ toàn đơn vị";
+export const DanhGiaHaiLongToanDonViRole = "Đánh giá hài lòng toàn đơn vị";
+export const ThongKeBaoCaoDonViRole = "Thống kê báo cáo đơn vị";
+export const TraCuuCSDLQuocGiaDanCuRole = "Tra cứu CSDL quốc gia về dân cư";

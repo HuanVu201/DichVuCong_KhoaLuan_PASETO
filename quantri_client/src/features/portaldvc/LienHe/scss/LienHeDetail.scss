@@ -1,0 +1,103 @@
+.containerLienHeDetail {
+    margin: 0 auto;
+    padding: 50px 16px;
+    width: 90%;   
+
+    .titleText {
+        text-align: center;
+        color: #B22222;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .wrapper_table {
+        // display: flex;
+        // justify-content: center;
+        margin: 20px 0;
+        overflow-x: auto;
+
+        .table-lienhe {
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 600px;
+        }
+
+        .table-lienhe th,
+        .table-lienhe td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: center;
+            width: 15%;
+        }
+
+        .table-lienhe th {
+            background-color: #f2f2f2;
+        }
+    }
+}
+
+.containerLienHeDetail .wrapper_table .table-lienhe th:nth-child(1),
+.containerLienHeDetail .wrapper_table .table-lienhe td:nth-child(1) {
+    width: 5%; /* Độ rộng của cột STT */
+}
+
+.containerLienHeDetail .wrapper_table .table-lienhe th:nth-child(2),
+.containerLienHeDetail .wrapper_table .table-lienhe td:nth-child(2) {
+    width: 20%; /* Độ rộng của cột Họ tên */
+}
+
+.containerLienHeDetail .wrapper_table .table-lienhe th:nth-child(3),
+.containerLienHeDetail .wrapper_table .table-lienhe td:nth-child(3) {
+    width: 20%; /* Độ rộng của cột Chức danh */
+
+}
+
+.containerLienHeDetail .wrapper_table .table-lienhe th:nth-child(4),
+.containerLienHeDetail .wrapper_table .table-lienhe td:nth-child(4) {
+    width: 20%; /* Độ rộng của cột Số điện thoại */
+}
+
+.containerLienHeDetail .wrapper_table .table-lienhe th:nth-child(5),
+.containerLienHeDetail .wrapper_table .table-lienhe td:nth-child(5) {
+    width: 30%; /* Độ rộng của cột Địa chỉ điện tử */
+
+}
+.containerLienHeDetail .wrapper_table .table-lienhe th {
+    text-align: center; /* Tiêu đề hàng đầu giữ nguyên ở giữa */
+}
+
+.containerLienHeDetail .wrapper_table .table-lienhe td {
+    text-align: left; /* Các ô dữ liệu nằm ở bên trái */
+}
+.containerLienHeDetail .wrapper_table .table-lienhe td.sdt {
+    text-align: center; 
+}
+.containerLienHeDetail .wrapper_table .table-lienhe td.stt {
+    text-align: center; 
+}
+
+
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .containerLienHeDetail {
+        width: 90%;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .containerLienHeDetail {
+        width: 95%;
+        font-size: 12px;
+        .titleText{
+            font-size: 14px !important;
+        }
+     
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .containerLienHeDetail {
+        padding: 20px;
+    }
+}

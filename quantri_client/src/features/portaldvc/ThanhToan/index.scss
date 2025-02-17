@@ -1,0 +1,107 @@
+.containerThanhToan {
+    padding: 25px 16px;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .containerThanhToan {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .containerThanhToan {
+        width: 100%;
+        padding: 25px 0;
+        font-size: 12px;
+        text-align: center;
+
+        .search-hoso {
+            .searchBlock {
+                .thanhToan-title {
+                    h3 {
+                        font-size: 13px;
+                        padding: 0;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+
+                .formSerach {
+                    min-height: unset;
+
+                    .ant-input {
+                        font-size: 12px;
+                    }
+                }
+
+                .thanhToan-footer {
+                    padding: 10px;
+
+                    .btnTimKiemHoSo {
+                        font-size: 12px;
+
+                        &:hover {
+                            font-size: 13px;
+                        }
+                    }
+                    .ant-btn{
+                        padding: 3px 8px;
+                    }
+                }
+            }
+
+            .expand {
+                padding: 0;
+                height: unset;
+
+                span {
+                    font-size: 12px;
+                }
+            }
+
+            .whiteBg {
+                display: none;
+            }
+
+        }
+
+        .thanhToanBlock {
+            .header {
+                h3 {
+                    font-size: 13px;
+
+                }
+            }
+
+            form {
+                label {
+                    font-size: 12px !important;
+                }
+
+                .ant-input {
+                    font-size: 12px;
+                }
+
+                .ant-btn {
+                    font-size: 11px;
+                    font-weight: 600;
+                }
+
+                .ant-input-number-input {
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 400px) {}

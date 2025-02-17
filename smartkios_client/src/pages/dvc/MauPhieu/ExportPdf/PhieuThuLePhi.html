@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+           <div id="page1">
+            <div class="header">
+                <div style="display: flex; ">
+                    <div style="flex: 1;  text-align: left;">
+                        <strong>Đơn vị thu:</strong><br />
+                        <strong>Mã số thuế:</strong>
+                    </div>
+
+                    <div style="flex: 3;  text-align: center; font-weight: 600;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: left;">
+                        <span>Mẫu số: 01BLP2-001</span>
+                        <span>Ký hiệu: 28AA-17T</span>
+                        <span>Số: </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>BIÊN LAI THU TIỀN PHÍ, LỆ PHÍ</strong>
+                <span>Tên loại Phí, lệ phí: </span>
+                <span>(Liên 1: Lưu tại cơ quan thu)</span>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <div style="margin-bottom: 8px;">
+                    Tên đơn vị hoặc người nộp tiền: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Địa chỉ: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Số tiền: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    (Viết bằng chữ): ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Hình thức thanh toán: ...
+                </div>
+                <div style="display: flex;  margin-top: 20px; justify-content: right">
+                    <div style="width: 200px; display: flex;flex-direction: column; text-align: center;">
+                        <i>Thanh Hóa, ...</i>
+                        <strong>Người thu tiền</strong>
+                        <span>(Ký rõ họ tên)</span>
+                        <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+            <hr style="height:1.5px; width: 100%; margin: 0 auto; color:black; background-color:black; border: none;" />
+    
+            <div id="page2" style="margin-top: 50px;">
+                <!-- Header -->
+                <div class="header">
+                    <div style="display: flex; ">
+                        <div style="flex: 1;  text-align: left;">
+                            <strong>Đơn vị thu:</strong><br />
+                            <strong>Mã số thuế:</strong>
+                        </div>
+    
+                        <div style="flex: 3;  text-align: center; font-weight: 600;">
+                            <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                            <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                            <hr
+                                style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                        </div>
+    
+                        <div style="flex: 1;  text-align: left;">
+                            <span>Mẫu số: 01BLP2-001</span>
+                            <span>Ký hiệu: 28AA-17T</span>
+                            <span>Số: </span>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Title -->
+                <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                    <strong>BIÊN LAI THU TIỀN PHÍ, LỆ PHÍ</strong>
+                    <span>Tên loại Phí, lệ phí: </span>
+                    <span>(Liên 2: giao cho người nộp phí, lệ phí)</span>
+                </div>
+                <!-- Content -->
+                <div style="width: 90%; margin: auto;">
+                    <div style="margin-bottom: 8px;">
+                        Tên đơn vị hoặc người nộp tiền: ...
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        Địa chỉ: ...
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        Số tiền: ...
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        (Viết bằng chữ): ...
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        Hình thức thanh toán: ...
+                    </div>
+                    <div style="display: flex;  margin-top: 20px; justify-content: right">
+                        <div style="width: 200px; display: flex;flex-direction: column; text-align: center;">
+                            <i>Thanh Hóa, ...</i>
+                            <strong>Người thu tiền</strong>
+                            <span>(Ký rõ họ tên)</span>
+                            <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Phiếu thu lệ phí')">Download Phiếu</button>
+
+</body>
+
+</html>

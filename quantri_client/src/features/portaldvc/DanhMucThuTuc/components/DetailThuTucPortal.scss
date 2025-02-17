@@ -1,0 +1,166 @@
+.chi-tiet-thu-tuc-dvcqg {
+    margin: 20px 0;
+    font-size: 16px !important;
+
+    .main-title {
+        color: #ce7a58;
+        background-color: #f7f4e9;
+        padding: 10px;
+        margin: 10px 0 20px;
+        border: 1px solid #e9e5d7;
+        border-left: 3px solid #e1bcad;
+        border-radius: 4px;
+
+        h2 {
+            font-size: 20px;
+            margin: 0;
+
+            img {
+                margin-right: 8px;
+                width: 32px;
+            }
+
+        }
+
+    }
+
+    .actionThuTucDetail {
+        display: flex;
+        // justify-content: space-between;
+        margin-bottom: 3px;
+        font-size: 16px;
+
+        .nopTrucTuyen {
+            position: relative;
+        }
+
+        .download {
+            cursor: pointer;
+            background-color: #8181e7;
+            color: #fff;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+        .openVideoTutorial {
+            cursor: pointer;
+            // padding: 6px 10px;
+            background-color: #008b72;
+            color: #fff;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+        span{
+            display: flex;
+            align-items: center;
+            // background: #ce7a58;
+            // padding: 3px 5px;
+            color: #fff;
+            text-decoration: dotted;
+            border-radius: 5px;
+        }
+        .btn_actionThuTucDetail{
+            border-radius: 5px;
+            padding: 5px 10px;
+
+        }
+    }
+
+
+    .content {
+
+        .info-row {
+            margin: auto;
+            width: 100%;
+            padding: 8px 0;
+            // border-top: 1px solid #333;
+
+            .titleColumnn {}
+
+            .contentColumn {}
+
+        }
+
+        .info-row+.info-row {
+            border-top: 1px solid #e9e5d7;
+        }
+
+    }
+
+    .btn {
+        // margin: 20px 0;
+        // padding: 3px 12px;
+        color: #fff;
+        // margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 700px) {
+    .nopTrucTuyen{
+        font-size: 12px !important;
+        span{
+            padding: 1px 3px !important;
+            
+        }
+    }
+    .chi-tiet-thu-tuc-dvcqg {
+        .main-title {
+
+            h2 {
+                font-size: 14px;
+
+                img {
+                    width: 20px;
+                }
+
+            }
+
+        }
+
+        .actionThuTucDetail {
+
+            .nopTrucTuyen {
+
+                a {
+                    font-size: 13px;
+
+                    span {
+                        font-size: 13px !important;
+                        margin-right: 5px !important;
+                    }
+                }
+            }
+
+            .download {
+                font-size: 13px;
+
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .content {
+            font-size: 12px;
+
+            td {
+                padding: 3px 3px;
+            }
+        }
+
+        .btn {
+            font-size: 13px;
+            padding: 3px 8px;
+            margin: 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {}

@@ -1,0 +1,120 @@
+.QlvbSwapper {
+    width: 90%;
+    padding: 50px 16px;
+    margin:  0 auto;
+    min-height: 80vh;
+
+    .QlvbBlock {
+
+        .wrapper-left {
+            border: 1px solid #ce7a58;
+            padding: 10px 15px;
+            border-radius: 5px;
+
+            h5 {
+                border-bottom: 1px dashed;
+            }
+
+            .selectItemBlock {
+
+                // padding-left: 15px;
+                .text-content {
+                    position: relative;
+                    cursor: pointer;
+
+                    div {
+                        padding: 5px 0 5px 15px;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 5px;
+                            height: 6px;
+                            background-color: #d9534f;
+                            border-radius: 50%;
+                            left: 5px;
+                            top: 12px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .wrapper-right {
+            .ant-btn-default {
+                background-color: #f0ad4e;
+                color: #fff;
+                font-weight: 600;
+                border: none;
+
+                &:hover {
+                    background-color: rgb(211, 153, 72);
+                }
+            }
+
+            table {
+                border: 1px solid #dfb6a5;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .QlvbSwapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .QlvbSwapper {
+        width: 95%;
+
+        .QlvbBlock {
+            .wrapper-left {
+                h5 {
+                    font-size: 13px;
+                }
+
+                div {font-size: 12px;}
+            }
+
+            .wrapper-right {
+                .ant-select-selection-search-input{
+                    font-size: 12px !important;
+                }
+                .ant-select-selection-item{
+                    font-size: 12px;
+                }
+                .ant-input{
+                    font-size: 14px;
+                }
+                
+                .tableSwapper{
+                    overflow-x: auto;
+                    table {
+                        min-width: 600px;
+                        th{
+                            font-size: 13px;
+                        }
+                        td{
+                            font-size: 12px;
+                        }
+                    }
+
+                }
+                .ant-btn-default {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .QlvbSwapper {
+        padding: 20px;
+    }
+}

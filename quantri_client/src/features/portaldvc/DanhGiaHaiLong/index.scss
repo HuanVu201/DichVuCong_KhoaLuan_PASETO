@@ -1,0 +1,61 @@
+.containerDGHL {
+    width: 90%;
+    margin: auto;
+    padding: 0 16px;
+    min-height: 80vh;
+
+    .DGHLtitle {
+        .title {
+            font-size: 20px;
+        }
+    }
+    .note{
+        margin-top: 30px;
+    }
+}
+.ant-btn-default{
+    border: none;
+}
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 700px) {
+    .containerDGHL {
+        width: 95%;
+
+        .DGHLtitle {
+            .title {
+                font-size: 13px;
+            }
+            .expandTitle{
+                font-size: 11px;
+            }
+        }
+        #FilterDanhGiaHaiLong{
+
+            #FilterDanhGiaHaiLong_maHoSo{
+                font-size: 12px;
+            }
+            .ant-form-item-explain-error{
+                font-size: 11px;
+            }
+
+            .DGHL-footer{
+                span{
+                    font-size: 12px;
+                }
+            }
+            .note{
+                font-size: 11px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .containerDGHL {
+        padding: 0;
+    }
+}

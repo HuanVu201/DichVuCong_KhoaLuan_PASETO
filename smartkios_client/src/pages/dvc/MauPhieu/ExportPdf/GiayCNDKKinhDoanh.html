@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex;">
+                    <div style="flex: 1;  text-align: center;">
+                        <span>UBND...</span><br />
+                        <strong>PHÒNG TÀI CHÍNH – KẾ HOẠCH</strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>GIẤY CHỨNG NHẬN ĐĂNG KÝ<br />HỘ KINH DOANH</strong>
+                <strong>Số: ... </strong>
+                <i>Đăng ký lần đầu ...</i>
+            </div>
+            <!-- Content -->
+            <div style=" margin: auto;">
+                <div style="margin-bottom: 8px;">
+                    1. Tên hộ kinh doanh (ghi bằng chữ in hoa): ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <div>
+                        2. Địa điểm kinh doanh: <span>...</span>, <span>...</span>, thành phố <span>...</span>
+                    </div>
+                    <div style="display: flex;">
+                        <div style="flex: 1">
+                            Điện thoại: ...
+                        </div>
+                        <div style="flex: 1">
+                            Fax: ...
+                        </div>
+
+                    </div>
+                    <div style="display: flex;">
+                        <div style="flex: 1">
+                            Email: ...
+                        </div>
+                        <div style="flex: 1">
+                            Website: ...
+                        </div>
+
+                    </div>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    3. Ngành, nghề kinh doanh: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <div>4. Vốn kinh doanh: <span>...</span> (<span>...</span>) </div>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <div>5. Họ và tên đại diện hộ gia đình (ghi bằng chữ in hoa): <span>...</span></div>
+                    <div style="display: flex;">
+                        <div style="flex: 1;">
+                            Giới tính: ...
+                        </div>
+                        <div style="flex: 1;">
+                            Sinh ngày: ...
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <div style="flex: 1;">
+                            Dân tộc: ...
+                        </div>
+                        <div style="flex: 1;">
+                            Quốc tịch: Việt Nam
+                        </div>
+                    </div>
+                    <div>Loại giấy tờ chứng thực cá nhân: Chứng minh nhân dân</div>
+                    <div>Số giấy chứng thực cá nhân: ... </div>
+                    <div style="display: flex;">
+                        <div style="flex: 1;">
+                            Ngày cấp: <span>...</span>
+                        </div>
+                        <div style="flex: 1;">
+                            Nơi cấp: <span>...</span>
+                        </div>
+                    </div>
+                    <div>Nơi đăng ký hộ khẩu thường trú: ... </div>
+                    <div>Chỗ ở hiện tại: ... </div>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <div>6. Danh sách cá nhân góp vốn thành lập hộ kinh doanh (nếu có)</div>
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                        <tr>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                STT
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Tên thành viên
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Nơi đăng ký hộ khẩu thường trú
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Giá trị phần vốn góp (VNĐ)
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Tỷ lệ (%)
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Số giấy Chứng minh nhân dân (hoặc chứng thực cá nhân hợp pháp khác)
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                                Ghi chú
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex; text-align: center; margin-top: 20px;">
+                <div style="flex: 1; display: flex; flex-direction: column; text-align: left;">
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <strong>TRƯỞNG PHÒNG</strong>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;"
+        onclick="downloadPhieu('Giấy chứng nhận đăng ký hộ kinh doanh')">Download Phiếu</button>
+
+</body>
+
+</html>

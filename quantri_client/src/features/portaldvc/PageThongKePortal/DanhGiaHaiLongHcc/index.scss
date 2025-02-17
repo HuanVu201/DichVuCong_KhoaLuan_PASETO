@@ -1,0 +1,146 @@
+.DanhGiaHaiLongHcc {
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f1db71;
+        color: #fff;
+        min-height: 60px;
+        padding: 12px 20px;
+        border-bottom: 1px solid #ECECEC;
+        box-shadow: 0px 0px 5px #6d6d6d;
+
+        .bannerTelevision {
+            width: 75vw;
+
+            img {
+                width: 65vw;
+            }
+        }
+    }
+
+    .body {
+        padding: 30px 50px;
+
+        .title {
+            margin: 20px 0;
+            color: #f06000;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .infoUser {
+            background-color: #2095c7;
+            padding: 20px;
+            color: #fff;
+            min-height: 200px;
+            border-radius: 8px;
+
+            .rightContent {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                // justify-content: space-around;
+                font-size: 1.5rem;
+                font-weight: 600;
+
+                img {
+                    max-width: 80px;
+                }
+
+                .fullName {}
+
+                .positionName {}
+            }
+        }
+
+        .formKhaoSat {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            .titleForm {
+                width: 100%;
+                font-size: 1.5rem;
+                font-weight: 800;
+                color: #013c8b;
+            }
+
+            .checkBoxBlock {
+
+                .form-check {
+                    .form-check-input {
+                        border: 1px solid #333;
+                    }
+
+                    label {
+                        font-size: 1.3rem !important;
+                        font-weight: 800 !important;
+                        position: relative;
+                        bottom: 5px;
+                    }
+                }
+            }
+
+            .buttonConfirm {
+                input {
+                    background: #b00600;
+
+                    &:hover {
+                        background: rgba(176, 6, 0, 0.8);
+                    }
+                }
+            }
+
+            .buttonXemKetQua {
+                input {
+                    background: #5b07b7;
+
+                    &:hover {
+                        background: rgba(91, 7, 183, 0.8);
+                    }
+                }
+            }
+
+            .button {
+                display: flex;
+
+                input {
+                    font-size: 1.4rem !important;
+                    margin: auto;
+                    color: #fff;
+                    padding: 8px 15px;
+                    font-size: 18px;
+                    font-weight: 800;
+                    border: none;
+                    border-radius: 5px;
+
+                }
+            }
+
+
+        }
+
+    }
+
+    .waringTitle {
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .login_logout {
+        background-color: #b00600;
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: #fff;
+        margin: 15px auto;
+    }
+}

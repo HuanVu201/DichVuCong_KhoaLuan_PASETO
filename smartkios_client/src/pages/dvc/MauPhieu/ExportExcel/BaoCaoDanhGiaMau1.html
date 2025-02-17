@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./exportTableToExcel.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="table">
+        <table style="vertical-align:middle;  border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+            <tr>
+                <td colspan="7" style="vertical-align:middle; padding: 5px; ">
+                    <div style="vertical-align:middle; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong><br />
+                        <span style="vertical-align:middle; font-size: 10px;">------------------</span>
+                    </div>
+                </td>
+                <td colspan="6" style="vertical-align:middle; padding: 5px; ">
+                    <div style="vertical-align:middle; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong><br />
+                        <span style="vertical-align:middle; font-size: 10px;">-------------------------------------------------------</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="13"></td>
+            </tr>
+            <tr>
+                <td colspan="13"
+                    style="vertical-align:middle; padding: 5px; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 24px; ">
+                    <strong>BẢNG ĐÁNH GIÁ VIỆC GIẢI QUYẾT THỦ TỤC HÀNH CHÍNH</strong>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="13"
+                    style="vertical-align:middle; padding: 5px;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <i>(Ban hành kèm theo......)</i>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="13" style="vertical-align:middle; padding: 5px; "></td>
+            </tr>
+            <tr>
+                <td colspan="13"
+                    style="vertical-align:middle; padding: 5px;  text-align: left;font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Cơ quan/đơn vị: {DonVi}</strong>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="13"
+                    style="vertical-align:middle; padding: 5px;  text-align: left;font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    <strong>Thời điểm đánh giá: {ThoiGianDanhGia}</strong>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="13"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong>TT</strong>
+                </td>
+                <td rowspan="2"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong>Hồ sơ</strong>
+                </td>
+                <td colspan="6"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong>Điểm chỉ số thành phần</strong>
+                </td>
+                <td colspan="2"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong> Xếp loại CB,CC</strong>
+                </td>
+                <td colspan="3"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Chỉ số 1
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Chỉ số 2
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Chỉ số 3
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Chỉ số 4
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Chỉ số 6
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Chỉ số 7
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Tổng điểm đánh giá CBCC (cột 1 +2 + 3 + 4 + 7)
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Xếp loại hoàn thành nhiệm vụ
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Không hài lòng
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Hài lòng
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Rất hài lòng
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {STT}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {MaHoSo}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TraLoi1}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TraLoi2}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TraLoi3}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TraLoi4}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TraLoi6}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TraLoi7}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongDiemDanhGiaCBCC}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {XepLoaiHoanThanhNhiemVu}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {MucDoKHL}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {MucDoHL}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {MucDoRHL}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong> Tổng số </strong>
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTraLoi1}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTraLoi2}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTraLoi3}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTraLoi4}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTraLoi6}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTraLoi7}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongTongDiemDanhGiaCBCC}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongXepLoaiHoanThanhNhiemVu}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongMucDoKHL}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongMucDoHL}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TongMucDoRHL}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong>Điểm bình quân chỉ số </strong>
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TBTongTraLoi1}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TBTongTraLoi2}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TBTongTraLoi3}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TBTongTraLoi4}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TBTongTraLoi6}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TBTongTraLoi7}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    <strong>Tỷ lệ % hài lòng</strong>
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TiLeKHL}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TiLeHL}
+                </td>
+                <td
+                    style="vertical-align:middle; padding: 5px; border: 1px solid #333; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    {TiLeRHL}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="13"></td>
+            </tr>
+
+            <tr>
+                <td colspan="9"></td>
+                <td colspan="4">
+                    <div style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                        Thanh Hóa, <span id="NgayThangNam">{NgayThangNam}</span><br />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+                <td colspan="4">
+                    <div style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                        <strong>Người báo cáo</strong>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+                <td colspan="4">
+                    <div style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+                <td colspan="4">
+                    <div style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+                <td colspan="4">
+                    <div style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+                <td colspan="4">
+                    <div style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                        <div
+                            style="vertical-align:middle;  text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px;">
+                            <span id="NguoiBaoCao">{NguoiBaoCao}</span>
+                        </div>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="1"
+                    style="vertical-align:middle; padding: 5px;  text-align: left;font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                </td>
+                <td colspan="5"
+                    style="vertical-align:middle; padding: 5px;  text-align: left;font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+                    Điểm bình quân chỉ số = tổng điểm của chỉ số/tổng số phiếu
+                    <br />
+                    Tỷ lệ % hài lòng = Tổng điểm mức độ hài lòng /tổng số phiếu x 100%
+                    <br />
+                    Kết quả được làm tròn phần thập phân đến một (01) chữ số
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+    <button style="vertical-align:middle; display: block; margin: auto;" onclick="downloadPhieu('Bảng đánh giá việc giải quyết thủ tục hành chính mẫu 01')">Download Phiếu</button>
+
+</body>
+<script>
+
+</script>
+
+</html>

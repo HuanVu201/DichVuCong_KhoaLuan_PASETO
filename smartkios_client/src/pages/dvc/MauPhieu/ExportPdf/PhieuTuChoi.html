@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column; ">
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+                        <i>Thanh Hóa, <span id="NgayThangNam">...</span></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>PHIẾU TỪ CHỐI TIẾP NHẬN GIẢI QUYẾT HỒ SƠ</strong>
+                <span></span>
+            </div>
+            <!-- Content -->
+            <div style="width: 90%; margin: auto;">
+                <div style="margin-bottom: 8px;">Trung tâm Phục vụ hành chính công tỉnh Thanh Hóa:</div>
+                <div style="margin-bottom: 8px;">
+                    Tiếp nhận hồ sơ của: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Địa chỉ: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <span>Số điện thoại:
+                        ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span>Email: ... </span>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Nội dung yêu cầu giải quyết: ...
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Qua xem xét, Bộ phận tiếp nhận hồ sơ của ... tại Trung tâm Phục vụ hành chính công tỉnh Thanh Hóa
+                    thông báo không tiếp nhận, giải quyết hồ sơ này với lý do cụ thể như sau:
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Xin thông báo cho Ông/Bà được biết và thực hiện.
+                </div>
+                <div style="margin-bottom: 8px;">
+                    Trong quá trình hoàn thiện hồ sơ nếu có vướng mắc, Ông/Bà có thể tra cứu các quy định giải quyết thủ
+                    tục
+                    hành chính tại Website: https://hcc.thanhhoa.gov.vn (phần thủ tục hành chính) hoặc liên hệ với công
+                    chức
+                    …, số điện thoại 02373900900 (máy lẻ: …….) để được hướng dẫn./.
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex; text-align: center; margin-top: 20px;">
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <strong>NGƯỜI NỘP HỒ SƠ</strong>
+                    <i>(Ký và ghi rõ họ tên)</i>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <strong>NGƯỜI TIẾP NHẬN HỒ SƠ</strong>
+                    <i>(Ký và ghi rõ họ tên)</i>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Phiếu từ chối')">Download Phiếu</button>
+
+</body>
+
+
+</html>

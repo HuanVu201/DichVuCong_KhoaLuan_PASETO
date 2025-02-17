@@ -1,0 +1,5431 @@
+[33mcommit 7c81d9d752b849620f40b592e7d5e03180849d10[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/hoso[m[33m)[m
+Merge: e1797f7 55825c8
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Nov 28 08:58:02 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit e1797f71bbfdbc30428e5680ee2899d70a101e11[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Nov 28 08:57:50 2023 +0700
+
+    ky so
+
+[33mcommit 55825c8703de5f685a56a340b41dc8ea6546c05c[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: bddc669 4ce2aeb
+Author: Vũ Văn Huấn <huanvv>
+Date:   Tue Nov 28 08:55:01 2023 +0700
+
+    Merged PR 544: Merge huanvv to master
+    
+    fix In phiếu tiếp nhận hồ sơ + thống kê hồ sơ trực tuyến
+
+[33mcommit 4ce2aeb8d4034c36bf4f1f9d5ffad3c24099fc37[m
+Merge: b30f33a bddc669
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 27 16:25:00 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit b30f33a5ea8eb027091e56449309c747f4a2450c[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 27 16:24:31 2023 +0700
+
+    mẫu báo cáo QD776
+
+[33mcommit bddc6697b63c6f3829ec192ee249e2a745fe1d32[m
+Merge: 8cb0c99 a74bb4f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 27 14:07:08 2023 +0700
+
+    Merged PR 546: nguoi xu ly yc
+    
+    nguoi xu ly yc
+
+[33mcommit a74bb4fa6b9127c02e6be4c4e3dce3996c3922cd[m[33m ([m[1;31morigin/feature/hoso[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 27 14:06:41 2023 +0700
+
+    nguoi xu ly yc
+
+[33mcommit 8cb0c999eba08e8572c09048083f6277280c0168[m
+Merge: 7fe06d3 5f63f99
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 27 13:52:28 2023 +0700
+
+    Merged PR 545: s
+    
+    s
+
+[33mcommit 5f63f994c14b206ad1196fb351fb5b98aebc6be6[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 27 13:52:06 2023 +0700
+
+    s
+
+[33mcommit 02b5a9d364aea0ac4f75a43c3d44211f1d9b04fa[m
+Merge: 1440254 7fe06d3
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 27 13:39:41 2023 +0700
+
+    merge master
+
+[33mcommit 144025429a04553f62a90c285dd936ed176fdb4a[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 27 13:36:30 2023 +0700
+
+    fix in phiếu tiếp nhận hồ sơ + thống kê hồ sơ
+
+[33mcommit 7fe06d3a7dd907abcca8ebffdeb8fc2111a1a379[m
+Merge: 1490364 8e8757f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 27 13:36:21 2023 +0700
+
+    Merged PR 543: fix
+    
+    fix
+
+[33mcommit 8e8757f232f476128dc31e52025a36ef3f06ff43[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 27 13:36:01 2023 +0700
+
+    fix
+
+[33mcommit 149036432666f3717f999b4d30f1368649521007[m
+Merge: 6b7f0a4 1d401cc
+Author: Vũ Văn Huấn <huanvv>
+Date:   Mon Nov 27 08:33:32 2023 +0700
+
+    Merged PR 542: Merge huanvv to master
+    
+    báo cáo thống kê hồ sơ trực tuyến 4 cấp
+
+[33mcommit 1d401cc153fb5b4ea7378f68e7bcbe7b25c72356[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sat Nov 25 17:15:30 2023 +0700
+
+    fix conflict for merge
+
+[33mcommit 92848f6a3eb1fd282fa2ea758429ec6f597ae210[m
+Merge: 26c7331 6b7f0a4
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sat Nov 25 17:06:21 2023 +0700
+
+    merge master
+
+[33mcommit 26c73319f6c3ee16a661e51d4d1fbbe5eeabd640[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sat Nov 25 16:59:09 2023 +0700
+
+    Báo cáo thống kê nộp hồ sơ trực tuyến
+
+[33mcommit 6b7f0a46f2180e294a4b62fe4813c68c3253c74e[m
+Merge: 69ae90f e632ee0
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Nov 25 12:20:48 2023 +0700
+
+    Merged PR 541: Merge feature/hoso to master
+
+[33mcommit e632ee0e2298fc4be212b64a56b6efa9524c8ae7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sat Nov 25 12:20:33 2023 +0700
+
+    fix for build
+
+[33mcommit afaf11de2fdbf964fce89f7afe2fa262cfe24ce3[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sat Nov 25 12:04:41 2023 +0700
+
+    fix
+
+[33mcommit 69ae90f64153a386d10ff40f6df3a3cdcf2c0489[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Fri Nov 24 17:08:50 2023 +0700
+
+    sửa model thành phần thủ tục và trường hợp thủ tục
+
+[33mcommit 75e45a674670ca1d464b72e8a3b5fd6894ef4878[m
+Merge: ac8108c 7a78bcd
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 23 23:19:14 2023 +0700
+
+    Merged PR 540: Merge feature/hoso to master
+
+[33mcommit 7a78bcd4356424da13539f17aace5d0075db64c7[m
+Merge: 2dd2e3f ac8108c
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 23 23:18:50 2023 +0700
+
+    fix conflict
+
+[33mcommit 2dd2e3ff4898734cb60819ab3555e8bb299c2078[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 23 23:17:07 2023 +0700
+
+    fix tam thoi
+
+[33mcommit ac8108ce1fa036134f4cc3e37565b635b729e921[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 23 16:22:34 2023 +0700
+
+    edit model thanhphanthutuc
+
+[33mcommit dacfea3acfa15c6999c7d32ab65f2968088cb767[m
+Merge: e5194d0 3c0640f
+Author: Vũ Văn Huấn <huanvv>
+Date:   Thu Nov 23 13:43:45 2023 +0700
+
+    Merged PR 539: Merge huanvv to master
+
+[33mcommit 3c0640f5792399d5bb58cffc82f23310dd630c03[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 23 11:59:50 2023 +0700
+
+    fix in phiếu tiếp nhận
+
+[33mcommit ca4c85b8f4e7d4bf254c5ba805a334d1cf433414[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 23 11:22:15 2023 +0700
+
+    filter thống kê hồ sơ
+
+[33mcommit e5194d07b52953bf20bf9677c2c9701e6d9fa673[m
+Merge: ac17c1a 5a73b1e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 23 08:48:27 2023 +0700
+
+    Merged PR 538: redirect khi nop truc tuyen
+    
+    redirect khi nop truc tuyen
+
+[33mcommit 5a73b1ece4b244ecf0febd0c419cab56beb8e7b7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 23 08:48:15 2023 +0700
+
+    redirect khi nop truc tuyen
+
+[33mcommit 6be8da22b2aec8a9e840bb2a5db80313fde53192[m
+Merge: 482a0d9 ac17c1a
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 23 08:33:31 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit 482a0d9e85acda963e1c8621faab1755e7a4b827[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 23 08:31:45 2023 +0700
+
+    render data thống kê tiếp nhận hồ sơ
+
+[33mcommit ac17c1ab3efdcabeb9645ffa8b822ebc639bc4f7[m
+Merge: 34f7c98 adcec93
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 22 22:24:49 2023 +0700
+
+    Merged PR 537: Merge feature/hoso to master
+
+[33mcommit adcec93af0084be1dc9b948e648633a71a116c11[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 22 22:23:21 2023 +0700
+
+    sua lai objdatadancu, footer cache
+
+[33mcommit 4d194ec400d135b39c3bb37766881aa5b357242f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 22 16:13:51 2023 +0700
+
+    sua search linh vuc
+
+[33mcommit 34f7c98f204a9f0487279840bebb5a3f4844aa67[m
+Merge: 4502750 3da7a18
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 22 11:03:39 2023 +0700
+
+    Merged PR 536: cap nhat ThongKe page
+    
+    cap nhat ThongKe page
+
+[33mcommit 3da7a18f1accde4afd3ec8ebc6d7e2ad39e23464[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 22 10:58:41 2023 +0700
+
+    cap nhat ThongKe page
+
+[33mcommit 45027500d2705039bc014c5455274d877e0749bf[m
+Merge: 57d6501 ff8fbb6
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 22 10:57:31 2023 +0700
+
+    Merged PR 535: .
+    
+    .
+
+[33mcommit ff8fbb647157ab3d6198f3edcf2ae5cbd56491d8[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 22 10:57:17 2023 +0700
+
+    .
+
+[33mcommit 8e8fcaefdeae6e3506a75b5d608bc2722ae2f27d[m
+Merge: 183809d 58fdf2d
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Nov 22 10:43:53 2023 +0700
+
+    Merge remote-tracking branch 'origin/datdt-dev' into huanvv
+
+[33mcommit 58fdf2d4e5022e66069513efbdf38fcc08e6abc8[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 22 10:43:11 2023 +0700
+
+    ud fe template thong ke ho so truc tuyen
+
+[33mcommit 57d650161262331f8282ecb9eff627d4a142ad8d[m
+Merge: f4959b4 00114f9
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 22 10:34:09 2023 +0700
+
+    Merged PR 534: Merge feature/hoso to master
+
+[33mcommit 00114f9b308ef2dcd978bbdc8a077869c145d706[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 22 10:31:33 2023 +0700
+
+    sua tim kiem theo tu khoa
+
+[33mcommit f13e96ac7973c509827c0951f8184ed039980ec6[m
+Merge: dfe9eef f4959b4
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 22 09:23:07 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit dfe9eef7e79f17f15dd48aaff9219b59dcae05f0[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 22 09:22:56 2023 +0700
+
+    sua form tim kiem thu tuc portal
+
+[33mcommit 979637c3df0e38d034716c0d9199f78ba03ddae6[m
+Merge: 43184a3 f4959b4
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 22 08:42:36 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 43184a3e8c0215125242d3561cbdaac7e36b6b54[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 22 08:36:05 2023 +0700
+
+    ud BaoCaoTongHopDonVi
+
+[33mcommit f4959b4e32cd3945a107825262972a7f194a3f6f[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Nov 21 15:43:41 2023 +0700
+
+    upgrade dotnet 8
+
+[33mcommit 8e791b85558c119a9152a63f906e48bf06e5df31[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 21 14:39:37 2023 +0700
+
+    ud cache thong ke
+
+[33mcommit a914c2e967eb2dac743659d6b7512fbe14fd9f6d[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 21 10:07:25 2023 +0700
+
+    ud thong ke tiep nhan ho so truc tuyen cap xa
+
+[33mcommit 183809d8265d324aed1a81842e4f834ba12cb0bf[m
+Merge: dc74c52 d20d330
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Nov 21 08:52:26 2023 +0700
+
+    merge datdt
+
+[33mcommit dc74c525b8b40e4c8207756203163342f492ec35[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Nov 21 08:49:37 2023 +0700
+
+    fix
+
+[33mcommit d20d33070c696f9e2fc711f16db8dcf63802097c[m
+Merge: 7ca46e1 004b644
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 21 08:20:27 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 7ca46e124393ae2181c499d43134520eb11a065f[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 21 08:20:06 2023 +0700
+
+    ud thongke
+
+[33mcommit 2e3dc212dd174b5b71366b770c0579b283652168[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 16 21:13:37 2023 +0700
+
+    update file export
+
+[33mcommit 004b6449dc7d0d316e16555f5d6d53ed8606b5bd[m
+Merge: 9a5a9de 7e313fc
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 16 16:44:53 2023 +0700
+
+    Merged PR 533: log
+    
+    log
+
+[33mcommit 7e313fcc6d7f913feeeb647aa17467bf7b1b6434[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 16 16:44:39 2023 +0700
+
+    log
+
+[33mcommit 9a5a9dee65044fff360ef828363c99f72cb9d0a8[m
+Merge: ff73f3d 6fb7012
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 16 16:42:42 2023 +0700
+
+    Merged PR 532: Merge feature/hoso to master
+
+[33mcommit 6fb70123f9fb9a5d988527a64a7d7186a1f5648d[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 16 16:42:28 2023 +0700
+
+    gia tri mac dinh
+
+[33mcommit 7d456e8454020ec7c8cf046fda10e5a18e49f297[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 16 16:41:18 2023 +0700
+
+    gia tri mac dinh khi goi api donvithutuc loi
+
+[33mcommit ff73f3dc52a20f3d2532505a3370dda70d594009[m
+Merge: 7dc7c07 6fa7022
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 16 15:43:08 2023 +0700
+
+    Merged PR 531: be
+    
+    be
+
+[33mcommit 6fa70223527d0dbe7113d259bf216e9ec8a5835b[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 16 15:42:41 2023 +0700
+
+    be
+
+[33mcommit 7dc7c076795fe95e73d718e5af593efcfb00bd68[m
+Merge: 57dba2e ed8fbbf
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 16 15:21:31 2023 +0700
+
+    Merged PR 530: sua form tiep nhan ho so truc tuyen
+    
+    sua form tiep nhan ho so truc tuyen
+
+[33mcommit ed8fbbffdb7d6274c2a70f3ffbb96f595c764963[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 16 15:21:16 2023 +0700
+
+    sua form tiep nhan ho so truc tuyen
+
+[33mcommit 57dba2ef4e7be7505836ccfa746072a6862f1421[m
+Merge: e5752ab 499390e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 16 15:16:45 2023 +0700
+
+    Merged PR 529: Merge feature/donvi to master
+
+[33mcommit 499390e5ae25b3366af8cec54a3cffc75c8eceba[m
+Merge: cb4d768 e5752ab
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Nov 16 15:16:29 2023 +0700
+
+    fix conflict
+
+[33mcommit cb4d7682088eb4af099b5332810d6a99832a1f15[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Nov 16 14:38:24 2023 +0700
+
+    cap nhat loc theo don vi NguoiDungNhomNguoiDung
+
+[33mcommit 1a65529f8b66e754c3ddb6ff1cc7cf0cdaba0218[m
+Merge: afaaea5 7e9eafe
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Nov 16 12:24:08 2023 +0700
+
+    Merge branch 'datdt-dev' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit e5752abdf062b7bbd2df8c06c4dc3640ff100400[m
+Merge: ea65a24 9437d15
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 16 09:21:30 2023 +0700
+
+    Merged PR 528: giao dien tu choi tiep nhan ho so truc tuyen
+    
+    giao dien tu choi tiep nhan ho so truc tuyen
+
+[33mcommit 9437d1537227be109fe4d2b856c290770fa0a546[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 16 09:21:10 2023 +0700
+
+    giao dien tu choi tiep nhan ho so truc tuyen
+
+[33mcommit ea65a24712980d9f12f8d11d644608cdad160092[m
+Merge: a3762bb b2fec96
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 15 17:30:35 2023 +0700
+
+    Merged PR 527: them action tu choi tiep nhan ho so truc tuyen
+    
+    them action tu choi tiep nhan ho so truc tuyen
+
+[33mcommit b2fec965cbc2d6b5f68465e262cc66642a30a70a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 15 17:30:22 2023 +0700
+
+    them action tu choi tiep nhan ho so truc tuyen
+
+[33mcommit 7e9eafefe6a51c89fcb3411239206bd9a3b6e1da[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 15 17:19:39 2023 +0700
+
+    ud admin-resgister
+
+[33mcommit afaaea518c4a2c80318c2205fb4406f5b3ff3551[m
+Merge: 60a416d f082088
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 15 16:54:48 2023 +0700
+
+    fix conflict
+
+[33mcommit 60a416d1d8a256d6a3f2b7a531402cd90fd5e0fa[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 15 16:51:50 2023 +0700
+
+    cap nhat
+
+[33mcommit f082088f8b132532be7cd5d191310a18b3850027[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 15 16:39:12 2023 +0700
+
+    ud api admin-register
+
+[33mcommit a392408f8e3998de15bae8978b4ae194dbcf6bff[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 15 16:29:29 2023 +0700
+
+    ud chi tiet thanhtoan portal
+
+[33mcommit a3762bb169a7f3238ae088528ba58ca9cd5ba6e6[m
+Merge: e9ae7a7 14ac199
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 15 15:12:23 2023 +0700
+
+    Merged PR 526: Merge feature/donvi to master
+
+[33mcommit 14ac1996dee85653208df48b1fd02308f2f85678[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 15 14:25:05 2023 +0700
+
+    cap nhat page ThongKe
+
+[33mcommit 5508403652ab33cb2dcc02bcbd63c8aa1a1683a8[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Nov 9 10:30:44 2023 +0700
+
+    add recharts
+
+[33mcommit e9ae7a74b2e4fabcf329115ea91d1d3c06bf1014[m
+Merge: ab7721a d4faa4e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 15 11:29:27 2023 +0700
+
+    Merged PR 525: thong ke ho so nguoi dung
+    
+    thong ke ho so nguoi dung
+
+[33mcommit d4faa4e2bece69c990802e9a172f8fd94c02cff6[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 15 11:29:05 2023 +0700
+
+    thong ke ho so nguoi dung
+
+[33mcommit 4b6a30c40f88faba50be60377fcee0785f2b3a1a[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 15 08:47:06 2023 +0700
+
+    ud
+
+[33mcommit ab7721a451f6cc8c08116de769d942a9b12565e7[m
+Merge: 8c05131 fb21416
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 15 08:17:56 2023 +0700
+
+    Merged PR 524: fix cap nhat bo sung ho so can bo 1 cua
+    
+    fix cap nhat bo sung ho so can bo 1 cua
+
+[33mcommit fb21416119f8d3caaa57b1f5e8e2b347f556018a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 15 08:17:45 2023 +0700
+
+    fix cap nhat bo sung ho so can bo 1 cua
+
+[33mcommit 8c051311fda57dfb256463667937b29027f88064[m
+Merge: b5d5a27 5c1c11b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Nov 14 21:18:37 2023 +0700
+
+    Merged PR 523: them yeu cau thu phi le phi action
+    
+    them yeu cau thu phi le phi action
+
+[33mcommit 5c1c11b1a8602fece42e44b0238b34e77a94143f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Nov 14 21:18:22 2023 +0700
+
+    them yeu cau thu phi le phi action
+
+[33mcommit b5d5a27c16384783a1a2638a593304d05aede2e3[m
+Merge: dfa5fa5 7dab867
+Author: Dinh Tien Dat <Dinh Tien Dat>
+Date:   Tue Nov 14 21:17:54 2023 +0700
+
+    Merged PR 522: Merge datdt-dev to master
+
+[33mcommit 2eb89751c298276e9c5bf525b2a19c8c0074fa7d[m
+Merge: 7dab867 dfa5fa5
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 14 15:27:11 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit dfa5fa50e6e6e729c8db41cdae810cc11d14996a[m
+Merge: 8b0032d c797002
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Nov 14 15:22:54 2023 +0700
+
+    Merged PR 521: fix
+    
+    fix
+
+[33mcommit c79700286ab3566a6792e98d5208f02dde024502[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Nov 14 15:22:40 2023 +0700
+
+    fix
+
+[33mcommit 7dab86743ad2cd517b2afa1c6ff6d2347a15147b[m
+Merge: 5de7d95 8b0032d
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 14 15:10:29 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 5de7d955a7a42b1d9250a43833b3e1bb23aa1fa6[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 14 15:07:00 2023 +0700
+
+    ud ThemMoi NguoiDungNhomNguoiDung
+
+[33mcommit 8b0032df650a3d7329d24b4a0f6bcc70fcd66c1f[m
+Merge: be04d4c a62b9fd
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Nov 14 10:47:02 2023 +0700
+
+    Merged PR 520: nop ho so truc tuyen (uy quyen, chu ho so)
+    
+    nop ho so truc tuyen (uy quyen, chu ho so)
+
+[33mcommit a62b9fdb83d5421cc20102f11515a404efd1d7cb[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Nov 14 10:46:42 2023 +0700
+
+    nop ho so truc tuyen (uy quyen, chu ho so)
+
+[33mcommit 450b065b1eec5828bd3f716bf7db28b8b8fb18ae[m
+Merge: 578bf56 be04d4c
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 13 22:12:15 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit 578bf560e5855b786cef010f60a2267289310359[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 13 22:11:35 2023 +0700
+
+    .
+
+[33mcommit be04d4c58243b0e01c679379daf9618337104145[m
+Merge: b920b36 98c45ca
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 13 09:07:35 2023 +0700
+
+    Merged PR 519: fix router
+    
+    fix router
+
+[33mcommit 98c45caadbd293917ea4faf4fcb657e314d0a61c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 13 09:07:17 2023 +0700
+
+    fix router
+
+[33mcommit b920b3607ea7c4e0ffc603028d9cf15ad42d665e[m
+Merge: 8091fc3 2fa037d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 13 09:03:22 2023 +0700
+
+    Merged PR 518: code mau tai file dpf
+    
+    code mau tai file dpf
+
+[33mcommit 2fa037dbe799a92954cd5832749de02911eb3ea7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 13 09:03:05 2023 +0700
+
+    code mau tai file dpf
+
+[33mcommit 8091fc3d4adde67477088329942a7fffffb83822[m
+Merge: dae92a4 c1167c3
+Author: Dinh Tien Dat <Dinh Tien Dat>
+Date:   Mon Nov 13 09:02:21 2023 +0700
+
+    Merged PR 517: Merge datdt-dev to master
+
+[33mcommit c1167c3308d29871d91934fef59eee8a347bcad5[m
+Merge: 0219287 dae92a4
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Nov 13 09:01:41 2023 +0700
+
+    handle conflic
+
+[33mcommit eeaf1b598ed33c438948ee25a8c4c7ada64e6344[m
+Merge: ea93b8d dae92a4
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Nov 10 14:29:12 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit dae92a4bd0e4a8b75b735cc4ddc4fcb100244356[m
+Merge: addb533 ee41940
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Nov 10 14:20:26 2023 +0700
+
+    Merged PR 516: phieu tiep nhan ho so
+    
+    phieu tiep nhan ho so
+
+[33mcommit ee41940387653b06b63b452158f0b67da18892ac[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Nov 10 14:20:07 2023 +0700
+
+    phieu tiep nhan ho so
+
+[33mcommit addb53335ed49d886d54c2c4f8531c41375eb74f[m
+Merge: e3d51d1 9b29368
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 17:03:55 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit e3d51d1acbc6c7218ec8ad2b86ae8bc692c38af0[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 17:03:22 2023 +0700
+
+    add kiểm tra dữ liệu dân cư
+
+[33mcommit 9b293682df03b21e463b1fb7a5145f86bc15cc0c[m
+Merge: 413d2b5 3b37a71
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 17:01:47 2023 +0700
+
+    Merged PR 515: cap nhat giao dien reactflow, trang thai
+    
+    cap nhat giao dien reactflow, trang thai
+
+[33mcommit 3b37a71f6e1e3200af89127f2f685fc0345c359c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 9 17:01:35 2023 +0700
+
+    cap nhat giao dien reactflow, trang thai
+
+[33mcommit 0219287db5b03cc29c9939ea45086c3d0c480853[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Nov 9 16:58:43 2023 +0700
+
+    ud Init BienLaiDienTu
+
+[33mcommit ea93b8d4815ea5e1426e0e65b319d42b5bca901d[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 9 15:29:48 2023 +0700
+
+    fix CSS export excel
+
+[33mcommit 413d2b5f5af8e2b33c2fe6f2ecdd5945a91ab5de[m
+Merge: 886b340 87d12c5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 15:26:35 2023 +0700
+
+    Merged PR 514: sua dia ban form nop truc tuyen
+    
+    sua dia ban form nop truc tuyen
+
+[33mcommit 87d12c5a1510979fbf3c99c13d000f7b5b6e71ed[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 9 15:26:18 2023 +0700
+
+    sua dia ban form nop truc tuyen
+
+[33mcommit 886b340f7be7ce1c0dd9adea21dfa7dc40f41f73[m
+Merge: 15f1067 4a3f23e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 13:44:01 2023 +0700
+
+    Merged PR 513: Merge huanvv to master
+
+[33mcommit 15f1067b842992968670862dc7016e4571be3c5f[m
+Merge: 31885b3 d4ce7e5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 13:39:50 2023 +0700
+
+    Merged PR 512: update
+    
+    update
+
+[33mcommit d4ce7e52a7579dc4c6da00c0d03053c47d93b091[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 9 13:39:38 2023 +0700
+
+    update
+
+[33mcommit 31885b30d9ce24c30d79b0c75c550b6ad70dacbb[m
+Merge: 210504b 11703ca
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 13:37:57 2023 +0700
+
+    Merged PR 511: sua form gui ho so truc tuyen
+    
+    sua form gui ho so truc tuyen
+
+[33mcommit 11703caaa268dffe5c22ea4c3a924bc0441d4e3e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 9 13:37:40 2023 +0700
+
+    sua form gui ho so truc tuyen
+
+[33mcommit a2d477856115137aeaaa51c80d44a82bf4c7e9c2[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Nov 9 11:54:06 2023 +0700
+
+    ud xacnhangiaodichthanhtoan
+
+[33mcommit 210504bbd16406afecd569783f24f6a90f0f1745[m
+Merge: ecc270f 21b6ad1
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 10:58:28 2023 +0700
+
+    Merge branch 'feature/sso'
+
+[33mcommit 21b6ad109191bcf0afdd2bafe14cd1159c58e97e[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 10:57:58 2023 +0700
+
+    fix TokenResponse
+
+[33mcommit de905ef4f593d2d53573e26c9c1adba249e7a218[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Nov 9 10:34:47 2023 +0700
+
+    ud confirm dvc payment
+
+[33mcommit 4a3f23e26c4d3e871c1d8400030213fec5b8c7f8[m
+Merge: 8b6fcd4 ecc270f
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 9 10:33:40 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit 8b6fcd471eb1008f7c4890e085d162ea3b3e85dc[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Nov 9 10:33:14 2023 +0700
+
+    Export to Pdf, Excel
+
+[33mcommit ecc270f5d407360a885011881a25aefae3b1c16c[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 10:08:11 2023 +0700
+
+    ignore .env
+
+[33mcommit a60520c45ddf4bf41b4367e5bffcc9216dae0cd1[m
+Merge: 949b011 77f45ea
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 10:01:53 2023 +0700
+
+    Merged PR 510: buid
+    
+    buid
+
+[33mcommit 77f45eaa1178735f6e1b1677544cd267d28e5f63[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 9 10:01:34 2023 +0700
+
+    buid
+
+[33mcommit 949b011e75790e9722a8e495c27e84c9548f104e[m
+Merge: e40c644 d510838
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 09:52:20 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit d5108381fb64d25aeeecc1d66a64f16788153f77[m
+Merge: 1861899 646cbdf
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 9 09:18:31 2023 +0700
+
+    Merged PR 509: sua dia chi nguoi dung, them ho so
+    
+    sua dia chi nguoi dung, them ho so
+
+[33mcommit 646cbdf27a472dcee1b37b559b4b7f17b33b3a5f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 9 09:18:17 2023 +0700
+
+    sua dia chi nguoi dung, them ho so
+
+[33mcommit e40c644bfb3759daec832e3e951e121036ba53a0[m
+Merge: 61e6927 1861899
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Nov 9 08:28:52 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 18618997a21326e17128e72b09a49c045e56c9f9[m
+Merge: af61056 eca1c5f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 8 22:27:56 2023 +0700
+
+    Merged PR 508: sua ten dia danh nguoi dung, nguoitiep nhan don vi thu tuc
+    
+    sua ten dia danh nguoi dung, nguoitiep nhan don vi thu tuc
+
+[33mcommit eca1c5f77718811a1886d7dbf162d62a6149945e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 8 22:27:46 2023 +0700
+
+    sua ten dia danh nguoi dung, nguoitiep nhan don vi thu tuc
+
+[33mcommit af61056a906d1191364b8d01a285cf62b402bfce[m
+Merge: 7782b6c d37d0af
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 8 22:26:57 2023 +0700
+
+    Merged PR 507: Merge feature/donvi to master
+
+[33mcommit d37d0af1d9a2a45d6f41762f9014cd3562e22d33[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 8 17:01:39 2023 +0700
+
+    cap nhat quantricong
+
+[33mcommit 051390cba8951c2b7fd3f967264f41c3f6960c7b[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 8 16:39:58 2023 +0700
+
+    cap nhat
+
+[33mcommit 477cd2e1db1f4d20d8142b7db4a50695192f281e[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 8 16:26:59 2023 +0700
+
+    cap nhat philephi
+
+[33mcommit 2027e312de0f99f73e072d197ed419c896ed2f92[m
+Merge: daf42c4 7782b6c
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 8 16:03:33 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 7782b6ced53771dbb01ab3660eac7a6449977e1d[m
+Merge: 98d2b8f 203197f
+Author: Dinh Tien Dat <Dinh Tien Dat>
+Date:   Wed Nov 8 16:03:15 2023 +0700
+
+    Merged PR 506: Merge datdt-dev to master
+
+[33mcommit daf42c499015cca9662668394e02975351d07dfb[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 8 16:02:39 2023 +0700
+
+    them ThongKePage
+
+[33mcommit 203197fee407c75f0c9852404cd7b64c700704d2[m
+Merge: cdbe9a3 98d2b8f
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 8 15:44:27 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit cdbe9a3b8123afccfaa94e6028930db555165854[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 8 15:43:42 2023 +0700
+
+    ud bien lai thanh toan client
+
+[33mcommit 61e6927ef6cb32090e962df6e055d001c3069b1e[m
+Merge: 98d2b8f eda8e0d
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 8 15:09:27 2023 +0700
+
+    Merge branch 'feature/sso'
+
+[33mcommit eda8e0dab4142a58e15d13a25b2760a65dd00235[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 8 15:09:03 2023 +0700
+
+    fix response token
+
+[33mcommit 8aa6445d74ba5030866531158865260872e04747[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 8 11:50:39 2023 +0700
+
+    ud GetBienLaiDienTuVNPT Portal
+
+[33mcommit 29eae6f8524dfddc22b6eb441144486bfadba745[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 8 10:52:00 2023 +0700
+
+    ud InitBienLaiDienTuVNPT api
+
+[33mcommit 44577da7355e9d404dfd81d875984c2230baf450[m
+Merge: ea9df55 98d2b8f
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Nov 8 10:37:42 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 98d2b8f8dc5e93c574224d00477501df7c1563ca[m
+Merge: 4b3d6df 7c6677c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 8 08:23:01 2023 +0700
+
+    Merged PR 505: Merge datdt-dev to master
+
+[33mcommit 7c6677cb5c25986a36a8d65fbac0a42b0b0bfdc9[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 8 08:18:40 2023 +0700
+
+    migration
+
+[33mcommit 4b3d6df4bf9f8afaaadb8ff5374ced936c63f85b[m
+Merge: 0ec0c3a 1d7f720
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Nov 7 17:23:43 2023 +0700
+
+    Merged PR 504: giao dien dvc truc tuyen
+    
+    giao dien dvc truc tuyen
+
+[33mcommit 1d7f7209cd38b13f62886474817b22a6aef8e277[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Nov 7 17:20:57 2023 +0700
+
+    giao dien dvc truc tuyen
+
+[33mcommit e9a284818f5445815a25077b161ceda5ea0492ba[m[33m ([m[1;31morigin/datdt-dev[m[33m)[m
+Merge: df8f6a8 0ec0c3a
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 7 17:12:28 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit df8f6a80b0827dc374c47f18c1ecd2d5a67e52c4[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Nov 7 17:10:10 2023 +0700
+
+    ud api bienlaidientu
+
+[33mcommit ea9df554714eba5e4fbeeda5daaf98498324575e[m[33m ([m[1;31morigin/feature/donvi[m[33m)[m
+Merge: c5a8022 0ec0c3a
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Nov 6 14:19:11 2023 +0700
+
+    fix conflict
+
+[33mcommit c5a8022eee0b633e5d9125f4ea9d552929368548[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Nov 6 14:15:21 2023 +0700
+
+    update
+
+[33mcommit 0ec0c3ad7055ab83f91d1ca66d0c049f2a2c1d6f[m
+Merge: 775269c 33a6880
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 6 11:27:45 2023 +0700
+
+    Merged PR 503: build
+    
+    build
+
+[33mcommit 33a6880ca143555ff3694990691584a805a00162[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 6 11:27:33 2023 +0700
+
+    build
+
+[33mcommit 460b3447164e8dec92c417837db39bc04ef505c6[m
+Merge: 5a97977 775269c
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 6 11:08:36 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit 5a9797765c114ab7e429b41f8944542a6ad7cde9[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Nov 6 11:08:14 2023 +0700
+
+    export
+
+[33mcommit 775269c1883937b102d1ea86b7eca52c3387be35[m
+Merge: 2c66262 f3e2a6b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 6 11:07:47 2023 +0700
+
+    Merged PR 502: fix for build
+    
+    fix for build
+
+[33mcommit f3e2a6b4703e04aa978f8b031b48d95737d9c575[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 6 11:07:31 2023 +0700
+
+    fix for build
+
+[33mcommit 2c66262c75cdd0c393b828983d780ec202466c4f[m
+Merge: 0be71a5 840c781
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 6 10:59:33 2023 +0700
+
+    Merged PR 501: tim kiem thu tuc theo nguoi tiep nhan dang dang nhao
+    
+    tim kiem thu tuc theo nguoi tiep nhan dang dang nhao
+
+[33mcommit 840c7811726c3209b21362f5963484d9e4a1557c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 6 10:58:41 2023 +0700
+
+    tim kiem thu tuc theo nguoi tiep nhan dang dang nhao
+
+[33mcommit 0be71a582488b0be601af5138dd7b264e012a5e2[m
+Merge: 275c196 089afff
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 6 10:39:59 2023 +0700
+
+    Merged PR 500: fix select nguoi tiep nhan
+    
+    fix select nguoi tiep nhan
+
+[33mcommit 089afff135f49781af51385ad0c687785a3234fe[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 6 10:39:49 2023 +0700
+
+    fix select nguoi tiep nhan
+
+[33mcommit 275c196c7bbb7d113219d5a8f439ff83256e719f[m
+Merge: 4f7a091 9f27856
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 6 10:27:59 2023 +0700
+
+    Merged PR 499: fix for build
+    
+    fix for build
+
+[33mcommit 9f27856397cd97d55327d7afe314b3f95fe31ff0[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Nov 6 10:27:43 2023 +0700
+
+    fix for build
+
+[33mcommit 4f7a091395356c8055e75767b416e80c4a3e1190[m
+Merge: 8fa64e2 b3763f7
+Author: Vũ Văn Huấn <huanvv>
+Date:   Mon Nov 6 10:08:53 2023 +0700
+
+    Merged PR 498: Merge huanvv to master
+
+[33mcommit 8fa64e2d4f5035fe29ba66e3215282a9922ea22a[m
+Merge: 7c9a214 61fa7ac
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Nov 6 10:00:03 2023 +0700
+
+    Merged PR 497: Merge feature/donvi to master
+
+[33mcommit 7c9a21441c67ef76c8a79b5dfba80e677e5376a9[m
+Merge: 173fcfa 4017de1
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Mon Nov 6 09:42:17 2023 +0700
+
+    fix conflict
+
+[33mcommit 173fcfab24a2f17c3283db91f3092dfc21af891a[m
+Merge: 143a23f 42d81fa
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Mon Nov 6 09:41:17 2023 +0700
+
+    Merge remote-tracking branch 'origin/datdt-dev'
+
+[33mcommit 61fa7ac631ceaa3bfba66c0678198e6bbc2263a5[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Nov 6 09:40:42 2023 +0700
+
+    cap nhat donvi
+
+[33mcommit ffbb0dcc392d88975c6116f9515d4d124aacf165[m
+Merge: 1903f7e 4017de1
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Nov 6 09:20:36 2023 +0700
+
+    fix conflict
+
+[33mcommit 42d81fae0a89daaab7e38cd4437929e38bda0648[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Sun Nov 5 10:39:33 2023 +0700
+
+    ud init dvcpayment
+
+[33mcommit 656536e7812419dbaab54404c4d7ccea38942ee7[m
+Author: datdt <madatk56@gmail.com>
+Date:   Sat Nov 4 23:48:57 2023 +0700
+
+    handle congdan yeucauthanhtoan
+
+[33mcommit 6ea4771b62f87c3324a5a0ae7e915b0581eb1bef[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Sat Nov 4 21:24:17 2023 +0700
+
+    add api initDvcPayment
+
+[33mcommit 4017de168f7220672eadc2e160c77b6ebaba4d8a[m
+Author: Tran Van Hai <>
+Date:   Sat Nov 4 09:35:43 2023 +0000
+
+    Updated RequiredAuth.tsx
+
+[33mcommit 4f93d0aa66f3ca8da965439547004ce3f54fea1e[m
+Merge: 4052970 dde5e3b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Nov 4 16:35:02 2023 +0700
+
+    Merged PR 495: Merge datdt-dev to master
+
+[33mcommit 4052970bf6fb9c77436bf0c7eda020857e99b2f2[m
+Merge: 143a23f 4724028
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Nov 4 16:32:58 2023 +0700
+
+    Merged PR 494: nop truc tuyen, tiep nhan truc tuyen, sua chuc nang don vi thu tuc
+    
+    nop truc tuyen, tiep nhan truc tuyen, sua chuc nang don vi thu tuc
+
+[33mcommit 472402868bb7c926d49142078383bfb57bd28ca3[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sat Nov 4 16:32:40 2023 +0700
+
+    nop truc tuyen, tiep nhan truc tuyen, sua chuc nang don vi thu tuc
+
+[33mcommit dde5e3b5776fbf85782ed16f108d76c5ca27131f[m
+Merge: a9d7006 4b169b9
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Nov 3 17:27:23 2023 +0700
+
+    ud yeucauthanhtoan
+
+[33mcommit 1903f7e69e40542af3513f7009a1c32ac3d9aadd[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Fri Nov 3 11:38:14 2023 +0700
+
+    cap nhat nguoitiepnhan
+
+[33mcommit 143a23f23bb6937e5af8df065de8dd503c7cf183[m[33m ([m[1;31morigin/feature/ADservices[m[33m)[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Fri Nov 3 09:57:05 2023 +0700
+
+    init
+
+[33mcommit 4b169b982a60cbfa60b1200f4ba1b04bb5d07cd2[m
+Merge: bed9075 496e8fd
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Nov 2 09:48:32 2023 +0700
+
+    Merged PR 491: Merge feature/hoso to master
+
+[33mcommit 496e8fd0165de0f0a545bb5f0320252a9a0861ef[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Nov 2 09:48:06 2023 +0700
+
+    update diachi nguoidung
+
+[33mcommit a9d70060cebefb80b901cd852309dd7eca09998f[m
+Merge: 6f0513b bed9075
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Nov 2 09:46:12 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 6f0513bc61f3a07dd5c9ce7cd8a4df7995275bfc[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Nov 2 09:45:47 2023 +0700
+
+    edit thuphilephi
+
+[33mcommit a43deaed424cf9d74e99910b29c698b3f9b8dfae[m
+Merge: 39de306 bed9075
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 1 15:58:23 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit 39de30653dff8ff8aefb885bbe84f79ff3e3c06c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 1 15:58:15 2023 +0700
+
+    to khai dien tu
+
+[33mcommit b3763f76bf3dd7874d0b61b1bf3203418304a2a8[m[33m ([m[1;31morigin/huanvv[m[33m)[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Nov 1 13:54:15 2023 +0700
+
+    fix font-family Home
+
+[33mcommit bed9075a5d283bdc7f812312ee0aa7c937f3fbac[m
+Merge: 62537ca 2b10ce7
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 1 11:50:20 2023 +0700
+
+    Merge branch 'feature/sso'
+
+[33mcommit 2b10ce7ce6d5ae16fc8047ab5039937e51d36003[m[33m ([m[1;31morigin/feature/sso[m[33m)[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 1 11:49:49 2023 +0700
+
+    add fullname to token
+
+[33mcommit d7f616783a33debadc861ef7a7a4a1df8ea251a0[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Nov 1 11:39:16 2023 +0700
+
+    fix font-family home portal
+
+[33mcommit fa92ab10f353e20b923349a8216b1ba72fd66186[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Nov 1 11:34:27 2023 +0700
+
+    fix layout homePortal
+
+[33mcommit 0f130069a10f1d953d5597cc3ae375370be1e6d8[m
+Merge: 8a5973d 62537ca
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 1 11:04:53 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 8a5973d7ae0ffb0ea9287a36f9738fc78ceacd2b[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Nov 1 11:04:11 2023 +0700
+
+    ud
+
+[33mcommit 62537cabcadd1474df96ef33c4abe44201812529[m
+Merge: 988382e 52fb9e7
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 1 10:48:26 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 988382e962522f6096b62663e6f748b128ba769f[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 1 10:48:16 2023 +0700
+
+    fix client
+
+[33mcommit 52fb9e743ffaab487b7bae0d47203d19133f17ce[m
+Merge: 5d8d06f b1aa020
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 1 10:47:37 2023 +0700
+
+    Merged PR 489: fix typescript
+    
+    fix typescript
+
+[33mcommit b1aa020bfe19f4f436059a6e4598231631d716b3[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 1 10:47:22 2023 +0700
+
+    fix typescript
+
+[33mcommit 5d8d06f97ad489f2526bb1374078c09726ccc84f[m
+Merge: f783b27 f49f79d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 1 10:25:33 2023 +0700
+
+    Merged PR 488: lay du lieu them moi ho so
+    
+    lay du lieu them moi ho so
+
+[33mcommit f49f79d8c10c50ed99c4a1bad5eedc50f1742eb7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Nov 1 10:25:05 2023 +0700
+
+    lay du lieu them moi ho so
+
+[33mcommit f783b27bdd5f6bbb38de68ecd73d65a8829c971a[m
+Merge: cac1843 7a694c2
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 1 10:02:00 2023 +0700
+
+    Merge branch 'feature/sso'
+
+[33mcommit 7a694c2b284dcdf078d102895b6a51aaa23d9a75[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Nov 1 09:54:23 2023 +0700
+
+    fix luu IDToken
+
+[33mcommit cac1843b7f70272addadb089174399bdbeace76d[m
+Merge: 7bd93f5 764205d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Nov 1 09:48:11 2023 +0700
+
+    Merged PR 487: Merge feature/donvi to master
+
+[33mcommit 764205da336920af6cc7bc4af91f0cc019ee274b[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 30 21:40:19 2023 +0700
+
+    cap nhat QuanTriLienKet
+
+[33mcommit 2b663421be3c66f5ff4dd1f764b27a8651a54ed5[m
+Merge: c69cb5e 7bd93f5
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 30 15:20:58 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit c69cb5ecada970fc7bbe967dbd90f60883eb5bdc[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 30 15:20:01 2023 +0700
+
+    ud Search ThuTuc
+
+[33mcommit 194b4868fbedce9d09b50e100eed9b82ce3b9310[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Oct 30 14:06:32 2023 +0700
+
+    update form Phiếu tiếp nhận hồ sơ
+
+[33mcommit 122a4aa894536dacaf8e9d407c6e5867bd4b11f7[m
+Merge: b44682e 7bd93f5
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Oct 30 13:50:56 2023 +0700
+
+    merge master
+
+[33mcommit b44682ecdb924d32da24c9061c95b95ccc1887b5[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Oct 30 13:47:35 2023 +0700
+
+    export form Phiếu tiếp nhận hồ sơ
+
+[33mcommit 2d466dd9190b7fb64faed986b3be2e044b247b05[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 30 10:30:08 2023 +0700
+
+    cap nhat ckeditor vao tinbai,kenhtin
+
+[33mcommit 6428e9995e237ecdf0d15d7842599ea3e52749cb[m
+Merge: 0b61f46 7bd93f5
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 30 08:15:52 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 7bd93f526bd9ac05fef5974193b8379631635901[m
+Merge: b151c7b 0733af4
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sun Oct 29 12:41:02 2023 +0700
+
+    Merged PR 486: ckeditor config
+    
+    ckeditor config
+
+[33mcommit 0733af4fbff2aa63a12065ee582440aa795d8316[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Oct 29 12:40:34 2023 +0700
+
+    ckeditor config
+
+[33mcommit d73a543eeb095adf596c1e1745e74b49192ba5cf[m
+Merge: 6389711 b151c7b
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Oct 27 13:48:03 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit 6389711e0ad065e41d6266a34ef97b4ef5d4d0ea[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Oct 27 13:45:13 2023 +0700
+
+    get infoUser from token
+
+[33mcommit b151c7b9afc8502af7ead890e4f5769aa84bfe0f[m
+Merge: 6bd65fc 583f50f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Oct 27 11:44:05 2023 +0700
+
+    Merged PR 484: sua csdl dan cu
+    
+    sua csdl dan cu
+
+[33mcommit 583f50f5e21d086f40ab9c42d2d9f241db37951a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Oct 27 11:40:34 2023 +0700
+
+    sua csdl dan cu
+
+[33mcommit 6bd65fc36705d8daaeef07edf45346c2b035651d[m
+Merge: 79acec1 6c1b1e3
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Fri Oct 27 11:38:30 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 79acec1e51e8a4952c5912bc9f5d1ad51e89139a[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Fri Oct 27 11:38:17 2023 +0700
+
+    add properties GetClaims
+
+[33mcommit 6c1b1e3cb805353061e9db340b4cbcc80694ef93[m
+Merge: 851bc3d 3ad051e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Oct 27 11:11:37 2023 +0700
+
+    Merged PR 483: Merge feature/hoso to master
+
+[33mcommit 3ad051e0741f859d6bd5bab874c0e6cb92533dee[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Oct 27 10:35:29 2023 +0700
+
+    chuyen xu ly ho so
+
+[33mcommit 4d764d8e8f06135fb4c1865b276411bcd2543c24[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 26 11:06:30 2023 +0700
+
+    .
+
+[33mcommit 0b61f46c8ee68b178e2e18f725560d5759c72142[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 26 17:35:28 2023 +0700
+
+    xu li trung thutuc trong donvi
+
+[33mcommit 851bc3dcb2b81b51393c74d1a2d5f6f7e62d47e7[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: 5b7a75f a7518e5
+Author: Dinh Tien Dat <Dinh Tien Dat>
+Date:   Thu Oct 26 15:49:06 2023 +0700
+
+    Merged PR 482: Merge datdt-dev to master
+
+[33mcommit a7518e566b236a0b993840455e37cecef4f8fc80[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 26 15:02:54 2023 +0700
+
+    merge master
+
+[33mcommit faa6ef4d660f5e5e4ecda880fa9f04463d918867[m
+Merge: e0fea8f 5b7a75f
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 26 15:02:42 2023 +0700
+
+    merge master
+
+[33mcommit e0fea8f7c6ed26532b5967bef39d9bef41c953ac[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 26 14:40:00 2023 +0700
+
+    ud dvc truc tuyen
+
+[33mcommit 817f1bd40409dac1d92d0140226a33fc1a285313[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 26 13:43:10 2023 +0700
+
+    update
+
+[33mcommit 5b7a75fc8d925980268baee55a18a784caccb115[m
+Merge: df92f71 954449e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 26 11:24:05 2023 +0700
+
+    Merged PR 481: cap nhat donviId
+    
+    cap nhat donviId
+
+[33mcommit 954449e53d42abb136ac31c6bd14887dc23878a2[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 26 11:23:45 2023 +0700
+
+    cap nhat donviId
+
+[33mcommit df92f71da7b6e3417fe91a2b00acb6a4ac04ca65[m
+Merge: b57760f eeb58fa
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 26 11:06:46 2023 +0700
+
+    Merged PR 480: Merge feature/donvi to master
+
+[33mcommit eeb58fac3e4d3e07a279f6de6a0be2d19f0e52be[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 26 10:53:51 2023 +0700
+
+    cap nhat nguoitiepnhan
+
+[33mcommit 84c1ebb4b6fafbffb5ee761044a3290fd250a158[m
+Merge: 9126063 b57760f
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 26 09:59:16 2023 +0700
+
+    Merge remote-tracking branch 'origin/master' into huanvv
+
+[33mcommit 91260636d19d56f162e6804fdd6e49103c0fd9ff[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 26 08:30:48 2023 +0700
+
+    set Status login
+
+[33mcommit b57760f091bb70cddf46aa6d0da748703e31a6ee[m
+Merge: 1dc30b0 05d3eac
+Author: Vu Ngoc Diep <Vu Ngoc Diep>
+Date:   Wed Oct 25 16:43:05 2023 +0700
+
+    Merged PR 478: fix page sso, function GetTokenAsync
+    
+    fix page sso, function GetTokenAsync
+
+[33mcommit 05d3eac503a10e8df0b1e5502677e5b9de267720[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Oct 25 16:42:25 2023 +0700
+
+    fix page sso, function GetTokenAsync
+
+[33mcommit 1dc30b0bd40eb539da1c8bd6472edc0b094b1952[m
+Merge: fa0db3f 5a9199f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 25 16:17:43 2023 +0700
+
+    Merged PR 477: sua group code, check login
+    
+    sua group code, check login
+
+[33mcommit 5a9199f6429efc8f69771893fdb9a48ebe113ff5[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 25 16:17:28 2023 +0700
+
+    sua group code, check login
+
+[33mcommit 8376dcf4caa2f3949e9737bc9afc7b22e464c2a7[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Oct 25 16:13:15 2023 +0700
+
+    ud truonghopthutuc
+
+[33mcommit fa0db3fb7c610971655e4d616c453a05eb92fdd4[m
+Merge: 96429ba bb986a9
+Author: Vu Ngoc Diep <Vu Ngoc Diep>
+Date:   Wed Oct 25 16:11:08 2023 +0700
+
+    Merged PR 476: add api, page sso
+    
+    add api, page sso
+
+[33mcommit bb986a921fd23920fce82a5f4c8b869372406aee[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Oct 25 16:10:32 2023 +0700
+
+    add api, page sso
+
+[33mcommit 644a9b1a0081ebbf3ec333ca83f15fbe1ff3339c[m
+Merge: fb8eb98 96429ba
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 25 15:40:46 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit fb8eb98d7eb47da0cd2cc734b217468fe98d91ea[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 25 15:40:35 2023 +0700
+
+    cap nhat nguoitiepnhan
+
+[33mcommit c0376852a648b012253ea9fe5decc3f94dabc561[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 25 15:39:26 2023 +0700
+
+    cap nhat nguoitiepnhan
+
+[33mcommit 96429bab7a57d9ddd8b9aab857d86eee68c4bd63[m
+Merge: 22decb3 dccd71e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 25 13:40:35 2023 +0700
+
+    Merged PR 475: quy trinh
+    
+    quy trinh
+
+[33mcommit dccd71e94d21ef3e9381d135e727b0a41a269ce5[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 25 13:40:17 2023 +0700
+
+    quy trinh
+
+[33mcommit 81807981fce3f3f070b4a33833379b37e38beaea[m
+Merge: 31da184 22decb3
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 25 13:34:51 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 31da184450c8e361333bb94ea543432ec228c832[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 25 13:34:41 2023 +0700
+
+    update
+
+[33mcommit 22decb3f31275dddf1276e67ee9050fa4bbf0cf0[m
+Merge: d3fd195 02e4544
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 25 08:56:19 2023 +0700
+
+    Merged PR 474: merge master
+    
+    merge master
+
+[33mcommit 02e4544baa101c1627ca7c9dcd3839ca4d8a827f[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 24 14:47:04 2023 +0700
+
+    merge master
+
+[33mcommit d3fd195a3811a4bda28c2566eb56335515f404f5[m
+Merge: fcea0fa 0c37e18
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 25 08:51:45 2023 +0700
+
+    Merged PR 473: Merge feature/donvi to master
+
+[33mcommit fcea0fa6207d4a06d49af106f6f45e92c22b951e[m
+Merge: 3d4b15c 3abe228
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 18:17:39 2023 +0700
+
+    Merged PR 472: Merge feature/hoso to master
+
+[33mcommit 3abe228715b921a3caa6b9800a8879997031d6de[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 18:17:24 2023 +0700
+
+    them buoc xu ly neu chua co
+
+[33mcommit 232d48459d025895b7188a8accdfdf9768ec39d1[m
+Merge: 8cd906d 3d4b15c
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 17:53:04 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit 8cd906dbd6c26c905fa4980217f54fea4e8004f3[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 17:52:56 2023 +0700
+
+    sua form them quy trinh
+
+[33mcommit 0c37e185415963ac0a30bfae72b42fa2d8032246[m
+Merge: fa27d15 3d4b15c
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 17:18:17 2023 +0700
+
+    fix conflict
+
+[33mcommit fa27d15739b618c79cc78813218aeb041a4e79c0[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 17:16:01 2023 +0700
+
+    cap nhat thutuc
+
+[33mcommit 67b0196073c9b8968af333187da5226f8c7c0606[m
+Merge: 0ec1a7f 3d4b15c
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 24 17:10:24 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 3d4b15c2d1a69a67974396f1eec4f5a8828e78df[m
+Merge: ac19dbb 754ec80
+Author: Vu Ngoc Diep <Vu Ngoc Diep>
+Date:   Tue Oct 24 17:08:58 2023 +0700
+
+    Merged PR 471: add api KiemTraNguoiDungDVCQuocGia
+    
+    add api KiemTraNguoiDungDVCQuocGia
+    update table Identity.User
+
+[33mcommit ac19dbb3e818d1ab43a6b49d4288e6736eb0d280[m
+Merge: dd033fd 67fd7ce
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 17:08:31 2023 +0700
+
+    Merged PR 470: Merge feature/hoso to master
+
+[33mcommit 67fd7ce284eb47b46f2ec34361a6503aed8a91e6[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 17:08:17 2023 +0700
+
+    ud trang thai quy trinh
+
+[33mcommit 754ec806d4350be3e3325ed6a57b7283f5f55ab1[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Oct 24 17:08:12 2023 +0700
+
+    add api KiemTraNguoiDungDVCQuocGia
+    update table Identity.User
+
+[33mcommit 0ec1a7f15d91346e3aa48792bd56e462b175c2e3[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 24 17:04:33 2023 +0700
+
+    ud searchThuTuc
+
+[33mcommit 3f2c7a589f7fa4fb007c9bf7f31692a1c9e68a4f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 15:08:35 2023 +0700
+
+    send template zalo
+
+[33mcommit 856fa9295c65daa939c5b8549c4fc03ad90e9212[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 24 14:47:04 2023 +0700
+
+    merge master
+
+[33mcommit dd033fdbff3c71cfde393cd4e00354515f37dfe2[m
+Merge: aed0d7a 29622e9
+Author: Vu Ngoc Diep <Vu Ngoc Diep>
+Date:   Tue Oct 24 14:36:42 2023 +0700
+
+    Merged PR 469: Merge datdt-dev to master
+
+[33mcommit 29622e948b90aab7adc1469424854f16905529f1[m
+Merge: 41d5d0c 1fa429b
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 24 14:26:40 2023 +0700
+
+    Merge branch 'datdt-dev' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into datdt-dev
+
+[33mcommit 41d5d0c3fc241ddf5828a5c5dc4a795d0fec345d[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 24 14:26:23 2023 +0700
+
+    ud user
+
+[33mcommit dd533303d76b82e8bf700f96c3224d9c8e291675[m
+Merge: f86f8bb aed0d7a
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 14:23:49 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit f86f8bb4efc5df33a7924e1517e824f27b50239a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 14:23:39 2023 +0700
+
+    zalo template
+
+[33mcommit 4092570a8f0ff3aac51789eb0dedc67b39741970[m
+Merge: 3bf806e aed0d7a
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 11:46:48 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 3bf806e688589d03d2af7c2090adee5d8ea0a523[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 11:46:40 2023 +0700
+
+    cap nhat urlmenu
+
+[33mcommit aed0d7a70e21ea2871b5bfb617bec11e1dcca51c[m
+Merge: b47e057 97e4021
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 10:51:38 2023 +0700
+
+    Merged PR 468: Merge huanvv to master
+
+[33mcommit 97e40216dfe6f89e0567dea0b351e1dee238871b[m[33m ([m[1;32mhuanvv[m[33m)[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sun Oct 22 23:34:41 2023 +0700
+
+    Layout Hồ sơ cá nhân
+
+[33mcommit 36915510fc3079a56b40442748f3a5cffea60e1b[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Oct 18 10:39:18 2023 +0700
+
+    complete: fix layout Home Portal + Count LinhVuc + fix Layout DetailDanhMucTTHC
+
+[33mcommit 6bad21869e14e346496c28e91c1b6bd111ad8fc6[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 17 14:44:36 2023 +0700
+
+    ud service ThuTuc
+
+[33mcommit 9ccf37c307cbbb72a43547bc6df6a3c006271c14[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 17 14:41:44 2023 +0700
+
+    fix Service ThuTuc + fix layout DanhMucTTHC
+
+[33mcommit e7defa2b87b28a70123c11b3682797c8dde86bf5[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 17 01:11:54 2023 +0700
+
+    fix layout Home Portal
+
+[33mcommit 4f8f1e0a223c1d9f5cb78167a47f0cf7c114ee92[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 10:46:51 2023 +0700
+
+    fix layout conflict
+
+[33mcommit 3b686cd74bd4d599c47faf18e5a916815edd8919[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 12 14:01:49 2023 +0700
+
+    layout Tra cứu + fix render data DetailDanhMucTTHC
+
+[33mcommit da3f381c81e64a685ee7f5a7ba1358115c7012a2[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 12 00:26:37 2023 +0700
+
+    ghép dữ liệu chi tiết thủ tục
+
+[33mcommit b47e05741c6131bbaf37733541ac26b8817ecde2[m
+Author: Tran Van Hai <>
+Date:   Tue Oct 24 03:23:04 2023 +0000
+
+    Updated conflict base.ts
+
+[33mcommit 205d3a392c66411a10ccbeb0d004a085b77ac6e3[m
+Author: Tran Van Hai <>
+Date:   Tue Oct 24 03:22:27 2023 +0000
+
+    Updated conflict router.tsx
+
+[33mcommit bf72c28ea45801eacc8a44c8423562be07476c80[m
+Merge: 3e0d2d7 b7b01f4
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 10:04:28 2023 +0700
+
+    Merged PR 467: Merge feature/donvi to master
+
+[33mcommit b7b01f40a3c341e74a5dc59840537ec70c7d7787[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 10:03:54 2023 +0700
+
+    cap nhat
+
+[33mcommit b01069bbd9fa34014a374f2854ceaefdbdba255f[m
+Merge: b0b01d0 3e0d2d7
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 09:47:49 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit b0b01d0de260bc7d380ad3412baeba605d1a859c[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 09:45:54 2023 +0700
+
+    cap nhat donvithutuc
+
+[33mcommit 3e0d2d74b1976517357c61db9211b5e3a0987b22[m
+Merge: 72215e8 8bee330
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Oct 24 09:37:34 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 72215e84c46a4b728255f7a59e2e8275dd99d743[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Oct 24 09:37:28 2023 +0700
+
+    add column MaDinhDanh in table Groups.
+    fix build SearchGroupQuery
+
+[33mcommit 8bee330a10206fbae6c95b34d6038d4178918264[m
+Merge: 910a810 1fa429b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 09:33:35 2023 +0700
+
+    Merged PR 465: Merge datdt-dev to master
+
+[33mcommit 1fa429bdfc16145ac9436db051f2c06e2a37d607[m
+Merge: 910a810 b239126
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 09:33:23 2023 +0700
+
+    fix conflict
+
+[33mcommit 910a81082bcf3226595a7d843b1667d7066d9b0f[m
+Merge: 5fa27ef cd34916
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 09:21:58 2023 +0700
+
+    Merged PR 464: Merge feature/donvi to master
+
+[33mcommit 5fa27ef50c1e34690c4110e5e22fc8184946d1b8[m
+Merge: f9a47f9 6944908
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 24 09:21:37 2023 +0700
+
+    Merged PR 463: send text zalo
+    
+    send text zalo
+
+[33mcommit 69449083df1e1a6b7248bce4290feaa4f4fd2654[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 24 09:21:12 2023 +0700
+
+    send text zalo
+
+[33mcommit cd34916d5b4f02ef194106830bb9292399b92447[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 24 09:17:04 2023 +0700
+
+    cap nhat donvithutuc
+
+[33mcommit 9e6ba2f0293a0c775f1387c0bc9a574f7c52b3e1[m
+Merge: 96e552d f9a47f9
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 23 15:38:08 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 96e552d893ea94a8646399d4740d79d8562747d7[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 23 15:37:59 2023 +0700
+
+    cap nhat DonViThuTuc
+
+[33mcommit f9a47f92e0cf172143cef06b68017f1eebc1ef82[m
+Merge: 9f7ba14 d4ec030
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 23 08:37:23 2023 +0700
+
+    Merged PR 461: add gettoken zalo
+    
+    add gettoken zalo
+
+[33mcommit d4ec030c7eff088fb6af48befe45b37bde467b82[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 23 08:36:44 2023 +0700
+
+    add gettoken zalo
+
+[33mcommit 62dabdab2f6f8728599e7d1447b692f5ef0d21c6[m
+Merge: 440b5b7 9f7ba14
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 23 08:18:07 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 440b5b7718446262a4657d6349af37aa3a829cca[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 23 08:17:49 2023 +0700
+
+    cap nhat TaiKhoanThuHuong page
+
+[33mcommit b239126fb7b7d5a7f10a6296008eb7e25efcb0a4[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 20 17:34:09 2023 +0700
+
+    ud themmoiuser
+
+[33mcommit 9f7ba144ddfb5250d87b9e919f34a9f8aa321f2e[m
+Merge: 2cbb44f d4e5f9e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Oct 20 17:22:56 2023 +0700
+
+    Merged PR 460: sms
+    
+    sms
+
+[33mcommit d4e5f9ed57d65d69a0804c1f15c0db156fe83b50[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Oct 20 17:22:40 2023 +0700
+
+    sms
+
+[33mcommit c4d20667c3433f6b55ab0c34d613175ec94ec9d9[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 20 10:22:43 2023 +0700
+
+    ud db donvithutuc
+
+[33mcommit 5cbd8d27fa89c217594132d912c263f044127e6b[m
+Merge: 1052779 2cbb44f
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 20 10:22:24 2023 +0700
+
+    merge master
+
+[33mcommit 105277983126c4c2f02464be3d4fb00789badb33[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 20 10:09:53 2023 +0700
+
+    ud model user
+
+[33mcommit 2cbb44f4c26e3e5d6ba4f52d63e8b2a466fa5fe8[m
+Merge: 6998eb2 632ef6c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Oct 20 10:08:48 2023 +0700
+
+    Merged PR 459: search, group by office code
+    
+    search, group by office code
+
+[33mcommit 632ef6c57ad5df1bf5443042c708aed5c7b0397f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Oct 20 10:08:33 2023 +0700
+
+    search, group by office code
+
+[33mcommit 6998eb2b7afc2e6088f5c02710811ba4f6dbc096[m
+Merge: 60fea52 d20590f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 19 17:10:32 2023 +0700
+
+    Merged PR 458: add mail
+    
+    add mail
+
+[33mcommit d20590f98a947604eb4420989c025b6d84d2be94[m
+Merge: 50afdd9 60fea52
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 19 17:10:18 2023 +0700
+
+    fix conflict
+
+[33mcommit 50afdd95c3deeec9e48a0e322a22fe43329ffbab[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 19 17:08:48 2023 +0700
+
+    add mail
+
+[33mcommit 60fea52ddd189e8b0e6e55372247db2e37bb2e8c[m
+Merge: 4c16c4d ceed281
+Author: Giang Tuan Hien <Giang Tuan Hien>
+Date:   Thu Oct 19 15:44:59 2023 +0700
+
+    Merged PR 457: Merge feature/donvi to master
+
+[33mcommit ceed281fd259adb4d61a4ae1ba25ef67d00a1495[m
+Merge: 4b96251 4c16c4d
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 19 15:42:00 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 4b96251f44ce1098fd8a480ac0ed6a603955b06f[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 19 15:41:47 2023 +0700
+
+    cap nhat kenhtindetail,tinbaidetail
+
+[33mcommit 4c16c4d2261eb9a90940eb6b2d7e65bfdf382ab0[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Thu Oct 19 15:21:31 2023 +0700
+
+    Change_GroupCodeOfficeCodeUser
+
+[33mcommit e49a6e1674755d3dc3bba122a58d3af98034a10a[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 19 11:51:09 2023 +0700
+
+    ud base dvc truc tuyen
+
+[33mcommit 8a8e85e88f84acc920058970557c88366c30af0b[m
+Merge: 53c34ea 46076b4
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 19 11:23:41 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 53c34ea77b4fca36e178a45cb242397880e7d53c[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 19 11:22:01 2023 +0700
+
+    ud DonViThuTuc
+
+[33mcommit 9544074f09ef4494963f2d250b1800ff0fab7d01[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 18 17:22:28 2023 +0700
+
+    update
+
+[33mcommit c16e408e0afc623fe1081a1e69c90a95bcadfe76[m
+Merge: 1e403cb 46076b4
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 18 15:47:14 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 1e403cb62d388e8ffc1ea95e7d808ede906594c4[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 18 15:47:04 2023 +0700
+
+    add TaiKhoanThuHuongEntity
+
+[33mcommit 46076b49b4a89304335dbe1d9701545c09446fe8[m
+Merge: ff41c5f fbd831d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 18 15:46:30 2023 +0700
+
+    Merged PR 455: ud nvarchar dinh kem
+    
+    ud nvarchar dinh kem
+
+[33mcommit fbd831dd6d7803836cb2aba86d1cbd2055a667e3[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 18 15:46:17 2023 +0700
+
+    ud nvarchar dinh kem
+
+[33mcommit ff41c5f78ea9fe357b6618b28e74d0153cf431f1[m
+Merge: d23bbfb e24ce2c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 18 15:45:08 2023 +0700
+
+    Merged PR 454: update bo sung ho so
+    
+    update bo sung ho so
+
+[33mcommit e24ce2c710d3ace231126b1cc02f336c31ceda93[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 18 15:44:53 2023 +0700
+
+    update bo sung ho so
+
+[33mcommit d23bbfb1ddde4f135b4e4bb04f57995bcce4a011[m
+Merge: 256294d 220b71a
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Wed Oct 18 15:44:22 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 0aa263d33f986e01fe7bb32e67cb1a3b49cdcadf[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 17 17:28:29 2023 +0700
+
+    cap nhat phi,lephi
+
+[33mcommit b33269fd7df2f9ed07da60101863b79e8ce32a1e[m
+Merge: 0c58481 220b71a
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 17 16:23:48 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 0c584815fdd82468a1f686c57238bbb1b434203c[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 17 16:23:38 2023 +0700
+
+    cap nhat quantriThuTuc
+
+[33mcommit 220b71aa822c1071048ca083ee1e0e40452c7365[m
+Merge: 1a428f2 3e1da94
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 17 15:56:55 2023 +0700
+
+    Merged PR 453: update nvarchar dinhkem
+    
+    update nvarchar dinhkem
+
+[33mcommit 3e1da943e2915ebe1c7b7b30a5c1ee218c11b2e7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 17 15:56:19 2023 +0700
+
+    update nvarchar dinhkem
+
+[33mcommit 32638735fcf4386bdd492aefd9c7fd85257b6d1f[m
+Merge: cabc681 1e12e1a
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 17 15:37:16 2023 +0700
+
+    merge
+
+[33mcommit 256294dafee78b17a3fcb9980a387cbaf3d3c0ed[m
+Merge: e26262b 1a428f2
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Oct 17 15:10:05 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit e26262b4273acd167dac23088bb46d5950b33f1c[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Oct 17 15:09:59 2023 +0700
+
+    ignore env
+
+[33mcommit 1a428f2e8f5ab52d250b08658ede74243bd4f29e[m
+Merge: ce404a2 c8b253d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 16 17:40:08 2023 +0700
+
+    Merged PR 452: Merge feature/donvi to master
+
+[33mcommit c8b253d7cbc83a0444ca4eca4a4949aac94ffdca[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 16 17:39:05 2023 +0700
+
+    update menuEntity
+
+[33mcommit aa361136f5eb23fe2463c4f66a5c4266cf577389[m
+Merge: 81eb6d5 ce404a2
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 16 17:00:49 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit ce404a2ce3646f9b8a8ef7c044dd55f3946bb285[m
+Merge: cd06091 2273a56
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 16 16:58:11 2023 +0700
+
+    Merged PR 451: cap nhat ho so bo sung logic
+    
+    cap nhat ho so bo sung logic
+
+[33mcommit 2273a56d59c6b1c4294eba5285079893eda369c4[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 16 16:57:50 2023 +0700
+
+    cap nhat ho so bo sung logic
+
+[33mcommit 81eb6d55b6277e48670cb4cc4eeabeb7d430c173[m
+Merge: 848face cd06091
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 16 16:50:18 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 848face243bd32e89a8da4169f30c46c4eb99220[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 16 16:50:10 2023 +0700
+
+    Cap nhat giaodien menu
+
+[33mcommit cd06091de2ba1b51967fbcd1a1218d1476c37b91[m
+Merge: 625dd29 cc89dfb
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 16 09:36:48 2023 +0700
+
+    Merged PR 450: fix for prod
+    
+    fix for prod
+
+[33mcommit cc89dfb59892a19ee6516b528631cd7132fb670e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 16 09:36:27 2023 +0700
+
+    fix for prod
+
+[33mcommit 625dd298d4aa4b06a77d35092a285292d3a33727[m
+Merge: 43e2ab4 1e12e1a
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 16 08:33:09 2023 +0700
+
+    Merged PR 449: Merge datdt-dev to master
+
+[33mcommit 1e12e1a3940b1111d99f2e0a73664552071da04f[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Oct 11 08:13:14 2023 +0700
+
+    layout tracuu
+
+[33mcommit f21345cd64ca0d8d2f45c4eed9967d70a3f75bff[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 10 15:38:51 2023 +0700
+
+    up danh muc TTHC
+
+[33mcommit 6bda60e1bcf6b76da67ddef2a0c3aa35f7ff6425[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 10 08:24:33 2023 +0700
+
+    ud Danh Muc TTHC
+
+[33mcommit d91643b6eba618102b46b8ca645f4666105d4c8a[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Oct 9 21:53:23 2023 +0700
+
+    khung detail Danh mục TTHC
+
+[33mcommit cabc6812614b54f7729218a58dde433479fc8200[m
+Merge: 759b61d 43e2ab4
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 16 08:19:22 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 43e2ab45562c5db74440672bbbf0ecd9673add3a[m
+Merge: a202c65 63edd06
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 16 08:13:52 2023 +0700
+
+    Merged PR 448: Merge feature/donvi to master
+
+[33mcommit a202c650eaa337bda0f4750151a9c6280d9cd710[m
+Merge: da12353 cce7e1f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Oct 13 17:32:01 2023 +0700
+
+    Merged PR 447: add_tbl_thanhphanhosobosung
+    
+    add_tbl_thanhphanhosobosung
+
+[33mcommit cce7e1f1e06dcb52804c846fd1be27a6cca4731c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Oct 13 17:31:41 2023 +0700
+
+    add_tbl_thanhphanhosobosung
+
+[33mcommit da12353e3c1f5e6cd2d7e3e06d327994b12cf047[m
+Merge: f3abf0f 6f6760d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 12 22:18:30 2023 +0700
+
+    Merged PR 446: remove persist user data
+    
+    remove persist user data
+
+[33mcommit 6f6760da69dc0d3d6e9301707a9265e061eb0482[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 12 22:18:12 2023 +0700
+
+    remove persist user data
+
+[33mcommit f3abf0fac39a7dff127545c7391a3cc26df8c5bc[m
+Merge: d5ef399 d9aa3be
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 12 22:00:23 2023 +0700
+
+    Merged PR 445: Merge feature/hoso to master
+
+[33mcommit d9aa3be87c69b5af7a2f4e87fdff044a880987f1[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 12 21:59:51 2023 +0700
+
+    dinh danh tu csdl dan cu
+
+[33mcommit 63edd063df31d4f8d246389e5e29eb9a84f59359[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 12 18:59:54 2023 +0700
+
+    cap nhat giao dien hoidap
+
+[33mcommit 759b61d3de783ec7925bf7fb70d36e7ba1cbb923[m
+Merge: 0ef3d24 2ef4476
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 12 16:57:22 2023 +0700
+
+    merge feature/donvi
+
+[33mcommit 2ef4476a09cd6207fa08d8c761b38c54d063a4c4[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 12 16:50:33 2023 +0700
+
+    ghep api hoidap
+
+[33mcommit be7812ae74e513d51d3a87abd254f192966bd6d1[m
+Merge: 0a3a155 d5ef399
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 12 10:06:11 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit 0a3a155a9855a069efe1b13b216c5a1008675103[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 12 10:05:59 2023 +0700
+
+    logic be get csdl dancu
+
+[33mcommit d5ef399dedf3866decc29e14d0ae55b6ebdb832b[m
+Merge: e316c27 c5418a2
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 12 10:05:14 2023 +0700
+
+    Merged PR 444: Merge feature/donvi to master
+
+[33mcommit c5418a2fc22e76da062e6d623c1bd2ff7c1211af[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 12 10:04:06 2023 +0700
+
+    ud HoiDapEntity
+
+[33mcommit 1c4f97ac371660edd356560a32543d9f2983bb16[m
+Merge: 03b8313 e316c27
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 12 08:47:47 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 03b8313138daa333a014968bfc4a14ca8e76ff21[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 12 08:47:31 2023 +0700
+
+    ud
+
+[33mcommit e316c27d80cdc54144c461026ec7a7e58dd36c62[m
+Merge: bcab916 acd1e4c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 11 17:30:14 2023 +0700
+
+    Merged PR 443: Merge feature/hoso to master
+
+[33mcommit acd1e4c51a073fbeb24eb913c0ecfd930fa9d29c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 11 17:29:55 2023 +0700
+
+    tbl log csdl dancu
+
+[33mcommit f8783e06a8ff1b0c1cf764b616deacd6705f3db2[m
+Merge: 34b0764 bcab916
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 11 17:23:30 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit 34b0764252ecd190a37359a7c2b147b279fce8e1[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 11 17:23:22 2023 +0700
+
+    csdl dan cu
+
+[33mcommit bcab916485ad8e1e1aea9c7fe48a4e336e267d49[m
+Merge: 34b155c cf5a277
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 11 17:14:00 2023 +0700
+
+    Merged PR 442: Merge feature/donvi to master
+
+[33mcommit cf5a277999c15ba18039aa1c56b247499b61c3da[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 11 15:58:38 2023 +0700
+
+    Cap nhat api HoiDap
+
+[33mcommit 26e4626a43dfd9b71972580fc74322507ba95ae9[m
+Merge: bcd7f8c 34b155c
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 11 13:52:08 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 34b155ce3c6d38aef6fe16e60f08d9de68a5daeb[m
+Merge: 86fb862 ede6b63
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Oct 11 10:44:16 2023 +0700
+
+    Merged PR 441: bo sung ho so logic fe
+    
+    bo sung ho so logic fe
+
+[33mcommit ede6b637de02192d56bfc4bb13fe361bd84ec27e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Oct 11 10:44:01 2023 +0700
+
+    bo sung ho so logic fe
+
+[33mcommit 0ef3d24e45635ee1d0edfadec24adaaf671e1bd9[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Oct 11 08:13:14 2023 +0700
+
+    layout tracuu
+
+[33mcommit 2f2a45b7425146d8150515fd943cba473950bd69[m
+Merge: 0f17483 fda1aa9
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 10 15:40:13 2023 +0700
+
+    Merge branch 'huanvv' into datdt-dev
+
+[33mcommit fda1aa964fcae6ef8716cd2ca468c300c7a057f3[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 10 15:38:51 2023 +0700
+
+    up danh muc TTHC
+
+[33mcommit bcd7f8c70d8630f34b528278e4f673e0fb9ea59e[m
+Merge: e95ea43 0f17483
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 10 15:38:07 2023 +0700
+
+    Merge branch 'datdt-dev' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit e95ea4389261dd236d445b72376b9fdddb915d6c[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 10 15:29:19 2023 +0700
+
+    .
+
+[33mcommit 0f17483ba24d9850ea170fa6d5b75dec926ccace[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Oct 10 15:28:22 2023 +0700
+
+    ud filter TTHC by LinhVuc
+
+[33mcommit 01c7bfb800a5046f8af0d004bab7e6b31d09ed82[m
+Merge: e1e602a 86fb862
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 10 15:12:42 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit e1e602abe7f45ef98c10f44c276fc261e061c9ad[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 10 15:12:30 2023 +0700
+
+    them api hoidap
+
+[33mcommit 86fb862dcb380964bf622ec8f64d88397780d7fb[m
+Merge: 1f8bf4b 401473c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 10 15:00:10 2023 +0700
+
+    Merged PR 440: Merge feature/hoso to master
+
+[33mcommit 401473c9e14da2631a38ef8767a383302abaf31e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 10 14:59:01 2023 +0700
+
+    add tbl bosunghoso
+
+[33mcommit 0cc730b129d371b6fb25660620cb81bead6464af[m
+Merge: 43f7540 1f8bf4b
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 10 14:55:32 2023 +0700
+
+    fix conflict
+
+[33mcommit 43f75402bf3ab87f991196c5f21337b2c84a5695[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 10 14:51:57 2023 +0700
+
+    add tbl bosunghoso, yeucau1cuabosunghoso action
+
+[33mcommit 1f8bf4bdd882708a21d89a881c78634fd58c713b[m
+Merge: d3ba45d dc1133e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 10 10:31:35 2023 +0700
+
+    Merged PR 439: cap nhat seederKenhTin
+    
+    cap nhat seederKenhTin
+
+[33mcommit dc1133e601ee9b5f5fb1bffcb548ff57a96ad136[m[33m ([m[1;31morigin/test[m[33m)[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 10 10:15:24 2023 +0700
+
+    cap nhat seederKenhTin
+
+[33mcommit 6cc836142aa542d00d2d1588c2db4578325d3517[m
+Merge: 86f89ad 706ef76
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 10 08:26:27 2023 +0700
+
+    merge datdt
+
+[33mcommit 86f89ad1a87207697cef1ce951674d7e02cd8d06[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Oct 10 08:24:33 2023 +0700
+
+    ud Danh Muc TTHC
+
+[33mcommit 706ef760d97bef1853ce1c495da70e2123fd9468[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 9 23:21:49 2023 +0700
+
+    ud ghep api danhmucTTHC
+
+[33mcommit 3652c816534f9101f8fcc508035e1af9a9fe6c91[m
+Merge: cfd5e88 907195f
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Oct 9 21:56:16 2023 +0700
+
+    merge datdt
+
+[33mcommit cfd5e88ff15aad2a05b8df054bef905acb149520[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Oct 9 21:53:23 2023 +0700
+
+    khung detail Danh mục TTHC
+
+[33mcommit 907195f94bc692fbdd39ea5b0558c4c79a819b10[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 9 17:34:15 2023 +0700
+
+    ud ghep api danhmucTTHC
+
+[33mcommit d3ba45d4769c98f3b7fba99e0e4090337a37cabb[m
+Merge: 1a1bcf0 bbd12e8
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 9 17:26:04 2023 +0700
+
+    Merged PR 438: update hoso entity
+    
+    update hoso entity
+
+[33mcommit bbd12e8c5afd1aada544b98ff1956e87e5753e48[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 9 17:25:41 2023 +0700
+
+    update hoso entity
+
+[33mcommit 1a1bcf098e7cf5fb4b333db82320eaba938e04a5[m
+Merge: 81cbf07 31a92c3
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 9 15:20:32 2023 +0700
+
+    Merged PR 437: Merge feature/hoso to master
+
+[33mcommit 31a92c3de38cce701a891f0336b655cf55f3e688[m
+Merge: d8f013d 81cbf07
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 9 15:20:09 2023 +0700
+
+    fix conflict menu
+
+[33mcommit d8f013d2794802f35c1240a6eb50cbe34d85a200[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 9 15:18:52 2023 +0700
+
+    giao dien theodoi hs, sua lai trang thai actions
+
+[33mcommit 81cbf074803131c33237b51315c7d7aec210c950[m
+Merge: ce4feed 0bd5c9d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 9 14:54:07 2023 +0700
+
+    Merged PR 435: Merge feature/donvi to master
+
+[33mcommit 0bd5c9daa1d28b2589f926c4fd82c37b59700363[m
+Merge: aa9e70f ce4feed
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 9 14:41:22 2023 +0700
+
+    fix conflict
+
+[33mcommit aa9e70fa5257c20c2415702607cd30840e839ef3[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 9 14:38:02 2023 +0700
+
+    them page quan tri config
+
+[33mcommit 23f874d6985607ac246402da6ba935297b461b47[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 9 11:44:30 2023 +0700
+
+    quan tri cong
+
+[33mcommit ce4feedf795cc856c993646e0d502a9884cb38ff[m
+Merge: 796a516 fbb2617
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 9 11:05:39 2023 +0700
+
+    Merged PR 434: Merge datdt-dev to master
+
+[33mcommit fbb2617f727ddd692e1739ea62cc892705307309[m
+Merge: e211ec5 796a516
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 9 10:59:45 2023 +0700
+
+    merge master
+
+[33mcommit e211ec5184834e3fb9ca53447424e9233ad6840e[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Oct 9 10:57:23 2023 +0700
+
+    ud url menu
+
+[33mcommit a4b7f1869db2382a1baae4e6ac9a97e5b3d6df11[m
+Merge: edf8ef6 796a516
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 9 08:30:07 2023 +0700
+
+    fix conflict
+
+[33mcommit edf8ef6f905e2ea5e3b3c6294862b364b30ac979[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 9 08:24:55 2023 +0700
+
+    xoa file connectionLocal entity
+
+[33mcommit 9891588267ce3e148e507f339bb0dcd6411a1fd2[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sun Oct 8 22:14:01 2023 +0700
+
+    complete layout Danh Mục TTHC
+
+[33mcommit 796a51696a74e6e587de43055eae05d6a738065a[m
+Merge: fe564a8 9896023
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Oct 7 18:02:50 2023 +0700
+
+    Merged PR 433: cap nhat giao dien, api search hoso, action kethuc, chuyennoibo
+    
+    cap nhat giao dien, api search hoso, action kethuc, chuyennoibo
+
+[33mcommit 98960234d3facab092727fab88edbcd738c5a8a9[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sat Oct 7 18:02:32 2023 +0700
+
+    cap nhat giao dien, api search hoso, action kethuc, chuyennoibo
+
+[33mcommit 20a16eebbb6d38ce0c772f0afd57160bdd20738b[m
+Merge: 8d08a89 83a9e4d
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sat Oct 7 15:26:23 2023 +0700
+
+    merge datdt
+
+[33mcommit 8d08a8974a433165bb1e364274c0a16d923c65ff[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sat Oct 7 15:19:11 2023 +0700
+
+    khung tthc
+
+[33mcommit 83a9e4d7f2fe7476d6fb00564f1024ca6e90f956[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 6 17:31:18 2023 +0700
+
+    ud danhmucthutuc
+
+[33mcommit 3a8508cbb186fd91ee3a2b9f09b0dee40d888155[m
+Merge: ad49c31 f1027c8
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 6 15:33:29 2023 +0700
+
+    merge huanvv
+
+[33mcommit ad49c3196d1d5f97b348b1cb99f6994edd752298[m
+Merge: f62d1c8 fe564a8
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 6 15:24:13 2023 +0700
+
+    ghep api kenhtin tinbai
+
+[33mcommit 939aed193d74b2fb621857a122552c35af918774[m
+Merge: f1027c8 fe564a8
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Oct 6 10:30:27 2023 +0700
+
+    merge master
+
+[33mcommit f62d1c831ed6c5f6b9819b94fd9dd51d555aaf68[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 6 10:18:19 2023 +0700
+
+    ud tinbai
+
+[33mcommit f1027c81e4a6c3474fe45444e88ff97e84c676d7[m
+Merge: 73c40be c7dbb44
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Oct 6 10:03:03 2023 +0700
+
+    Layout Hỏi đáp: Location/portaldvc/hoiDap
+
+[33mcommit 73c40bee35636000c8f505c45b19e8569f064f9d[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Oct 6 09:59:26 2023 +0700
+
+    Layout Hỏi đáp: location/portaldvc/hoiDap
+
+[33mcommit 261e23e2c49fa272b9b3c279e1292157b3b51f21[m
+Merge: 0e035e0 c7dbb44
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 6 09:05:44 2023 +0700
+
+    merge huanvv
+
+[33mcommit 0e035e0c424a30a9c70f3756c1f1ed57b16b7dce[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Oct 6 09:00:51 2023 +0700
+
+    add ghep api banner, footer
+
+[33mcommit fe564a858d868e4c60c62876fa8cda3106cfc28c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 22:35:43 2023 +0700
+
+    clean for build
+
+[33mcommit 45105736295918ad70dac86052520121dfd4a543[m
+Merge: 1a8abde e06f590
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 22:22:29 2023 +0700
+
+    Merged PR 429: cap nhat giao dien tinbai,trangthai,kenhtin
+    
+    cap nhat giao dien tinbai,trangthai,kenhtin
+
+[33mcommit e06f5908b8b0b2bb9666fd72e137d7bbaef6d238[m[33m ([m[1;32mfeature/donvi[m[33m)[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 5 18:56:53 2023 +0700
+
+    cap nhat giao dien tinbai,trangthai,kenhtin
+
+[33mcommit 1a8abdec6bf9f4efecfc3e8c0b7061dfba0cb489[m
+Merge: 743ec63 c7dbb44
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 22:20:12 2023 +0700
+
+    Merged PR 428: fix Layout home+ xong layout Tin Tức
+    
+    fix Layout home+ xong layout Tin Tức
+
+[33mcommit c7dbb44a551d44f3c7cb3eabbefda1bd3cf17127[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 5 21:59:41 2023 +0700
+
+    fix Layout home+ xong layout Tin Tức
+
+[33mcommit 743ec63ce24fa703eee97ffda24588cbdd289cb3[m
+Merge: 13412ea 21a3151
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 22:13:57 2023 +0700
+
+    Merged PR 427: delete hosohandler
+    
+    delete hosohandler
+
+[33mcommit 21a3151a89589cb8a7ec8fb93d19dc74ab8ffd27[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 22:13:41 2023 +0700
+
+    delete hosohandler
+
+[33mcommit 13412ea61b8eacda5caf582de799fd3d595f9eba[m
+Merge: 8f0431e e569c90
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 22:11:16 2023 +0700
+
+    Merged PR 426: Merge feature/hoso to master
+
+[33mcommit e569c90e9564a85bf8a0176c4c42d879281aa800[m
+Merge: b60fe91 8f0431e
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 22:10:39 2023 +0700
+
+    fix conflict
+
+[33mcommit b60fe91de63a39cebc47cfea99817b91dcc2dda2[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 22:09:22 2023 +0700
+
+    xoa ho so, tra laibuoc truoc, yeucauthanh toan
+
+[33mcommit 8f0431e56730f120d27819994f69d9fbf39f5eb0[m
+Merge: 8fa6a4a 94686af
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 22:07:17 2023 +0700
+
+    Merged PR 424: Merge datdt-dev to master
+
+[33mcommit 5ee681b8883502a40ece04b25b9586beed16c6c4[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 5 21:59:41 2023 +0700
+
+    fix Layout home+ xong layout Tin Tức
+
+[33mcommit 94686af17717ea06aef4b590dc076440911a3386[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 5 21:26:57 2023 +0700
+
+    ud banner
+
+[33mcommit 3b5742969e683ae8fdf4f02ae31b066be2eead84[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Oct 5 18:56:53 2023 +0700
+
+    cap nhat giao dien tinbai,trangthai,kenhtin
+
+[33mcommit fb49793407807b3635d515dae5a40b1c40541299[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 5 16:07:36 2023 +0700
+
+    ud ghep api menu portal
+
+[33mcommit 8fa6a4a6da399f7f83665b4e4a9b36a46c59f44a[m
+Merge: c67ca83 0f7c81e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 10:35:11 2023 +0700
+
+    Merged PR 423: remove hinhthucthu hoso
+    
+    remove hinhthucthu hoso
+
+[33mcommit 0f7c81edec63b4ff1b46defbfda368a89f90ce68[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 10:34:52 2023 +0700
+
+    remove hinhthucthu hoso
+
+[33mcommit c67ca832e80e2c359c619b5ddf65020979c6cd2f[m
+Merge: 3a5d6c9 0d0bceb
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 10:10:45 2023 +0700
+
+    Merged PR 422: Merge feature/hoso to master
+
+[33mcommit 0d0bceb8c89dc871a83c98895b7c1100a9afdc6d[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 10:10:27 2023 +0700
+
+    them hinhthucthu hoso
+
+[33mcommit 497b4117d110e2e46703c15840d2542011cbdbd5[m
+Merge: 6a9a750 3a5d6c9
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 10:02:27 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit 3a5d6c931116230f21fe24f4371c1d322fdee917[m
+Merge: cb86850 a43237b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Oct 5 10:02:17 2023 +0700
+
+    Merged PR 420: Merge feature/donvi to master
+
+[33mcommit 6a9a750f39fb3dd965327e059611f6d101b78ecc[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Oct 5 10:00:20 2023 +0700
+
+    sua phi le phi, chuyen thtc
+
+[33mcommit 5312ad5eb80944642db33304f88c95a055911300[m
+Merge: 5c296b2 a43237b
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 5 09:57:28 2023 +0700
+
+    Merge remote-tracking branch 'origin/feature/donvi' into datdt-dev
+
+[33mcommit 83d95e30338b4a6c0ea8650fc12481f1f01707c3[m
+Merge: 2aac810 a43237b
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 5 09:32:09 2023 +0700
+
+    Merge remote-tracking branch 'origin/feature/donvi' into huanvv
+
+[33mcommit 2aac810ceeac1415953361198909c97e7e91c2ba[m
+Merge: 3284248 5c296b2
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 5 09:27:27 2023 +0700
+
+    Merge remote-tracking branch 'origin/datdt-dev' into huanvv
+
+[33mcommit 5c296b24e610c0a6ad1c3fb93eebbbdedbdae558[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 5 09:22:34 2023 +0700
+
+    ud portal layout
+
+[33mcommit 328424802fd45aad7457ff1fd547231a5b660ff8[m
+Merge: ee84870 976a614
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 5 09:13:32 2023 +0700
+
+    Merge remote-tracking branch 'origin/datdt-dev' into huanvv
+
+[33mcommit 09f26dd62d460d71c5adefbb7a1740966eec70c9[m
+Merge: db6ca60 ee84870
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 5 08:50:12 2023 +0700
+
+    Merge branch 'huanvv' into datdt-dev
+
+[33mcommit db6ca608f1f923a8b9fd6a14fdad38a80ab00e18[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Oct 5 08:49:32 2023 +0700
+
+    ud nhomlinhvuc
+
+[33mcommit ee848707dbaa1d639d3a08b9d4c60d743bbe17c2[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Thu Oct 5 08:48:50 2023 +0700
+
+    layout Navbar
+
+[33mcommit 976a6147173acb1353ff9dee349ca34d535691d5[m
+Author: datdt <madatk56@gmail.com>
+Date:   Wed Oct 4 23:31:15 2023 +0700
+
+    ud homepage
+
+[33mcommit 916e27b3835e00212120e6a23efc563210a38405[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Oct 4 17:31:20 2023 +0700
+
+    ud home portal
+
+[33mcommit a43237bc05c391719eca4e9f3945a03bc89d6f9a[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Oct 4 16:03:05 2023 +0700
+
+    cap nhat api kenhtin,kieunoidung
+
+[33mcommit beb162be6ab209cae4c129a6e2a47c5fec8c88e7[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Oct 4 11:16:15 2023 +0700
+
+    Common layout: header + footer
+
+[33mcommit 31e0f6ea936f06efadb621f811beadd41c442ebb[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 3 17:31:01 2023 +0700
+
+    add trangthai,kenhtin,tinbai,kieunoidung backend
+
+[33mcommit af769c4308320a8121c09ce979cb15e1c2f64e64[m
+Merge: 8b32f2b cb86850
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 3 16:39:05 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 8b32f2b82151e15ad3eeedca7d159c20b9e3c6d4[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Oct 3 16:38:50 2023 +0700
+
+    tao file kenhtin,kieunoidung,tinbai,trangthai backend
+
+[33mcommit cb86850ee421090b2dacc2e5fd1d0cae9e3077f4[m
+Merge: 4a6d3de abc808f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Oct 3 16:36:01 2023 +0700
+
+    Merged PR 419: refactor actions, hoso
+    
+    refactor actions, hoso
+
+[33mcommit abc808f09a96a54a902672354ddb1070e892f74e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Oct 3 16:35:45 2023 +0700
+
+    refactor actions, hoso
+
+[33mcommit 4a6d3deca1f94dd57898e31443ab467b7d3259d6[m
+Merge: f587c3e 967b112
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 2 16:56:04 2023 +0700
+
+    Merged PR 418: update
+    
+    update
+
+[33mcommit 967b1122311f481fdb99006692495770acf41474[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 2 16:52:47 2023 +0700
+
+    update
+
+[33mcommit f587c3ec9e1ecaafc749de0e9c74a5ce13217094[m
+Merge: d98ed9d f764a92
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 2 16:35:27 2023 +0700
+
+    Merged PR 417: Merge feature/donvi to master
+
+[33mcommit f764a92683e5613767d2537d1e864ec157160790[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 2 16:26:48 2023 +0700
+
+    update action,screenAction
+
+[33mcommit 23b1b87040bffe0000d456b5a4479a1a543add24[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 2 14:51:53 2023 +0700
+
+    update BannerEntity,FooterEntity
+
+[33mcommit 9abeee86ca66baa12ee1dd916c247e615fe4bfc8[m
+Merge: 1177129 d98ed9d
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 2 11:19:37 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 11771291eb435997cbd075814ab67136c169af83[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Oct 2 11:19:28 2023 +0700
+
+    update
+
+[33mcommit d98ed9d1b607fffee175ea31525c503599d9080d[m
+Merge: d5c8848 cd35d93
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Oct 2 11:18:55 2023 +0700
+
+    Merged PR 416: sua dinh dang mahoso
+    
+    sua dinh dang mahoso
+
+[33mcommit cd35d936a12d80e3904e52a845fb2e54a39f0a9d[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Oct 2 11:18:34 2023 +0700
+
+    sua dinh dang mahoso
+
+[33mcommit d5c88481a9e197a98e1d93ee00bebfabb8970b91[m
+Merge: 710385c 4a97cbd
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 29 17:43:44 2023 +0700
+
+    Merged PR 415: sua, chitiet hoso, quytrinhxuly
+    
+    sua, chitiet hoso, quytrinhxuly
+
+[33mcommit 4a97cbd7e24a3a9e5b25e1ba878c9d7552407313[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 29 17:43:32 2023 +0700
+
+    sua, chitiet hoso, quytrinhxuly
+
+[33mcommit 710385ca25994e8defecc02a7207e66eef1fbdbb[m
+Merge: ba6ee3c baa4a01
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 29 08:09:39 2023 +0700
+
+    Merged PR 414: update
+    
+    update
+
+[33mcommit baa4a015b372edd8d5a1d48581bd00e032efe7d2[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 28 21:51:22 2023 +0700
+
+    update
+
+[33mcommit ba6ee3cf6e2fd9cbaaa271d3ab5d63a2d02e7e04[m
+Merge: a95ac16 32d483c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 28 17:30:33 2023 +0700
+
+    Merged PR 413: Merge datdt-dev to master
+
+[33mcommit a95ac16dbfb3e75b7a5dfa03a001cef3d66be2ef[m
+Merge: f6f522a 5dc1111
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 28 17:29:15 2023 +0700
+
+    Merged PR 412: Merge feature/hoso to master
+
+[33mcommit 5dc11111ccd506bfa9ee3dd9429cece038bf0c9a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 28 17:28:59 2023 +0700
+
+    them moi ho so, search hoso, chuyen buoc xu ly
+
+[33mcommit d34866e8a0351014f8770e13dcad058e83fc5acf[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 28 10:05:55 2023 +0700
+
+    giaytosohoa
+
+[33mcommit f6f522a90004c19fedf1e69b75de6a2bfe682587[m
+Merge: 68f65c8 5f7173c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 27 13:35:04 2023 +0700
+
+    Merged PR 411: so hoa
+    
+    so hoa
+
+[33mcommit 5f7173c371e1367994de03e338e1b6d968a2dfb7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 27 13:34:48 2023 +0700
+
+    so hoa
+
+[33mcommit 68f65c88dcb8f53d8397d3d7abd2d5acda9a0873[m
+Merge: b68abe6 2c177e2
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 27 08:24:39 2023 +0700
+
+    Merged PR 410: Merge feature/donvi to master
+
+[33mcommit 2c177e2944ab773bee8db37ac459e6056ae33400[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 26 17:24:18 2023 +0700
+
+    update ActionEntity
+
+[33mcommit 809c332e662e98bdd26fd1294d909fbbe489d76b[m
+Merge: 671161e b68abe6
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 26 17:10:53 2023 +0700
+
+    fix conflict
+
+[33mcommit 671161e2f2a95fb9bdcf70fe04d94aaf6fa737ab[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 26 17:08:40 2023 +0700
+
+    cap nhat quan tri Action
+
+[33mcommit b68abe6ad9051854df9b8ee4612b194f914c71b9[m
+Merge: 6b14470 21044c1
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 26 16:33:37 2023 +0700
+
+    Merged PR 409: Merge feature/hoso to master
+
+[33mcommit 21044c11c783941b8f65c34f71181e4b68cdade2[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 26 16:32:53 2023 +0700
+
+    thanhphanhoso
+
+[33mcommit 32d483c15694f6cb6c5eb49acf36e71ea6606e3f[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 26 11:00:32 2023 +0700
+
+    ud cocautochuc
+
+[33mcommit 5798793ea6f20609f2bc91e9758db9ddabbd6bb5[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 26 10:44:47 2023 +0700
+
+    ud table nguoidung
+
+[33mcommit dd2ac520b2c15708de13070f2b2069f4d20d4cf8[m
+Merge: b34a1b6 6b14470
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 26 10:38:46 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into datdt-dev
+
+[33mcommit b34a1b6572d1eec9cbacaee9507ca2bc163b21cf[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 26 10:38:32 2023 +0700
+
+    ud them nhom con
+
+[33mcommit 7622244454d050524d4e2e91896fbdfaf6028312[m
+Merge: 39519b8 6b14470
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 26 09:52:30 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/hoso
+
+[33mcommit 39519b8e5321bbb9bc72138991b3053251e86b6a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 26 08:37:18 2023 +0700
+
+    restore
+
+[33mcommit 6b144707832440c2bced7fc647d0bdaf7e90f68b[m
+Merge: 737d36e 687491d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 26 08:31:51 2023 +0700
+
+    Merged PR 408: Merge datdt-dev to master
+
+[33mcommit 1f9d89917e700060aaae90f4b5d689e6f4cbe5ec[m
+Merge: aa958c0 737d36e
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 26 08:15:40 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 737d36e6af41f07b4a0f833e9b997bee356a9a68[m
+Merge: 52bce76 3579433
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 25 17:41:21 2023 +0700
+
+    Merged PR 407: add cols hoso
+    
+    add cols hoso
+
+[33mcommit 35794332feef0fbed4d7c357bb02ec4ad4d3069b[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 25 17:41:07 2023 +0700
+
+    add cols hoso
+
+[33mcommit aa958c05df139c1bd4b4c1d8a79138031d9d2dfc[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 25 17:07:33 2023 +0700
+
+    sua giao dien loaiPhiLePhi,danhMucNgayNghi
+
+[33mcommit 52bce76b69ca12dc062df976c6905117da2c3daf[m
+Merge: aeaa20e 4829469
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 25 16:39:43 2023 +0700
+
+    Merged PR 406: add GiaoDichThanhToanEntity
+    
+    add GiaoDichThanhToanEntity
+
+[33mcommit 482946983f2c59ed5a593eaeb2d66f481569fdf4[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 25 16:13:53 2023 +0700
+
+    add GiaoDichThanhToanEntity
+
+[33mcommit 687491d3fba1ecae7ff7a246e0cb7d76cd49c14f[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 25 16:07:38 2023 +0700
+
+    ud
+
+[33mcommit 86ed7ebd5ead838f15671fa9025eb05af2e22eeb[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 25 16:06:21 2023 +0700
+
+    ud reset password
+
+[33mcommit aeaa20ee373a70bd08f4c09340bbf9392882308a[m
+Merge: 4b68751 df0c37b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 25 11:56:43 2023 +0700
+
+    Merged PR 405: Merge feature/nghiepvu to master
+
+[33mcommit df0c37bfccdc234bab9921b173b4fda715f95d9c[m[33m ([m[1;31morigin/feature/nghiepvu[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 25 11:55:12 2023 +0700
+
+    add cols BBCI
+
+[33mcommit 2a969dd6f9cac9a0ee951447ee1da1decfc6ffd2[m
+Merge: 7c393ef 4b68751
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 25 11:47:24 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/nghiepvu
+
+[33mcommit 7c393ef1398e857948bd4a7e4ead836e5e55cc86[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 25 11:47:15 2023 +0700
+
+    logic diaban client
+
+[33mcommit 4b687512f31af059f016d68819f198c1ce76180d[m
+Merge: acb37d5 6410edb
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 25 11:46:30 2023 +0700
+
+    Merged PR 404: add ThanhPhanHoSo,GiayToSoHoa entity
+    
+    add ThanhPhanHoSo,GiayToSoHoa entity
+
+[33mcommit 6410edbc6447cad67bf20f53e7c4fe50116b0ca4[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 25 11:46:01 2023 +0700
+
+    add ThanhPhanHoSo,GiayToSoHoa entity
+
+[33mcommit 26465e443de313c247b6e4b81283632229bbcbdb[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 25 11:19:46 2023 +0700
+
+    ud
+
+[33mcommit b2ba2c489cc21db7ba83d7642579bc3095af4914[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 25 11:17:26 2023 +0700
+
+    ud delete GroupChild
+
+[33mcommit 5b411fb3586fa8c7f7bea85c23b25ffd42505c3a[m
+Merge: 50fa2a5 acb37d5
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 25 10:43:11 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/nghiepvu
+
+[33mcommit 50fa2a58ee053f04e4e81988f6d969cce8439539[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 25 10:42:49 2023 +0700
+
+    a
+
+[33mcommit a7d86cc37d3dfbba89b2251935febf5735ee1015[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 25 10:41:30 2023 +0700
+
+    ud ThongTin Group
+
+[33mcommit ee7a7295ee1b44d3bb39916338ba801da10c1c3b[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 25 10:34:19 2023 +0700
+
+    ud chuyennhom
+
+[33mcommit 91a4fbb27a2fa25efc51478fafd2437963589c47[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Sep 22 17:32:50 2023 +0700
+
+    ud UserUpdate api
+
+[33mcommit 716a48156d65c4485a2ab0a48e658790e92dfef0[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 22 17:32:36 2023 +0700
+
+    quytrinhxuly themmoihs
+
+[33mcommit 124d91ad7127cc581c782703bb56d796a0028ff8[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Fri Sep 22 17:29:32 2023 +0700
+
+    ud users
+
+[33mcommit acb37d5c2292d81aad10390d8c100490dded9e32[m
+Merge: 8ed86e5 e4f3446
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Fri Sep 22 15:10:55 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 8ed86e5e6fb476c98a337af3de8933cce921b84e[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Sep 22 14:19:49 2023 +0700
+
+    add Service ImportDiaBan
+
+[33mcommit e4f3446b15fdec75260bc334bd3e6176a631fc1b[m
+Merge: da37dc9 e294a04
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 22 11:40:33 2023 +0700
+
+    Merged PR 403: Merge feature/nghiepvu to master
+
+[33mcommit e294a04af1587ed4144f081e8d39b9af0072a07d[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 22 11:40:18 2023 +0700
+
+    sua
+
+[33mcommit 5e5464d62497688e6f59d78af88353063c1e9e90[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 22 09:17:45 2023 +0700
+
+    deleteable nodes
+
+[33mcommit 755c73de5ba08d6605695a123d59f2ec321dac00[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 22 09:14:03 2023 +0700
+
+    default nodes quytrinh xu ly
+
+[33mcommit da37dc90ac66978becfd678107139c1820407e92[m
+Merge: 7c74fac 9ce81ec
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 22 08:34:50 2023 +0700
+
+    Merged PR 402: modify tbl hoso
+    
+    modify tbl hoso
+
+[33mcommit 9ce81ec126ca6c97e7923c977b207789aea27429[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Fri Sep 22 08:32:52 2023 +0700
+
+    modify tbl hoso
+
+[33mcommit 7c74fac6b3602b01674eb4c03fb0c8edd33d70e1[m
+Merge: 3ccbf45 9bd645c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 22 08:20:09 2023 +0700
+
+    Merged PR 401: tim kiem nguoi dung theo don vi
+    
+    tim kiem nguoi dung theo don vi
+
+[33mcommit 9bd645ca7ea1cfce0c7d1cdac30f5ea967cf1e44[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 22 08:19:55 2023 +0700
+
+    tim kiem nguoi dung theo don vi
+
+[33mcommit 3ccbf45fcb75d9eb7cc1b3dd9b979a39c86c8428[m
+Merge: 00d4f7f cedc621
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 18:04:02 2023 +0700
+
+    Merged PR 400: nhom nguoi dugn
+    
+    nhom nguoi dugn
+
+[33mcommit cedc621fb3b2160c9d3a060a8c78f99d292b495e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 21 18:03:50 2023 +0700
+
+    nhom nguoi dugn
+
+[33mcommit 00d4f7fceb23e02345242b00eb41afa67c98e233[m
+Merge: 571a2e2 28173d5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 18:03:34 2023 +0700
+
+    Merged PR 399: ud Delete NguoiDungNhomNguoiDung by ids
+    
+    ud Delete NguoiDungNhomNguoiDung by ids
+
+[33mcommit 571a2e2fa3f50291a64c358f6791f854aa00c07e[m
+Merge: 1e3cd00 50ad292
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 18:03:17 2023 +0700
+
+    Merged PR 398: Merge feature/donvi to master
+
+[33mcommit 50ad29266aa504080726cd19fd44d26240edd253[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 21 17:29:27 2023 +0700
+
+    cap nhat luuHoSo
+
+[33mcommit 28173d53fc2ae579540a8f3fc58ce2f894861bd4[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 21 16:19:58 2023 +0700
+
+    ud Delete NguoiDungNhomNguoiDung by ids
+
+[33mcommit 39b5b37c947876e42d8e20f1f6c9ea220aff9af6[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 21 16:12:15 2023 +0700
+
+    cap nhat luaChonThuTuc
+
+[33mcommit 1e3cd0021b6b4069659ec30d50423702b03e5487[m
+Merge: 033aea6 0cf873b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 16:05:34 2023 +0700
+
+    Merged PR 397: sua id tptt
+    
+    sua id tptt
+
+[33mcommit 0cf873b9051f26ca94b97924d5b91ac183f5536a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 21 16:03:32 2023 +0700
+
+    sua id tptt
+
+[33mcommit 033aea6472cba0100a16220e3a444118a21d3ce1[m
+Merge: 3453114 bd36881
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 16:03:08 2023 +0700
+
+    Merged PR 396: Merge datdt-dev to master
+
+[33mcommit bd368817e4d22cce06e83a58a19c366ee9a56e04[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 21 15:34:13 2023 +0700
+
+    ud addList NguoiDungNhomNguoiDung
+
+[33mcommit a8fcc9329ced5b0387e0a9f7999f33c2badfe157[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 21 15:29:35 2023 +0700
+
+    ud addlist nguoidungnhomnguoidung
+
+[33mcommit 34531144c39ce82d54f37c0b17b9a246994df604[m
+Merge: 1d4390c 782d732
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 11:41:33 2023 +0700
+
+    Merged PR 395: migration
+    
+    migration
+
+[33mcommit 782d732dfe737d3f9aa89b01efacfcdf968ad885[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 21 11:40:55 2023 +0700
+
+    migration
+
+[33mcommit 1d4390c0a78e0ff55bf1bd9fd5d816627e4d1cc5[m
+Merge: 368a3ba ab4f120
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 11:34:17 2023 +0700
+
+    Merged PR 394: sd
+    
+    sd
+
+[33mcommit ab4f120bea3c8dd08649b5a9cac423a7ea9a55f5[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 21 11:34:06 2023 +0700
+
+    sd
+
+[33mcommit 368a3ba10e494599200d7bc4cdb70037b8223ffb[m
+Merge: 6820aea ddc89b5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 11:20:15 2023 +0700
+
+    Merged PR 393: Merge feature/nghiepvu to master
+
+[33mcommit ddc89b5f51707e1550cf4f3e5306e15c3a068bac[m
+Merge: 41962b3 6820aea
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 21 11:19:54 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/nghiepvu
+
+[33mcommit 41962b3e99d716081c33602ce9a11a7efe8d5e14[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 21 11:19:48 2023 +0700
+
+    sua hoso
+
+[33mcommit 6820aea091f6774f14a005d4bb2c98655ded8f2a[m
+Merge: bf8500f c235f26
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 21 11:19:12 2023 +0700
+
+    Merged PR 392: Merge feature/donvi to master
+
+[33mcommit c235f26512a4c15978842f240d67988541e1b4a8[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 21 11:17:21 2023 +0700
+
+    cap nhat themsuaxoa TruongHopThuTuc,PhiLePhi
+
+[33mcommit c023441e8433db38b06bfa1603e694f441baf4aa[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 21 11:16:37 2023 +0700
+
+    ud order cocautochuc
+
+[33mcommit c295c3fae6fedf29c9e6b406a280e27d2ee41a62[m
+Merge: fa74f2d bf8500f
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 21 09:46:27 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit fa74f2dcbc6ad1e40a2cb96d5f7899a080d2c40e[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 21 09:44:50 2023 +0700
+
+    ud OrderGroup
+
+[33mcommit 160c4286ceb665ac588d5aab29ba602aa26ceef4[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 21 09:29:47 2023 +0700
+
+    cap nhat thongTinNguoiDung
+
+[33mcommit bf8500ff6587e719625dd67edb35cf0666a1b8fa[m
+Merge: 06ea41c 673e6c5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 20 17:32:02 2023 +0700
+
+    Merged PR 391: add tbl nguoidungnhomnguoidung, quatrinhhosoxuly, yeucauthanhtoan
+    
+    add tbl nguoidungnhomnguoidung, quatrinhhosoxuly, yeucauthanhtoan
+
+[33mcommit 673e6c5cb67fb58c173a08d21323176615a0570b[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 20 17:31:11 2023 +0700
+
+    add tbl nguoidungnhomnguoidung, quatrinhhosoxuly, yeucauthanhtoan
+
+[33mcommit 415bab8f23fc4583ea1b2a02010cbab1c5807399[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 20 16:13:55 2023 +0700
+
+    ud order cocautochuc
+
+[33mcommit 2425efe959b867e51c8802eac91501c1b2da03fa[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 20 16:08:38 2023 +0700
+
+    ud order cocautochuc
+
+[33mcommit 06ea41cf824cefe681237f423c3457ec71777a52[m
+Merge: ee5f677 4a7ab10
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 20 15:55:51 2023 +0700
+
+    Merged PR 390: Merge feature/nghiepvu to master
+
+[33mcommit 4a7ab10fba5f408faedea43cc5427abdcbd79f0e[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 20 15:55:33 2023 +0700
+
+    refresh token,add tbl quatrinhxulyhoso, yeucauthanhtoan
+
+[33mcommit a9f07493412d055f3b6ef36349d6087b72909ed1[m
+Merge: 3febf3a ee5f677
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 20 15:46:53 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit ed396b667115e490f40102e012d19114a6481e20[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 20 11:13:24 2023 +0700
+
+    build
+
+[33mcommit ee5f67738cee3117710778bfb9f1d154bfafa10f[m
+Merge: 0cce24b f3a22d3
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 20 10:44:30 2023 +0700
+
+    Merged PR 389: Merge feature/donvi to master
+
+[33mcommit f3a22d37ea74fbead3dd373f1d68b72650676516[m
+Merge: 0cce24b f2caa77
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 20 10:44:16 2023 +0700
+
+    fix conflict
+
+[33mcommit 0cce24ba2b70d1e2b3e4e70547c95661f807a8b8[m
+Merge: b0e9faa e02a248
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 20 10:22:07 2023 +0700
+
+    Merged PR 388: Merge feature/nghiepvu to master
+
+[33mcommit e02a2489d4a3e69a355820b3c54a929ac2ed3fab[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 20 10:21:40 2023 +0700
+
+    fix migration
+
+[33mcommit 37166198469db5a69ce8519d6eda5b8affc7257c[m
+Merge: 54dbaa1 b0e9faa
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 20 09:25:49 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/nghiepvu
+
+[33mcommit b0e9faa0cb3ff70e8902a3c78edd934b0e2638b8[m
+Merge: 2ab348a 33dc101
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Sep 19 21:19:39 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 2ab348a1233d87ed5a4c8d0330d6c399126536e8[m
+Merge: 5a4e81c 8413394
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Sep 19 21:19:24 2023 +0700
+
+    Merge branch 'huanvv'
+
+[33mcommit 54dbaa17b5f260a8c8be7df2e0c0d1bff6befb68[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 17:33:23 2023 +0700
+
+    gop api search philephi,tptt
+
+[33mcommit 84133941a12c4824f27604f36a757981b3554da8[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Sep 19 17:29:09 2023 +0700
+
+    fixAddTbl_Catalog.DiaBan
+
+[33mcommit 33dc1014865417841a7980b01c36a584104732fd[m
+Merge: 5a4e81c 8798134
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 19 16:07:24 2023 +0700
+
+    Merged PR 387: Merge feature/nghiepvu to master
+
+[33mcommit 8798134b4dbd3b3f69c41d6cdcc1d44c991d2c49[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 16:07:07 2023 +0700
+
+    modify_tbl_hoso
+
+[33mcommit 061ac4d3a475711de25a69c9aea7e3317be5f9be[m
+Merge: 71a645b 5a4e81c
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 15:55:41 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/nghiepvu
+
+[33mcommit 71a645b2e2ca294c6a6490e442e83a3bea71e4c6[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 15:55:32 2023 +0700
+
+    hoso
+
+[33mcommit 54465c28ece58f332ecd91d4b85d6cd91d4b568e[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Sep 19 15:35:17 2023 +0700
+
+    fixBugServiceTruongHopThuTuc
+
+[33mcommit 9dcb085b77eb63c0e6e1d8f8eca7ebc00117b066[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Sep 19 15:05:42 2023 +0700
+
+    call API  động
+
+[33mcommit f2caa7708ddcc80112ca9ac441bfc562e4b11379[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 19 15:00:27 2023 +0700
+
+    cap nhat giao dien danhMucDiaBan
+
+[33mcommit 5ed283bfa94141401dd18d0ff6873f445152ba9c[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 19 14:12:27 2023 +0700
+
+    cap nhat updateThuTuc
+
+[33mcommit d41c886774ec59a6e0af05f56cd84494cf69a388[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 19 10:02:47 2023 +0700
+
+    fix conflict2
+
+[33mcommit 459cd8f1b3fbafd8e67af9b77419a00cb6c0e83f[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 19 09:59:52 2023 +0700
+
+    fix conflict
+
+[33mcommit 5a4e81cd3f19f494e576229888d6d21f5200c0f7[m
+Merge: 0fe6945 a4d68d8
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Sep 19 14:10:21 2023 +0700
+
+    Merge branch 'huanvv'
+
+[33mcommit a4d68d83cee419067d91686492c3aa0c9b8faf7f[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Sep 19 13:56:36 2023 +0700
+
+    addTbl_Catalog.DiaBans
+
+[33mcommit d27a9f4b3eb076148133387138c6546dc44cd31b[m
+Merge: c85f7ac 0fe6945
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 10:26:27 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/nghiepvu
+
+[33mcommit c85f7acbe65bb7d46811081ca04b55353347c43f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 10:26:18 2023 +0700
+
+    uyquyen, hinhthuctra themmoihoso
+
+[33mcommit 0fe6945e29b28f420919e64e92a6e6d600e32ec1[m
+Merge: e2e8b07 0714ccc
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Tue Sep 19 09:52:43 2023 +0700
+
+    merge huannv
+
+[33mcommit 0714cccd49e055efa4b57518e562ca1e11cff8ce[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Tue Sep 19 09:27:51 2023 +0700
+
+    Service Import TruongHopThuTuc + PhiLePhi
+
+[33mcommit e2e8b076888c9d44f37f188255dc70b5da6d0e49[m
+Merge: 3c21686 ad93b3b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 19 08:38:43 2023 +0700
+
+    Merged PR 386: update tbl hoso
+    
+    update tbl hoso
+
+[33mcommit ad93b3b698f94438467f65407083d937ca092c7d[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 19 08:37:17 2023 +0700
+
+    update tbl hoso
+
+[33mcommit c15470d3afb4504f711dfc1b2fd3fd2121e795bc[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Sep 18 17:35:45 2023 +0700
+
+    fixDataTypeTblTruongHopTT_TblPhilephi
+
+[33mcommit 3febf3abc1da75a470101d30268ff9750d94a267[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 18 16:18:40 2023 +0700
+
+    ud thong bao phan quyen that bai
+
+[33mcommit 721340640c7397779f540b91469014429ceb44fc[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 18 15:40:13 2023 +0700
+
+    ud admin-reset-password
+
+[33mcommit 3c21686443616620ee80df87e2de91773801088a[m
+Merge: 1b559e0 6ca54f8
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 18 15:16:44 2023 +0700
+
+    Merged PR 385: Merge feature/nghiepvu to master
+
+[33mcommit 6ca54f86600f2b9fd9c5f2704861d2a4c5116b79[m
+Merge: 5541050 1b559e0
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 18 15:16:22 2023 +0700
+
+    gitignore conflict
+
+[33mcommit 554105027d9457044b6e0e3c8c97ee5c0eeb7bbf[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 18 15:15:30 2023 +0700
+
+    trangthaihoso_searhc
+
+[33mcommit 9f8dc3167223051e831cbe6edf635266e397f8e2[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 18 15:14:46 2023 +0700
+
+    themmoihoso_philephi
+
+[33mcommit 1b559e016814ed87924edb40e22d6be2b580eb36[m
+Merge: 25ee26b a2e2df2
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 18 15:14:14 2023 +0700
+
+    Merged PR 384: cap nhat searchThuTuc
+    
+    cap nhat searchThuTuc
+
+[33mcommit a2e2df2162c630dc742937c99ba5e2ebadb32f07[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 18 15:13:38 2023 +0700
+
+    cap nhat searchThuTuc
+
+[33mcommit 910461109638eac5a0e793d1f4b7ba9ea39c7b67[m
+Merge: c252ee0 25ee26b
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 18 14:10:59 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit c252ee08e351e72eef4ecb76675528ccf424bf25[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 18 14:04:58 2023 +0700
+
+    ud phanquyen
+
+[33mcommit 25ee26bd7544526385f099770b2c20e5e390618f[m
+Merge: 00a90d7 01acae4
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Mon Sep 18 11:54:33 2023 +0700
+
+    stage Reactjs
+
+[33mcommit 00a90d7cbc482f9c01da1bb257eeecaa5ece15dd[m
+Merge: eed4efb edf6102
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Mon Sep 18 11:53:54 2023 +0700
+
+    Merge branch 'huanvv'
+
+[33mcommit ac11ef8572d8a973c7a55b97b6557c0d2d8b69b1[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 18 11:51:22 2023 +0700
+
+    ud Search by GroupCode
+
+[33mcommit 8e6c2a9408b2c48e78a01814512388865cdf5f2c[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 18 11:48:08 2023 +0700
+
+    ud PhanQuyen
+
+[33mcommit 01acae4fb7b291359bb9a4ed4252b0dbde0aefa8[m
+Merge: 6b013a1 82174d3
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 18 11:28:36 2023 +0700
+
+    Merged PR 383: Merge feature/donvi to master
+
+[33mcommit 82174d3ab635ca6af00bef0f88a91c9b646d7662[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 18 11:24:30 2023 +0700
+
+    cap nhat doimatkhau
+
+[33mcommit 01260d98bd354e134be86efc3403dd116c66857f[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 18 11:28:02 2023 +0700
+
+    fix confict
+
+[33mcommit edf61026f284693b1ededc6648f0e946e7d57100[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Mon Sep 18 10:33:49 2023 +0700
+
+    Modify Service tblThuTucs + Drop Idx_ThuTuc_TenTTHC
+
+[33mcommit eed4efbc16e904a0efcdc627f5aa479a570a0686[m
+Merge: 6b013a1 f5b29cc
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Mon Sep 18 10:15:13 2023 +0700
+
+    Merge branch 'huanvv'
+
+[33mcommit 6b013a19ea987c7f2954b5d90cbfa4c71e4a12cc[m
+Merge: 0d1c213 69a40a1
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Mon Sep 18 10:14:09 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit 69a40a1beba28a2a35989dad2b8c1088d1578eed[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 18 08:28:06 2023 +0700
+
+    fix import bshs,
+
+[33mcommit f5b29cc0679382b475d4252ce8aafb623c96a284[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sun Sep 17 16:58:20 2023 +0700
+
+    sửa đường dẫn database cá nhân sang của cty
+
+[33mcommit d5d5004e8d4eeaf71602d33e8256912105ed06f9[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Sun Sep 17 16:53:36 2023 +0700
+
+    add fixLengthDataThuTuc_2
+
+[33mcommit fc4eb782fcbee5e7e014352e7da095aab0ccafee[m
+Merge: d35475e fda6245
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Sep 16 11:06:12 2023 +0700
+
+    Merged PR 382: Merge feature/donvi to master
+
+[33mcommit d35475e27ca2b37e52469236661a996755e06456[m
+Merge: 45ebeb6 3aec7b8
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Sep 16 10:52:49 2023 +0700
+
+    Merged PR 381: giao dien them moi ho so
+    
+    giao dien them moi ho so
+
+[33mcommit 3aec7b8f758c9eb121b6ecef92462ee762cd703c[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sat Sep 16 10:52:31 2023 +0700
+
+    giao dien them moi ho so
+
+[33mcommit 45ebeb66d9bc8124cc98cacfa75fb377c136b79c[m
+Merge: a6588da bc427b4
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 15 17:11:01 2023 +0700
+
+    Merged PR 380: Merge huanvv to master
+
+[33mcommit bc427b4e36efb75f34c90404bc7fd32366e93466[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Sep 15 16:19:40 2023 +0700
+
+    update lengthDataOfTblThuTuc
+
+[33mcommit 0d1c2138ca621063ddcda4f8ff96d96d13647dce[m
+Author: Vũ Ngọc Điệp <diepvu70@hotmail.com>
+Date:   Fri Sep 15 10:23:59 2023 +0700
+
+    add git
+
+[33mcommit 75c13ca3b7d06b74683bf3b23a928813e2b150aa[m
+Merge: 9b10124 a6588da
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Sep 15 10:07:21 2023 +0700
+
+    merge master
+
+[33mcommit 9b101243a6ead95e2252aa541d8b09391d8c5028[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Fri Sep 15 10:02:44 2023 +0700
+
+    Add servive đồng bộ Thủ tục + Lĩnh vực
+
+[33mcommit a6588da8153b3f7ffdbe68a9db3f949f7a8a232a[m
+Merge: cc4983c f1592ac
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 15 09:00:21 2023 +0700
+
+    Merged PR 379: change type thoigianthuchien tbl truonghopthutuc
+    
+    change type thoigianthuchien tbl truonghopthutuc
+
+[33mcommit f1592ac8d564d9702fe035b866c7d560f132c0dd[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 15 08:59:49 2023 +0700
+
+    change type thoigianthuchien tbl truonghopthutuc
+
+[33mcommit cc4983c708a9d34dd9d6f6c3fdb8082b4ffcd6da[m
+Merge: 490d578 0c9c452
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 16:40:32 2023 +0700
+
+    Merged PR 378: fix for prod
+    
+    fix for prod
+
+[33mcommit 0c9c4528cd7217858e700c3f9f9ca28dd3aabece[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 16:40:17 2023 +0700
+
+    fix for prod
+
+[33mcommit 490d578f42dfee47807855773ac3fe9a941c75a1[m
+Merge: 50df1f8 362eb46
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 16:29:26 2023 +0700
+
+    Merged PR 377: modal them moi ho so/ thutuc truong hop
+    
+    modal them moi ho so/ thutuc truong hop
+
+[33mcommit 362eb4675b6b22ad79032d94411ce78c9f4afbfd[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 16:27:16 2023 +0700
+
+    top menu
+
+[33mcommit e571d3e572a914189d30aaca1446354848b41af5[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 16:28:48 2023 +0700
+
+    fix conflict security json
+
+[33mcommit 50df1f8ad5ecee93125c020a657b85bc0aaad76a[m
+Merge: be25782 89d5f1d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 16:08:26 2023 +0700
+
+    Merged PR 376: Merge datdt-dev to master
+
+[33mcommit 89d5f1de74df7fd3d11ecaaef2eccd86037b5d77[m
+Merge: e123d7c be25782
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 14 16:03:44 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit e123d7c74fdab1aae6568f27122d15bfd49cbf52[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 14 16:03:10 2023 +0700
+
+    ud cocautochuc
+
+[33mcommit be257821b7ae1849a1c78ec5178203d5a85cbba1[m
+Merge: bb7edc8 b040694
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 15:33:53 2023 +0700
+
+    Merged PR 375: delete screenaction fe
+    
+    delete screenaction fe
+
+[33mcommit b04069488d98c2510fb10ebe545b306c3de6a2fa[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 15:33:41 2023 +0700
+
+    delete screenaction fe
+
+[33mcommit fda6245bdc7cbf15f4e7d3d60af288d120fe82e8[m
+Merge: 3aab81b bb7edc8
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 14 15:25:19 2023 +0700
+
+    fix confict
+
+[33mcommit bb7edc8c6e150b5d2d4436b0ad34afb72683b2f0[m
+Merge: d3eadb2 8266027
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 15:24:23 2023 +0700
+
+    Merged PR 374: l
+    
+    l
+
+[33mcommit 8266027beffdabf7242443ae73afa8fa4ad0c78f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 15:24:11 2023 +0700
+
+    l
+
+[33mcommit 3aab81b59ba6b951c61aaa52a7b6ad09bf7bdd51[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 14 15:21:41 2023 +0700
+
+    cap nhat bosunghoso
+
+[33mcommit d3eadb2d3430454cf0c8be5f1ff346418016c0de[m
+Merge: 9a40979 8ab7f4b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 15:21:22 2023 +0700
+
+    Merged PR 373: fix search action not in screen
+    
+    fix search action not in screen
+
+[33mcommit 8ab7f4b31bd9655c6a1133a6aec93e0897661925[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 15:21:09 2023 +0700
+
+    fix search action not in screen
+
+[33mcommit 9dedeb0b87dac528b0e475f4a8fcf73486cecb79[m
+Merge: acc9f8f 9a40979
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 14 11:40:29 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 9a40979c65183c439310ed3b5aea556624288b5a[m
+Merge: 6510df3 ebf4376
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 11:38:36 2023 +0700
+
+    Merged PR 372: folder structure hoso
+    
+    folder structure hoso
+
+[33mcommit ebf4376c0688cd74bc9c3ae1b6256d653681a141[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 11:38:22 2023 +0700
+
+    folder structure hoso
+
+[33mcommit acc9f8f15a6e3a3be1a943b38a7f5a8bd00ec89d[m
+Merge: 9e5c881 6510df3
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 14 11:27:00 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong into feature/donvi
+
+[33mcommit 6510df3936e09df0bbee7b7c1db798ef9bfb43b7[m
+Merge: ad20c66 8c74e08
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 11:26:50 2023 +0700
+
+    Merged PR 371: specific hoso name
+    
+    specific hoso name
+
+[33mcommit 9e5c881704fd13766a63f591128f046c217d7d8e[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 14 11:26:18 2023 +0700
+
+    update
+
+[33mcommit 8c74e089ced6001ba9d12c2850801f05970c9d69[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 11:24:28 2023 +0700
+
+    specific hoso name
+
+[33mcommit ad20c662af8d43700cfa8670eb2def9bdf134854[m
+Merge: b31287e 4b15c5d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 10:45:54 2023 +0700
+
+    Merged PR 370: Merge feature/donvi to master
+
+[33mcommit 4b15c5d495d7beb1b0bf0edbe98cc6b6dff53a51[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 14 10:45:14 2023 +0700
+
+    cap nhat timkem
+
+[33mcommit b31287e9200e7e091441afa9ca0441de5084e981[m
+Merge: 9ddfe49 420df1f
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 10:45:04 2023 +0700
+
+    Merged PR 369: generate dynamic button actions
+    
+    generate dynamic button actions
+
+[33mcommit 420df1fba5f69fc8b2859a9516a223d71edae8b3[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 10:44:13 2023 +0700
+
+    generate dynamic button actions
+
+[33mcommit 9ddfe49b1399d3dfdac1f802ce28c92f5b1aa87e[m
+Merge: 55e8643 dc9a171
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 14 09:21:23 2023 +0700
+
+    Merged PR 368: screen - actions
+    
+    screen - actions
+
+[33mcommit dc9a17112420e5798594ddb3c117a99a3a0fcd48[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 14 09:20:24 2023 +0700
+
+    screen - actions
+
+[33mcommit bebbda15cd20c1c3db032f593a07b4b55e7f9108[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Sep 13 16:09:06 2023 +0700
+
+    cap nhat xoaVaiTro
+
+[33mcommit ad69b2caaf60096150c350a21db39d01d95772f7[m
+Merge: 0105bc8 55e8643
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 13 15:32:36 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 0105bc854e7bb00eb9cd69c2971891fb3db1fec8[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 13 15:26:01 2023 +0700
+
+    ud cocautochuc
+
+[33mcommit 55e8643e7fb437b09864bdfb6121f55bae637c9b[m
+Author: Tran Van Hai <>
+Date:   Wed Sep 13 07:53:33 2023 +0000
+
+    Deleted admin.tsx
+
+[33mcommit 4656613dee8d460ea9285bd364f7db6c83987876[m
+Merge: b255027 170a48e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 13 14:36:48 2023 +0700
+
+    Merged PR 367: Merge feature/nghiepvu to master
+
+[33mcommit 170a48eaee45e1d19c98a35c6b3c546efbdb9995[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 13 14:36:33 2023 +0700
+
+    conflict
+
+[33mcommit 0495cc4de11d1cd5c88240d0f88992a07fe09fdb[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 13 14:33:32 2023 +0700
+
+    add file action fe
+
+[33mcommit b255027767f60deb9c5dda55a46fd8baac3e8008[m
+Merge: 563ec5a f9e192b
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 13 14:32:54 2023 +0700
+
+    Merged PR 366: Merge feature/donvi to master
+
+[33mcommit f9e192b3a8110cfbc077a66fab4db1216c924218[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Sep 13 14:32:12 2023 +0700
+
+    fix conflict
+
+[33mcommit ebccc1ef3d5c5394c98a2129a2511f4e0ec449b5[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Sep 13 14:28:17 2023 +0700
+
+    fix confict
+
+[33mcommit 563ec5acb2591f3dd90fb77490e5f782791338a1[m
+Merge: 1f2c14b 80c9f77
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 13 13:49:44 2023 +0700
+
+    Merged PR 365: add tbl screen, screen_action
+    
+    add tbl screen, screen_action
+
+[33mcommit 80c9f779c0e50c6b510dd7526973b87f656e58f6[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 13 13:49:22 2023 +0700
+
+    add tbl screen, screen_action
+
+[33mcommit 1f2c14b001a9e917378a44c4e11c761851b2cae2[m
+Merge: 233e192 d1b7197
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 13 09:39:04 2023 +0700
+
+    Merged PR 364: rename schema, change project structure
+    
+    rename schema, change project structure
+
+[33mcommit d1b71973eb70c954356dffe9e1d00d90e3984ab4[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 13 09:38:43 2023 +0700
+
+    rename schema, change project structure
+
+[33mcommit 233e192e2fea18a0f813e00848ea2bfd8b8a4c07[m
+Merge: c81d946 e0647c5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 13 08:47:43 2023 +0700
+
+    Merged PR 363: fix menu, dang xuat khi khong the lay token moi
+    
+    fix menu, dang xuat khi khong the lay token moi
+
+[33mcommit e0647c54c3538d547af9a98cb929e4ace0445c52[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 13 08:47:09 2023 +0700
+
+    fix menu, dang xuat khi khong the lay token moi
+
+[33mcommit 4126d386fdea18fb550ff748f9359eb5c1ee4fcb[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 13 08:23:29 2023 +0700
+
+    ud
+
+[33mcommit 58cc9ff004645df166e1522e4698a92485d64411[m
+Merge: 9a3933f c81d946
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 13 08:21:37 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 9a3933f572915264f1bee9fbef97b79336a6802d[m
+Merge: 4094982 fffef26
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 12 17:31:24 2023 +0700
+
+    ud user
+
+[33mcommit c81d9461301b6ac305eb2ac29270c5e77123d6dc[m
+Merge: fffef26 24aa9bb
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 12 10:23:06 2023 +0700
+
+    Merged PR 362: add route dvc, add tbl action
+    
+    add route dvc, add tbl action
+
+[33mcommit 24aa9bbb5d4ab978a42521cd0ee78bfe0ed71988[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 12 10:22:42 2023 +0700
+
+    add route dvc, add tbl action
+
+[33mcommit 409498290d39fb1406cffd73611591a43ea6b135[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 12 09:20:38 2023 +0700
+
+    ud user
+
+[33mcommit fffef265b319b70416a9860118e2ca48cb64af90[m
+Merge: e6e421a 0cd85b6
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 11 15:59:47 2023 +0700
+
+    Merged PR 361: delete dummy core
+    
+    delete dummy core
+
+[33mcommit 0cd85b65093505d4295280a9b600c68effc304b0[m[33m ([m[1;31morigin/feature/group[m[33m, [m[1;32mfeature/group[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 11 15:59:24 2023 +0700
+
+    delete dummy core
+
+[33mcommit e6e421a72bb407127db648cf6945e3d10a73ec16[m
+Merge: 27769d4 d1ab76a
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 11 14:12:00 2023 +0700
+
+    Merged PR 360: lazy load modals in thutuc comps
+    
+    lazy load modals in thutuc comps
+
+[33mcommit d1ab76a7183b45e76d2eeeffc089e352e69971bb[m[33m ([m[1;31morigin/fix/page-load-slow[m[33m, [m[1;32mfix/page-load-slow[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 11 14:11:37 2023 +0700
+
+    lazy load modals in thutuc comps
+
+[33mcommit 27769d496a7935371a5ffd854a132c516fa5dc5a[m
+Merge: 200bd76 57d952c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 11 11:37:31 2023 +0700
+
+    Merged PR 359: update refreshtoken with redux toolkit
+    
+    update refreshtoken with redux toolkit
+
+[33mcommit 57d952cb333da8716da2649cd51e7fa22412cc05[m[33m ([m[1;31morigin/fix/cocautochuc[m[33m, [m[1;32mfix/cocautochuc[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Mon Sep 11 11:36:53 2023 +0700
+
+    update refreshtoken with redux toolkit
+
+[33mcommit 200bd762b64db3e65bfa842f51e1968d8a07cd13[m
+Merge: 7db7f03 2245b26
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Mon Sep 11 11:36:00 2023 +0700
+
+    Merged PR 358: cap nhat logout
+    
+    cap nhat logout
+
+[33mcommit 2245b26051fe09bc85a26918e3e1945b4b887f79[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Mon Sep 11 11:21:32 2023 +0700
+
+    cap nhat logout
+
+[33mcommit e5a0f2d8d28070e60d312cfa58971b9006c8e66d[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 11 10:08:40 2023 +0700
+
+    handle conflix
+
+[33mcommit 1d3be845666c75e6d59b01774629038237b40115[m
+Merge: a7767b2 7db7f03
+Author: Datdt <madatk62@gmail.com>
+Date:   Mon Sep 11 08:23:53 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 7db7f0345689112a833b7f82e9daae8f3583cdea[m
+Merge: 028dec1 2cdcbc6
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sun Sep 10 11:57:56 2023 +0700
+
+    Merged PR 357: cocautochuc trê
+    
+    cocautochuc trê
+
+[33mcommit 2cdcbc6b3545f142e28f0249332be96fd4a1a8b8[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Sep 10 11:57:27 2023 +0700
+
+    cocautochuc trê
+
+[33mcommit 028dec140660a4dc1c2794a9d1d6ddfd38966ea5[m
+Merge: 5e15eb6 2766112
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sun Sep 10 11:27:19 2023 +0700
+
+    Merged PR 356: Merge datdt-dev to master
+
+[33mcommit 276611219fc7c100ef8434c96fec6ff5d3bcc41a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Sep 10 11:25:25 2023 +0700
+
+    conflict3
+
+[33mcommit 2dd98982e30b5687054accaa85a3307c8225d953[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 15:41:32 2023 +0700
+
+    ud CoCauToChuc
+
+[33mcommit 4b91de128988ff2f8276d61e83751c5f8ee4b2c5[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Sep 10 11:24:43 2023 +0700
+
+    conflict2
+
+[33mcommit 7f2abe316a942487d5a629109774d5bdeb2965a1[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Sep 10 11:23:58 2023 +0700
+
+    conflict1
+
+[33mcommit ed704e4a48fadeefad60e0bd85bd24d1b39c79bc[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Sep 10 11:22:39 2023 +0700
+
+    fixl
+
+[33mcommit 5e15eb67a246a15e27d6dafc74fce5bd9ea97b67[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sun Sep 10 11:16:29 2023 +0700
+
+    login, rejected message
+
+[33mcommit a7767b242865fc493ef7a0581a8fcfa4ef1e50e5[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Sun Sep 10 09:48:04 2023 +0700
+
+    ud cocautochuc
+
+[33mcommit 8c599449ee62c3b5252067bae398522e6c2ea3fe[m
+Merge: 1e1079e 3787f53
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Sat Sep 9 14:05:04 2023 +0700
+
+    Merged PR 355: search user by groupcode
+    
+    search user by groupcode
+
+[33mcommit 3787f5352bc81b6da24fd0dc4998bf54b09ab153[m[33m ([m[1;31morigin/feature/truonghopthutuc[m[33m, [m[1;32mfeature/truonghopthutuc[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Sat Sep 9 14:04:41 2023 +0700
+
+    search user by groupcode
+
+[33mcommit 1e1079e6e223a9a7dd708c40959ec201064f6dc3[m
+Merge: d1c2d21 579aaef
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 8 17:57:02 2023 +0700
+
+    Merged PR 354: thtt
+    
+    thtt
+
+[33mcommit 579aaefde90173685824c6ccfae56c8263e4ec4f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 8 17:56:40 2023 +0700
+
+    thtt
+
+[33mcommit d1c2d21d98b85769ccd29003cecfbcaff3573ebb[m
+Merge: b94a0c5 ebe2daa
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 8 17:45:17 2023 +0700
+
+    Merged PR 353: Merge feature/donvi to master
+
+[33mcommit ebe2daa160daab23023aea1ef2c0731e3909ef84[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Fri Sep 8 17:29:55 2023 +0700
+
+    cap nhat giao dien ThongBao
+
+[33mcommit 5d4fe38476ccce906a8fdccedd2ee3a8f5a63b82[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Fri Sep 8 15:29:16 2023 +0700
+
+    add migration
+
+[33mcommit a6da64001c015cc103b08b779f6997d47a0ee8df[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Fri Sep 8 15:16:57 2023 +0700
+
+    cap nhat ThongBaoEntity
+
+[33mcommit b94a0c57b13fddff255f4a5ac7637d0dea3db611[m
+Merge: 7a4dac1 9ae47e4
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Fri Sep 8 15:15:35 2023 +0700
+
+    Merged PR 352: Merge feature/truonghopthutuc to master
+
+[33mcommit 9ae47e48c62925789e7af7c121308fb9204607d7[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 8 15:15:02 2023 +0700
+
+    update truonghopthutuc, quatrinhxuly nodes,edged
+
+[33mcommit 6c4759ff94fde9a9dfd91c7b5939bb7300c65d89[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Fri Sep 8 08:34:13 2023 +0700
+
+    modify truonghopthutuc entity
+
+[33mcommit 7a4dac10108100e96effb3779d9cf33471eaed3a[m
+Merge: 5a667e0 5ea271d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 17:18:59 2023 +0700
+
+    Merged PR 351: cap nhat BuocXuLi
+    
+    cap nhat BuocXuLi
+
+[33mcommit 5ea271d95cd51109ef21913de10eaad5b9a404a6[m[33m ([m[1;31morigin/feature/buocxuli[m[33m)[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 7 17:16:25 2023 +0700
+
+    cap nhat BuocXuLi
+
+[33mcommit 5a667e0e28678baeb4b36cb4b46a85502b75f892[m
+Merge: d581421 ae54194
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 16:04:15 2023 +0700
+
+    Merged PR 350: cap nhat donvithutuc
+    
+    cap nhat donvithutuc
+
+[33mcommit ae54194d913cd14b235b0dd0cfcad3d4f518120b[m[33m ([m[1;31morigin/feature/loaiphilephi[m[33m)[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 7 15:48:11 2023 +0700
+
+    cap nhat donvithutuc
+
+[33mcommit 95da1d70f56a85c28d319de551574942f69d3d18[m
+Merge: fedb79d d581421
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 15:42:20 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit fedb79df23353fac179ac0dd1c82c1db932c8fbc[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 15:41:32 2023 +0700
+
+    ud CoCauToChuc
+
+[33mcommit d5814217d41b065fd9206e360a65c5a183810389[m
+Merge: a87d1c3 ca90955
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 15:27:38 2023 +0700
+
+    Merged PR 349: group Ids length
+    
+    group Ids length
+
+[33mcommit ca90955f8a8348c6ac45222cc07502518e829fa9[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 15:27:21 2023 +0700
+
+    group Ids length
+
+[33mcommit a87d1c34aa2de21d9e37738fad730a1d8b03df05[m
+Merge: 82dd238 2eef6d4
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 15:25:10 2023 +0700
+
+    Merged PR 348: ud tbl
+    
+    ud tbl
+
+[33mcommit 2eef6d4fdfee7626f83f5a643740bf139aa03d9a[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 15:24:47 2023 +0700
+
+    ud tbl
+
+[33mcommit 9d0e4a468da5f640343c4f7667049b6a666d0757[m
+Merge: 7fad05e 82dd238
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 14:42:03 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 7fad05e2c6914d7ae057c6e79bb9f4ad1890c73e[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 14:40:00 2023 +0700
+
+    ud DanhMucMenu
+
+[33mcommit 82dd238899ac34f980d5be8319cf185b554a9976[m
+Merge: 0805041 4433e41
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 14:38:06 2023 +0700
+
+    Merged PR 347: them customnode reactflow
+    
+    them customnode reactflow
+
+[33mcommit 4433e419f446e4b7fc0de2c4f89062097f2df61f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 14:37:35 2023 +0700
+
+    them customnode reactflow
+
+[33mcommit 0805041c34ec4fd52c2c952758659f3e31e05777[m
+Merge: a9b9954 59458d5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 11:40:15 2023 +0700
+
+    Merged PR 346: Merge feature/truonghopthutuc to master
+
+[33mcommit 59458d50aca615a96f3d94642687b775fddca445[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 11:38:04 2023 +0700
+
+    them tbl quytrinhxuly
+
+[33mcommit e5b4f62620f08e67333a6b27455626a26663f25f[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 11:39:43 2023 +0700
+
+    fix conflict
+
+[33mcommit a9b9954639953f1768eb730d2463341789f60f35[m
+Merge: 956ff78 6fc53bb
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 10:40:27 2023 +0700
+
+    Merged PR 345: them philephiReducer
+    
+    them philephiReducer
+
+[33mcommit 6fc53bb3be415351c7d67cf28d483f3538b92e72[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 7 10:40:02 2023 +0700
+
+    them philephiReducer
+
+[33mcommit 956ff78863ae985ee6545e4f71232981c18c710e[m
+Merge: c911155 00bddc2
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 10:37:36 2023 +0700
+
+    Merged PR 344: cap nhat PhiLePhi
+    
+    cap nhat PhiLePhi
+
+[33mcommit 00bddc234634752b9572ddec134047200645cb26[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Sep 7 10:36:34 2023 +0700
+
+    fix conflict
+
+[33mcommit c911155af0bde9dcab1b6736c26f8c9c77a54dc9[m
+Merge: d574dbb f62d1da
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 09:35:37 2023 +0700
+
+    Merged PR 343: logic, giaodien nhomnguoidung
+    
+    logic, giaodien nhomnguoidung
+
+[33mcommit f62d1dad5ce4bb6912339d0a5e748ae09401ac91[m[33m ([m[1;31morigin/feature/nhomnguoidung[m[33m, [m[1;32mfeature/nhomnguoidung[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 09:35:09 2023 +0700
+
+    logic, giaodien nhomnguoidung
+
+[33mcommit d574dbbe08a31a91370158b9b895cbe69a6e4555[m
+Merge: f91cc7a bb0d5f0
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Sep 7 09:10:25 2023 +0700
+
+    Merged PR 342: logic, giao dien trangthaihoso
+    
+    logic, giao dien trangthaihoso
+
+[33mcommit bb0d5f0805e88db746ea30dd1e2a34c228e49e6b[m[33m ([m[1;31morigin/feature/trangthaihoso[m[33m, [m[1;32mfeature/trangthaihoso[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Sep 7 09:09:55 2023 +0700
+
+    logic, giao dien trangthaihoso
+
+[33mcommit 314756052112643505227e59fa190e9d23199070[m
+Merge: f6a7d46 f91cc7a
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 09:01:17 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit f6a7d46ba1b80affeb798d975fa86cfc17f1162d[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Thu Sep 7 08:56:53 2023 +0700
+
+    ud danhmucmenu
+
+[33mcommit f91cc7a00a60224c6b120317d83bc1ae20f763ac[m
+Merge: 52ed512 ce0af16
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 6 17:40:00 2023 +0700
+
+    Merged PR 341: update
+    
+    update
+
+[33mcommit ce0af168cc34a66b62ce0884656843a85f0dc57e[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Sep 6 17:38:08 2023 +0700
+
+    update
+
+[33mcommit 52ed51299dab01609514b8d1714d4d5b330afb2b[m
+Merge: f308d76 362fad9
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 6 17:04:57 2023 +0700
+
+    Merged PR 339: init fe quy trinh xu ly
+    
+    init fe quy trinh xu ly
+
+[33mcommit 362fad9a68a12722145cac0dddbf0ce029b39d1e[m[33m ([m[1;31morigin/feature/quytrinhxuly[m[33m, [m[1;32mfeature/quytrinhxuly[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 6 17:04:29 2023 +0700
+
+    init fe quy trinh xu ly
+
+[33mcommit f308d769fb1b03cc5ed948b273c67e8c5dee84dc[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 6 16:58:46 2023 +0700
+
+    remove yarnlock
+
+[33mcommit 16cd2b19ed9ba730377e4c18b7f7c6b288280e46[m
+Merge: 8ffc9ca c99fcb9
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 6 16:56:52 2023 +0700
+
+    Merged PR 338: them reactflow custom
+    
+    them reactflow custom
+
+[33mcommit c99fcb953436416eecfa98e27e6962ce8665e045[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 6 16:55:46 2023 +0700
+
+    them reactflow custom
+
+[33mcommit 8ffc9cab3429aaf7f4dc44b9267496227f9e259f[m
+Merge: 0c05d13 7f068d3
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 6 14:59:42 2023 +0700
+
+    Merged PR 337: EForm
+    
+    EForm
+
+[33mcommit 7f068d315cd016b1c979c314f07dcbe1eea23896[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 6 14:59:18 2023 +0700
+
+    EForm
+
+[33mcommit f332349a4cc8ea667e48f5ebfdffc7b06dc56626[m
+Author: VuHuan <vuhuan414@gmail.com>
+Date:   Wed Sep 6 09:21:39 2023 +0700
+
+    fix
+
+[33mcommit 0c05d13f44ede3bba22bded56e77d358f781db73[m
+Merge: 348ad6f 6431fe0
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 6 09:06:35 2023 +0700
+
+    Merged PR 336: nested table thutuc
+    
+    nested table thutuc
+
+[33mcommit 6431fe056323f97ffa03ed337f36764ffa3b203a[m[33m ([m[1;31morigin/feature/thutuc[m[33m, [m[1;32mfeature/thutuc[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Sep 6 09:03:31 2023 +0700
+
+    nested table thutuc
+
+[33mcommit 348ad6fe26aebba16a598c9ccc1dbaf006b0ca5e[m
+Merge: 5f189bb 5192b04
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Sep 6 09:04:43 2023 +0700
+
+    Merged PR 335: Merge feature/danhmucchung to master
+
+[33mcommit b66e5ac2788e9e5ac05af72f518128882f4ffec6[m
+Merge: b79742c 5f189bb
+Author: Datdt <madatk62@gmail.com>
+Date:   Wed Sep 6 08:32:58 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit 5192b04cb01875c471705d96d1a7ed4de80dd6b9[m[33m ([m[1;31morigin/feature/danhmucchung[m[33m)[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 5 17:38:04 2023 +0700
+
+    update
+
+[33mcommit 3af0ba94a931a7c442dc81ffaea8d83905af19f1[m
+Merge: 767eb8e 5f189bb
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 5 15:22:47 2023 +0700
+
+    fix conflict
+
+[33mcommit 767eb8e13d2c739017f9ae64f6d912d23fdfcf31[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Tue Sep 5 15:17:25 2023 +0700
+
+    cap nhat danhMucChung
+
+[33mcommit 5f189bbecb83d7cf3669c1a135ea575908402b18[m
+Merge: d695264 4882308
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 5 14:47:08 2023 +0700
+
+    Merged PR 334: update tbl thutuc
+    
+    update tbl thutuc
+
+[33mcommit 4882308fefe3a7f1533ee7a5dced5b6a6f6015dd[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 5 14:46:34 2023 +0700
+
+    update tbl thutuc
+
+[33mcommit b79742cbf4e3e35c85e2fc50e096405c038aab8d[m
+Merge: 9692c06 39df1d2
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 5 09:44:18 2023 +0700
+
+    Merge branch 'master' into datdt-dev
+
+[33mcommit d6952644402ad8629653b7bbee71a71746533da6[m
+Merge: 39df1d2 51055a8
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Tue Sep 5 09:44:18 2023 +0700
+
+    Merged PR 333: giao dien linhvuc
+    
+    giao dien linhvuc
+
+[33mcommit 51055a89460f662b7dbf9e261c5d65ef3c4189d6[m[33m ([m[1;31morigin/feature/linhvuc[m[33m, [m[1;32mfeature/linhvuc[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Sep 5 09:43:38 2023 +0700
+
+    giao dien linhvuc
+
+[33mcommit 9692c065c6f838919fc5efcf17ee8df295c6a597[m
+Author: Datdt <madatk62@gmail.com>
+Date:   Tue Sep 5 09:41:26 2023 +0700
+
+    id CauHinhHeThong
+
+[33mcommit 39df1d247ef08ebe2e31cd5c64b187c99d6d47f9[m
+Merge: e24988f c9b82f0
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 16:52:51 2023 +0700
+
+    Merged PR 332: hoso
+    
+    hoso
+
+[33mcommit c9b82f020cb26a438391a6c690540b5f7f1ea246[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 16:52:27 2023 +0700
+
+    hoso
+
+[33mcommit e24988f47e3ea5272d2379d44b227f31d9e290d3[m
+Merge: 4cfd1d4 b41f21c
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 15:16:48 2023 +0700
+
+    Merged PR 331: init donvi thu tuc
+    
+    init donvi thu tuc
+
+[33mcommit b41f21c108a4fa9d8700746efdb7e03f19989d21[m[33m ([m[1;31morigin/feature/donvithutuc[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 15:16:25 2023 +0700
+
+    init donvi thu tuc
+
+[33mcommit 4cfd1d42cb41ce7e2acc9aab1e1f6e26b4c303f1[m
+Merge: 7045380 cca539e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 14:48:20 2023 +0700
+
+    Merged PR 330: init thanh phan thu tuc
+    
+    init thanh phan thu tuc
+
+[33mcommit cca539e58ff3e374609a62450ceb675155ba7103[m[33m ([m[1;31morigin/feature/thanhphanthutuc[m[33m, [m[1;32mfeature/thanhphanthutuc[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 14:47:54 2023 +0700
+
+    init thanh phan thu tuc
+
+[33mcommit 704538094ef1d07893cb92a207696913ead3cdb2[m
+Merge: f7b6438 5bfda38
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 12:02:00 2023 +0700
+
+    Merged PR 329: init phi, le phi
+    
+    init phi, le phi
+
+[33mcommit 5bfda38c173a7c4351e4377e1f6cae12e122af5b[m[33m ([m[1;32mfeature/philephi[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 12:00:08 2023 +0700
+
+    init phi, le phi
+
+[33mcommit f7b643855021525743fd09e8fe45c7d09f0c1d9f[m
+Merge: 819be07 9a81b23
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 11:09:29 2023 +0700
+
+    Merged PR 328: truong hop thu tuc
+    
+    truong hop thu tuc
+
+[33mcommit 9a81b23f95d96303f49a7d789cb5e31da120d2c0[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 11:08:58 2023 +0700
+
+    truong hop thu tuc
+
+[33mcommit 819be076332609d0497e29ee63d4b6166b697a7c[m
+Merge: 855115c e5318b1
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 10:27:30 2023 +0700
+
+    Merged PR 327: Merge feature/linhvuc to master
+
+[33mcommit e5318b14b90fd7afe277d7e863c012e1324b7bd1[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 10:27:10 2023 +0700
+
+    add table linhvuc
+
+[33mcommit 30ac397fbf7ac2385e6de076a6521fae0ea1d657[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 10:24:36 2023 +0700
+
+    fix conflict
+
+[33mcommit 855115cc97ac50a874cb0e6db866d0ab0abcb150[m
+Merge: e1b2b12 6d5b1be
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 10:22:31 2023 +0700
+
+    Merged PR 326: Merge feature/thutuc to master
+
+[33mcommit 6d5b1bef719009b82a69ddf2b8d507662e44e562[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 10:21:38 2023 +0700
+
+    add table thutuc
+
+[33mcommit dbd367edf288eb9eeed462b4c701cdeb1e7f0065[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Thu Aug 31 09:45:23 2023 +0700
+
+    thu tuc init
+
+[33mcommit e1b2b12f3ceaebabd17b71a0573be2d6bd817da2[m
+Merge: 0fcdafb 2facb14
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Thu Aug 31 10:13:10 2023 +0700
+
+    Merged PR 325: update Fe + add column DanhMucChung
+    
+    update Fe + add column DanhMucChung
+
+[33mcommit 2facb143667a3375ab161c645c77760edc2ce38f[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Thu Aug 31 09:55:36 2023 +0700
+
+    update Fe + add column DanhMucChung
+
+[33mcommit 0fcdafbd8a402baee73546fb933b39c268a6d183[m
+Merge: fd82ccf 0e7fe78
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 16:52:20 2023 +0700
+
+    Merged PR 324: them, xoa anh
+    
+    them, xoa anh
+
+[33mcommit 0e7fe78a5483ba807358863d34109e4590fe87ff[m[33m ([m[1;31morigin/feature/filehandler[m[33m, [m[1;32mfeature/filehandler[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 16:51:59 2023 +0700
+
+    them, xoa anh
+
+[33mcommit fd82ccff56d61c50f5279c734fcda8e2134d0cb3[m
+Merge: f185fa8 7913b3c
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Aug 30 16:19:24 2023 +0700
+
+    Merge branch 'master' of http://113.160.53.62:8080/tfs/TDCollection/_git/TD_DichVuCong
+
+[33mcommit f185fa8b7a0143a38aebf417180a0a13933a68db[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Aug 30 16:19:17 2023 +0700
+
+    cap nhat danhmucchung column
+
+[33mcommit 7913b3ce4170e0d4b009c5350d283b7bf8912f82[m
+Merge: a6aa65f fc248b6
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 16:18:32 2023 +0700
+
+    Merged PR 323: them bang, logic, controller
+    
+    them bang, logic, controller
+
+[33mcommit fc248b6d2a07f6ae2913bd9b34af01aa392038a8[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 16:18:10 2023 +0700
+
+    them bang, logic, controller
+
+[33mcommit a6aa65fc91f3c5e5355175bd352de25898357cca[m
+Merge: a7e24d6 b11125d
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 15:32:56 2023 +0700
+
+    Merged PR 322: sua ten class menu, them controller
+    
+    sua ten class menu, them controller
+
+[33mcommit b11125d35d9e00566d45486111bd9c636a92529f[m[33m ([m[1;31morigin/feature/config[m[33m, [m[1;32mfeature/config[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 15:32:36 2023 +0700
+
+    sua ten class menu, them controller
+
+[33mcommit a7e24d64fa622360109b959292c6a70b51a06217[m
+Merge: 4c61173 ae6fce5
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 15:31:11 2023 +0700
+
+    Merged PR 321: them controller, sua ten class cua menu
+    
+    them controller, sua ten class cua menu
+
+[33mcommit ae6fce51cdd057b930422b1fcffe018a7273b420[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 15:30:52 2023 +0700
+
+    them controller, sua ten class cua menu
+
+[33mcommit 4c611733cd8581bb055e914c094fe2f6e9f0f8f8[m
+Merge: 23a6438 b4cae2e
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 15:17:54 2023 +0700
+
+    Merged PR 320: update search by name :menu
+    
+    update search by name :menu
+
+[33mcommit b4cae2ec01b1b705057bcf99961412f81a8e2abe[m[33m ([m[1;31morigin/feature/menu[m[33m, [m[1;32mfeature/menu[m[33m)[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 15:17:37 2023 +0700
+
+    update search by name :menu
+
+[33mcommit 23a64383fde3895c1c2d253ccf3188086ca35ed2[m
+Merge: 320bfd4 6f163d9
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 14:37:41 2023 +0700
+
+    Merged PR 319: logic config
+    
+    logic config
+
+[33mcommit 6f163d9d09aa6998771e200ba00f20f7c5d38da6[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 14:37:15 2023 +0700
+
+    logic config
+
+[33mcommit 320bfd482b67716d79249c681c62f02a0ebf8f70[m
+Merge: 944bb37 db54ee2
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 13:59:00 2023 +0700
+
+    Merged PR 318: fix search menu
+    
+    fix search menu
+
+[33mcommit db54ee2582ddf66f9f393f2b3d74733ceacce122[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 13:58:33 2023 +0700
+
+    fix search menu
+
+[33mcommit 944bb370d707c941fe15eb182403727d4852d1a4[m
+Merge: 2cfb377 b26ad65
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 11:05:33 2023 +0700
+
+    Merged PR 317: modify tbl menu
+    
+    modify tbl menu
+
+[33mcommit b26ad659281fdf16cac88d2c356eb34ddb4642be[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 11:05:10 2023 +0700
+
+    modify tbl menu
+
+[33mcommit 2cfb377fd754ea9007d99fc431bcbd0edc0d7de2[m
+Merge: 0a37934 94aa8d6
+Author: Tran Van Hai <Tran Van Hai>
+Date:   Wed Aug 30 11:02:57 2023 +0700
+
+    Merged PR 316: logic menu
+    
+    logic menu
+
+[33mcommit 94aa8d6de879a067d062111129b51a44dbb0fdec[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 11:01:05 2023 +0700
+
+    logic menu
+
+[33mcommit 0a37934d3b56433e2d2c0851f08454d45067e95c[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Aug 30 09:42:34 2023 +0700
+
+    update
+
+[33mcommit 0d8a8b98894b63155e38caaa2713e92402998ef1[m
+Merge: 5d14e23 78d1e65
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Aug 30 09:39:22 2023 +0700
+
+    update
+
+[33mcommit 5d14e232a3b8e918ddfc08ec795b66208e55df4e[m
+Author: Hienhandsome2002 <2051063835@e.tlu.edu.vn>
+Date:   Wed Aug 30 09:36:27 2023 +0700
+
+    update
+
+[33mcommit 78d1e65bd5ac9c338019944efdc63b54376c0e90[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Wed Aug 30 09:33:11 2023 +0700
+
+    add table menu
+
+[33mcommit 72823c4cc19212de622d9be5d36048e2d6f89ddd[m
+Author: tranhai3112 <tranvanhai31122000@gmail.com>
+Date:   Tue Aug 29 16:26:51 2023 +0700
+
+    init

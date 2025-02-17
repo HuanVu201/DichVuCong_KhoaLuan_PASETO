@@ -1,0 +1,327 @@
+.thongTinCaNhan {
+    margin-top: 50px;
+    cursor: pointer;
+
+    .container {
+        width: 90%;
+        margin: 15px auto;
+    }
+}
+
+.dichVuCong {
+    margin-top: 50px;
+
+    .container {
+        width: 90;
+        margin: 15px auto;
+    }
+}
+
+.containerHoSoCaNhan {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 16px;
+    min-height: 80vh;
+    td{
+        background-color: transparent !important;
+    }
+    .ant-table-cell{
+        background-color: transparent !important;
+    }
+
+    .btnSearch {
+        font-size: 16px;
+        height: auto;
+
+        button {
+            background-color: #ce7a58;
+            max-width: 150px;
+            margin: 10px auto 0 auto;
+            color: #fff;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .actions {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .containerHoSoCaNhan {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .containerHoSoCaNhan {
+        width: 95%;
+
+        .sidebarProfile {
+            padding: 15px 10px;
+
+            .user {
+                padding-bottom: 10px;
+
+                .avatar {
+                    img {
+                        width: 60%;
+                    }
+                }
+
+                .username {
+                    font-size: 13px;
+                }
+            }
+
+            .box-info {
+                .info {
+                    .value {
+                        font-size: 18px;
+                    }
+
+                    .key {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .list-menus {
+                .list-menus_item {
+                    padding: 8px;
+                    font-size: 13px;
+
+                    .icon {
+                        margin-right: 8px;
+                    }
+
+                    .title {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .sidebarProfile_item+.sidebarProfile_item {
+                padding: 5px 0;
+            }
+        }
+
+        .main-title {
+            margin-bottom: 0;
+
+            .icon {
+                width: 50px !important;
+                height: 50px !important;
+            }
+
+            .title {
+                height: 50px !important;
+                padding: unset !important;
+                display: flex !important;
+                align-items: center !important;
+                padding-left: 20px !important;
+                font-size: 18px !important;
+            }
+        }
+
+        label {
+            font-size: 12px !important;
+        }
+
+        input {
+            font-size: 12px;
+        }
+
+        select {
+            font-size: 12px;
+        }
+
+        .form-group {
+            margin-top: 10px !important;
+        }
+
+        .btnSearchAction {
+            // margin-top: 10px !important;
+            font-size: 12px !important;
+            padding: 5px 10px !important;
+            max-width: 80px !important;
+
+        }
+
+        .thongTinDinhDanh {
+            .infoUser {
+                .content {}
+            }
+        }
+
+        .dichVuCongCuaToi {
+            .navbar {
+                .navbar_item {
+                    font-size: 11px;
+                    padding: 5px 0;
+                }
+            }
+
+            .mydvc-list {
+                .table-dvc_item {
+                    padding: 0 !important;
+                    font-size: 12px !important;
+
+                    .title {
+                        font-size: 13px !important;
+                    }
+
+                    .status {
+                        margin-top: 0 !important;
+                        font-size: 12px !important;
+                    }
+
+                    img {
+                        width: 12px !important;
+                    }
+
+                    .detail {
+                        padding: 0 !important;
+                    }
+
+                    .reactCustomer {
+                        .btn {
+                            padding: 2px 5px !important;
+                        }
+
+                        span {
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+        .taiLieuDienTu {
+            span {
+                font-size: 12px !important;
+            }
+
+            th {
+                font-size: 12px !important;
+            }
+
+            td {
+                font-size: 12px !important;
+            }
+
+        }
+
+        .thanhToanPhiLePhi {
+            th {
+                font-size: 12px !important;
+            }
+
+            td {
+                font-size: 12px !important;
+            }
+
+        }
+    }
+
+    .viewDetailHoSoModal {
+
+        .ant-modal-content {
+            .ant-modal-header {
+                .ant-modal-title {
+                    font-size: 13px;
+                }
+            }
+
+            .ant-modal-body {
+                #ViewHoSoModal {
+                    .formDetailHoSo {
+                        .ant-typography {
+                            font-size: 13px;
+                        }
+
+                        label {
+                            font-size: 12px !important;
+                        }
+                        input {
+                            font-size: 12px;
+                        }
+                        textarea {
+                            font-size: 12px;
+                        }
+                        .ant-select-selection-item{
+                            font-size: 12px;
+                        }
+                        .ant-space-item{
+                            font-size: 12px;
+                        }
+                        .ant-tabs-tab-btn{
+                            font-size: 12px;
+                        }
+                        .ant-tag{
+                            font-size: 11px !important;
+                            line-height: unset !important;
+                        }
+
+                        .ant-table-content{
+                            overflow-x: auto;
+                            table{
+                                min-width: 600px;
+                                th{
+                                    font-size: 12px;
+                                }
+                                td{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                        .ant-empty-description{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+            
+            .ant-modal-footer {
+                .ant-btn-sm{
+                    font-size: 12px !important;
+                }
+
+            }
+        }
+
+    }
+
+    .tableSwapper {
+        overflow-x: auto;
+
+        table {
+            min-width: 700px;
+        }
+    }
+
+
+    .ant-pagination {
+        font-size: 11px !important;
+    }
+
+    .ant-select-selector {
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .containerHoSoCaNhan {
+        padding: 0;
+    }
+}

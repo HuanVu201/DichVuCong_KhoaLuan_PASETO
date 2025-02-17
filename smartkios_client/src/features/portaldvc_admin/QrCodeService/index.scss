@@ -1,0 +1,19 @@
+.QrService {
+
+    .button {
+        background-color: #f0ad4e;
+        color: #fff;
+        font-weight: 600;
+        font-size: 17px;
+
+        &:hover {
+            background-color: rgb(211, 153, 72);
+        }
+
+    }
+
+    .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #fff;
+        border: none  ;
+    }
+}

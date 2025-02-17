@@ -1,0 +1,91 @@
+.hoiDap_block {
+    // margin-top: 20px;
+    margin: 20px auto;
+    .Hoidap-search {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 30px;
+
+        .Hoidap-search-swapper {
+            display: flex;
+            height: 40px;
+
+            .input-group {
+
+                #HoiDap_Search {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+
+                    &:focus {
+                        box-shadow: 0 0 0 1px rgba(206, 122, 88, 0.25);
+                        border-color: rgba(206, 122, 88, 0.2);
+                    }
+                }
+            }
+
+            .searchButton {
+                width: 120px;
+
+                button {
+                    height: 100%;
+                    width: auto;
+                    padding: 0 10px;
+                    background-color: #ce7a58;
+                    color: #fff;
+                    border: none;
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    outline: none;
+                }
+
+            }
+
+        }
+
+
+    }
+
+    .TD-danhSachHoiDap {
+        padding: 10px;
+
+        .nav-tabs {
+            display: flex;
+
+            .active {
+                color: #fff;
+                background-color: #ce7a58;
+            }
+
+            .unActive:hover {
+                background-color: rgba(159, 157, 156, 0.25);
+            }
+            .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+                color: #ce7a58;
+            }
+            .ant-tabs-tab:hover .ant-tabs-tab-btn {
+                color: #ce7a58;
+            }
+        }       
+    }
+}
+.ant-btn {
+    background-color: #ce7a58;
+    border-color: #ce7a58;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Hover state */
+  .ant-btn:hover {
+    background-color: #ce7a58;
+    border-color: #ce7a58;
+    color: #fff;
+
+  }
+  
+  .ant-btn:active {
+    background-color: #ce7a58;
+    border-color: #ce7a58;
+  }
+  

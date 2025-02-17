@@ -1,0 +1,86 @@
+.ant-tabs-nav-list {
+    margin: auto !important;
+    font-weight: 500;
+}
+
+:where(.css-dev-only-do-not-override-1ubh8ig).ant-tabs-small>.ant-tabs-nav .ant-tabs-tab {
+    font-size: 16px;
+}
+
+:where(.css-dev-only-do-not-override-1ubh8ig).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ce7a58;
+}
+
+:where(.css-dev-only-do-not-override-1ubh8ig).ant-tabs .ant-tabs-tab:hover {
+    color: #ce7a58;
+}
+
+
+
+.ant-tabs-tab.ant-tabs-tab-active {
+    border: none !important;
+}
+
+.titleThongKe {
+    font-size: 16px;
+    color: #d7764f;
+}
+
+#ContainerSwapper {
+    font-size: 14px;
+    
+    #table {
+        width: 100%;
+        overflow: auto;
+        border-collapse: collapse;
+
+        #headerTable {
+            position: sticky;
+            top: 0;
+            // z-index: 1;
+        }
+
+        #data {
+            overflow: auto;
+        }
+
+       
+    }
+
+
+
+    .tdHeader {
+        font-size: 14px;
+        background-color: #ce7a58;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .rowPhanCap {
+        font-weight: 600;
+        background-color: rgb(206, 122, 88, 0.3);
+        color: #444;
+        // color: #fff;
+
+    }
+
+    .rowChan {
+        color: #ce7a58;
+        background-color: #fcf7e1;
+        font-weight: 600;
+    }
+
+    .rowLe {
+        color: #ce7a58;
+        background-color: #fff;
+        font-weight: 600;
+
+    }
+
+
+}
+
+.ant-tabs-small >.ant-tabs-nav .ant-tabs-tab {
+    font-size: 15px;
+    font-weight: 600;
+}

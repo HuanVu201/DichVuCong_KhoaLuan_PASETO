@@ -1,0 +1,89 @@
+.PhanAnhKienNghiDetail {
+    padding: 0 20px;
+    .componentBox{
+        padding: 10px 5px;
+    }
+    .componentBox + .componentBox {
+        border-top: 1px solid #E9F0F8;
+    }
+
+    .headerBlock {
+        padding-bottom:20px ;
+        padding-top: 0;
+
+        .titlePAKN {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .from {
+            font-size: 15px;
+        }
+    }
+
+    .leftContent {
+        justify-content: center;
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .rightContent {
+        .titleContent {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .content {}
+    }
+
+    .question {}
+}
+@media screen and (max-width: 1250px) {
+
+}
+
+@media screen and (min-width: 700px) and ( max-width: 1023px) {
+    
+}
+
+@media screen and ( max-width: 700px) {
+    .ant-modal-content{
+        padding: 25px 8px;
+
+        .PhanAnhKienNghiDetail{
+            padding:  0 20px;
+
+            .headerBlock{
+                // padding-bottom: 0;
+                margin-bottom: 0 !important;
+            }
+
+            .componentBox {
+                font-size: 12px;
+                .titlePAKN{
+                    font-size: 13px;
+                }
+                .from{
+                    font-size: 12px;
+                }
+                .leftContent{
+                    padding: 0;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .titleContent{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}

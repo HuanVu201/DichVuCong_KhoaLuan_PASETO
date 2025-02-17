@@ -1,0 +1,82 @@
+.loginPortal {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    width: fit-content;
+
+    .loginBlock {
+        padding: 0 20px;
+        min-height: 300px;
+        background-color: #f5f6f7;
+        border-radius: 5px;
+
+
+        .title_loginPortal {
+            padding: 15px;
+            font-size: 16px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .contentBlockSwapper {}
+
+        .contentBlock {
+            margin-top: 30px;
+            padding: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+            border: 1px solid #e5e5e5;
+            border-top: 3px solid #256390;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+            background: #fff;
+            min-height: 245px;
+
+            .insideContent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 15px;
+                margin-bottom: 20px;
+                line-height: 1.42857143;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                -webkit-transition: border .2s ease-in-out;
+                -o-transition: border .2s ease-in-out;
+                transition: border .2s ease-in-out;
+                height: 200px;
+                cursor: pointer;
+                min-width: 300px;
+
+                .imgBlock {
+                    height: 80px;
+
+                    img {
+                        width: 70px;
+                    }
+                }
+
+                b {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .CongDan {
+            display: flex;
+            gap: 15px;
+
+            .insideContent{
+                flex: 1;
+            }
+
+        }
+
+        .CanBo {}
+
+
+    }
+
+}
+.ant-modal .ant-modal-content {
+    padding: 40px 15px;
+}

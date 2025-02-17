@@ -1,0 +1,15 @@
+{
+  "VNPostSettings": {
+    "urlVNPostAPI": "",
+    "urlVNPostAPIWithoutItemCode": "",
+    "urlVNPostGetUserAPI": "",
+    "urlVNPostGetToken": "",
+    "access_Token": "",
+    "access_RefreshToken": "",
+    "username": "",
+    "password": "",
+    "maximumRequest": 1,
+    "ReceiverProvince": 54,
+    "NotificationUrl": ""
+  }
+}

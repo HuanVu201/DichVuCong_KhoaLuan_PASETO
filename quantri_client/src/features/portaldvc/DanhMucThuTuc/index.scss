@@ -1,0 +1,41 @@
+.DanhMucTTHC_Swapper {
+    width: 90%;
+    margin: 10px auto;
+    padding: 0 16px;
+}
+
+.ant-btn-default {
+    border: none;
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .DanhMucTTHC_Swapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .DanhMucTTHC_Swapper {
+        width: 95%;
+        margin-top: 20px;
+        padding: 0 16px;
+
+        .row {
+            margin: 0;
+        }
+
+        .row>* {
+            padding: 0 !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .DanhMucTTHC_Swapper {
+        padding: 0;
+    }
+
+}

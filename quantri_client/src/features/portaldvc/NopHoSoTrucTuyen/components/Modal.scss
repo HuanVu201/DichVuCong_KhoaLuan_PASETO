@@ -1,0 +1,26 @@
+.modal-saved-document {
+    .ant-modal-content{
+        padding: 50px 20px;
+        background: rgb(240, 224, 209);
+        border-radius: 4px;
+        // background-image: url(https://dichvucong.gov.vn/p/home/theme/img/gioithieu/hac.svg);
+        // background-position: bottom right;
+        // background-repeat: no-repeat;
+        // background-size: 250px auto;
+        max-width: 768px;
+        margin: auto;
+    }
+}
+
+.btn-yellow {
+    background: #FFC251;
+    color: #000;
+    font-weight: 500;
+    appearance: button;
+    
+}
+.btn-yellow:hover {
+    opacity: 0.8;
+    background: #FFC251;
+
+}

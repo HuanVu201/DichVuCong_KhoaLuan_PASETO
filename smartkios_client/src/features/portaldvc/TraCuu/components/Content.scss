@@ -1,0 +1,48 @@
+.contentTraCuu {
+    margin-top: 2px;
+
+    .componentBlock {
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        // margin-bottom: 10px;
+        border-radius: 5px;
+
+        .title {
+            border: 1px solid #337ab7;
+
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: #337ab7;
+            padding: 10px 15px;
+            font-size: 14px;
+            color: #fff;
+            
+        }
+
+        .panel-body{
+            padding: 5px 15px 25px 15px;
+
+            .table {
+    
+                tr {
+                    width: 80% !important;
+                    border-style: none !important;
+                }
+    
+                .row-data {
+    
+                }
+                .titleTable {
+                    
+                    font-weight: 600;
+                    font-size: 13px;
+                }
+
+                .dataTable {
+                    
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

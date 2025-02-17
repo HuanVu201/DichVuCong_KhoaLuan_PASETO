@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG</strong><br />
+                        <strong>TỈNH THANH HÓA</strong>
+                        <hr
+                            style="height:1px; width: 55px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+                        <i>Thanh Hóa, <span id="NgayThangNam">ngày 27 tháng 10 năm 2023</span></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>...</strong>
+                <i>...</i>
+            </div>
+            <!-- Content -->
+            <div style=" margin: auto;">
+                <table
+                    style="border: 1px solid #000; border-collapse: collapse; width: 100%; text-align: center; margin: 10px 0; font-size: 13px;">
+                    <tr>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            TT
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Mã hồ sơ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Chủ hồ sơ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Tên hồ sơ
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Đơn vị gửi liên thông
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Ngày gửi
+                        </td>
+                        <td style="padding: 5px; border: 1px solid #333; font-weight: 600;">
+                            Trạng thái
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="STT" style="border: 1px solid #333; padding: 5px;">
+                            1
+                        </td>
+                        <td id="MaHoSo" style="border: 1px solid #333; padding: 5px;">
+                            2
+                        </td>
+                        <td id="ChuHoSo" style="border: 1px solid #333; padding: 5px;">
+                            3
+                        </td>
+                        <td id="TenHoSo" style="border: 1px solid #333; padding: 5px;">
+                            4
+                        </td>
+                        <td id="DonViGui" style="border: 1px solid #333; padding: 5px;">
+                            5
+                        </td>
+                        <td id="NgayGui" style="border: 1px solid #333; padding: 5px;">
+                            6
+                        </td>
+                        <td id="TrangThai" style="border: 1px solid #333; padding: 5px;">
+                            7
+                        </td>
+
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex; text-align: center; margin-top: 20px;">
+                <div style="flex: 1; display: flex; flex-direction: column; text-align: left;">
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <i>Thanh Hóa, ...</i>
+                    <strong>NGƯỜI LÀM BÁO CÁO</strong>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+                    <span>{Tên}</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Danh sách hồ sơ LT')">Download Phiếu</button>
+
+</body>
+
+</html>

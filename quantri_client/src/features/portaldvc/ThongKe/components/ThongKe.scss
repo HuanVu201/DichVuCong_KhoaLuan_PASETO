@@ -1,0 +1,171 @@
+.containerThongKe {
+    width: 90%;
+    margin: 50px auto;
+    padding: 0 16px;
+
+    canvas{
+        max-width: 150px !important;
+    }
+
+    #ContainerSwapper {
+        overflow-x: auto;
+
+        table {
+            min-width: 900px;
+        }
+    }
+
+    .thongKe_header {
+        .titleThongKe {
+            color: #fff;
+        }
+
+        .border {
+            border: 1px solid rgba(206, 122, 88, 0.3) !important;
+        }
+
+        .buttonSearchPortal {
+            color: #fff;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(211, 153, 72);
+            }
+        }
+        .bieuDoHeader {
+            margin-bottom: 20px;
+        }
+
+        .ant-btn-default {
+            border: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .containerThongKe {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .containerThongKe {
+        width: 95%;
+
+        .thongKe_header {
+            .row {
+                .titleThongKe {
+                    font-size: 13px;
+                }
+
+                .bieuDoHeader {
+                    font-size: 12px;
+                    margin-bottom: 20px;
+                }
+
+                .soLieuHeader {
+                    span {
+                        font-size: 12px;
+                    }
+
+                    .fs-6 {
+                        font-size: 13px !important;
+                    }
+
+                    .d-flex {
+                        flex-wrap: wrap;
+                    }
+
+                    .ant-carousel {
+                        font-size: 12px;
+                    }
+
+                    .buttonSearchPortal {
+                        span {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+
+            .container {
+                p {
+                    font-size: 13px;
+                }
+
+                .mb-4 {
+                    margin-bottom: 0 !important;
+                }
+
+                label {
+                    font-size: 12px !important;
+                }
+
+                .ant-col {
+                    padding-bottom: 0;
+                }
+
+                .ant-select-selection-item {
+                    font-size: 12px;
+                }
+
+                .ant-form-item {
+                    margin-bottom: 0;
+                }
+
+                .ant-space {
+                    margin-top: 10px;
+
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .selectThongKe {
+            span {
+                font-size: 12px;
+            }
+
+            .ant-select-selection-item {
+                font-size: 11px !important;
+            }
+        }
+
+        .tableThongKe {
+            .ant-tabs-small>.ant-tabs-nav .ant-tabs-tab {
+                font-size: 12px;
+            }
+
+            .titleThongKe {
+                font-size: 13px;
+            }
+
+            #ContainerSwapper {
+                overflow-x: auto;
+
+                #table {
+                    min-width: 550px;
+
+                    td {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ant-select-item-option-content {
+        font-size: 11px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .containerThongKe {
+        padding: 0;
+    }
+}

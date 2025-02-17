@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./ExportHtmlToPdf.js"></script>
+
+    <title>Dịch vụ công Thanh Hóa</title>
+</head>
+
+<body>
+    <div id="ContainerSwapper" style="font-size: 13px; font-family: 'Times New Roman', Times, serif;">
+        <div id="Content" style="width: 650px; margin: 0 auto;">
+            <!-- Header -->
+            <div class="header">
+                <div style="display: flex; font-weight: 600;">
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>...</strong><br />
+                        <strong>
+                            BỘ PHẬN TIẾP NHẬN <br />
+                            & TRẢ KẾT QUẢ<br />
+                            HỒ SƠ HÀNH CHÍNH
+
+                        </strong>
+                        <hr
+                            style="height:1px; width: 140px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+
+                    <div style="flex: 1;  text-align: center;">
+                        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br />
+                        <strong>Độc lập - Tự do - Hạnh phúc</strong>
+                        <hr
+                            style="height:1px; width: 160px; margin: 0 auto; color:black; background-color:black; border: none;" />
+                    </div>
+                </div>
+                <div style="display: flex; margin-top: 6px;">
+                    <div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+
+                    </div>
+                    <div style="flex: 1;  text-align: center; display: flex; flex-direction: column;">
+                        <i>Thanh Hóa, <span id="NgayThangNam">ngày 27 tháng 10 năm 2023</span></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <div style="text-align: center; display: flex; flex-direction: column; margin: 20px 0 10px 0;">
+                <strong>...</strong>
+                <i>...</i>
+            </div>
+            <!-- Content -->
+            <div style=" margin: auto;">
+                <div style="margin-bottom: 8px;">
+                    <div>I. Kết quả giải quyết thủ tục hành chính trong
+                        <span>…</span>
+                        <i>(Tính từ ngày 01 đến ngày cuối cùng của tháng)</i>.
+                    </div>
+                    <div>Tổng số hồ sơ xử lý: … </div>
+                    <table
+                        style="border: 1px solid #000; border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 13px;">
+                        <tr style="font-weight: 600; text-align: center;">
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600; width: 10%;">
+                                <i>TT</i>
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600; width: 40%;">
+                                <i>Nội dung</i>
+                            </td>
+                            <td style="padding: 5px; border: 1px solid #333; font-weight: 600; width: 50%;">
+                                <i>Kết quả</i>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <strong>1</strong>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <strong>Tiếp nhận hồ sơ</strong>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div style="padding-left: 15px;">- Tiếp nhận trong tháng</div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                ...
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div style="padding-left: 15px;">- Từ tháng trước chuyển sang </div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                ...
+                            </td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <strong>2</strong>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <strong>Xử lý hồ sơ </strong>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div style="padding-left: 15px;">- Trả kết quả đúng hạn </div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                ...
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div style="padding-left: 15px;">- Trả kết quả quá hạn</div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                ...
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div style="padding-left: 15px;">- Chưa xử lý xong</div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                ...
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                <div style="padding-left: 15px;">- Trả lại</div>
+                            </td>
+                            <td id="" style="border: 1px solid #333; padding: 5px;">
+                                ...
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    II. Kiến nghị, đề xuất: (nếu có)
+                    <div style="width: 100%; min-height: 60px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pointBreakPage"></div>
+        <div id="signature" style="width: 650px; height: 160px; margin: 0 auto;">
+            <div style="display: flex; text-align: center; margin-top: 20px;">
+                <div style="flex: 1; display: flex; flex-direction: column; text-align: left;">
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column;">
+                    <strong>CÁN BỘ BÁO CÁO</strong>
+                    <div style="width: 100px; height: 60px; margin: 10px auto;"></div>
+                    <span>{Tên}</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: auto;" onclick="downloadPhieu('Báo cáo xử lý lĩnh vực')">Download
+        Phiếu</button>
+
+</body>
+
+</html>

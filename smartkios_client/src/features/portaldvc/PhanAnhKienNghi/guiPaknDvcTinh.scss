@@ -1,0 +1,95 @@
+.guiPakn-container {
+    background-color: #f0f0f0 !important;
+    min-height: 90vh;
+
+    .pakn-form {
+        width: 67.5%;
+        padding: 0 16px;
+        margin: auto;
+        padding: 50px 16px;
+
+
+        .pakn_header {
+            text-align: center;
+            background-color: #f0ad4e;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px;
+            color: #fff;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+        }
+
+        .pakn_body {
+            background-color: #fff;
+            padding: 30px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            .form-group {
+                margin-top: 25px;
+                font-size: 17px;
+
+                .form-control {
+                    font-size: 17px;
+
+                    &:focus {
+                        border-color: #f0ad4e;
+                        box-shadow: 0 0 0 3px rgba(240, 173, 78, 0.1);
+                    }
+                }
+
+                .form-select {
+                    font-size: 17px;
+
+                    &:focus {
+                        border-color: #f0ad4e;
+                        box-shadow: 0 0 0 3px rgba(240, 173, 78, 0.1);
+                    }
+                }
+
+                // select:focus {
+                //     background-color: #fff;
+                //     color: #000;
+                // }
+
+                // select:hover option {
+                //     background-color: rgba(240, 173, 78, 0.5);
+                //     color: #fff;
+                // }
+
+                // select option:checked {
+                //     background-color: #f0ad4e;
+                //     color: #fff;
+                // }
+
+
+            }
+
+            .row+.row {
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+
+
+    .buttonSearchPortal {
+        color: #fff;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        margin: 20px auto;
+
+        &:hover {
+            background-color: rgb(211, 153, 72);
+        }
+    }
+
+    .ant-btn-default {
+        border: none;
+    }
+}

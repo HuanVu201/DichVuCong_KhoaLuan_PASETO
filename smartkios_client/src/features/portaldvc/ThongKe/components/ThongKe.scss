@@ -1,0 +1,15 @@
+.thongKe_header{
+
+    .buttonSearchPortal{
+        color: #fff;
+        font-weight: 600;
+
+        &:hover{
+            background-color: rgb(211, 153, 72);
+        }
+    }
+
+    .ant-btn-default{
+        border: none;
+    }
+}

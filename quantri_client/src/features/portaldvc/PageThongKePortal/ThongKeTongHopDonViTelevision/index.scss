@@ -1,0 +1,117 @@
+.ThongKeTongHopDonViHCCTelevisonSwapper {
+    .header {
+        display: flex;
+        align-items: center;
+        background: #f1db71;
+        color: #fff;
+        min-height: 60px;
+        padding: 12px 20px;
+        border-bottom: 1px solid #ECECEC;
+        box-shadow: 0px 0px 5px #6d6d6d;
+
+        #imgQuocHuy {
+            float: left;
+            min-width: 70px;
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        h3 {
+            font-weight: 800;
+            font-size: 30px;
+            margin-top: 15px;
+            color: #cd0b26;
+        }
+    }
+
+    .body {
+        padding: 30px 10px;
+
+        .title-form {
+            text-align: center;
+
+            .title-form-banner {
+                color: #b00600;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            .title-bottom-form-banner {
+                color: #b00600;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+
+        #table {
+            thead {
+                color: #fff;
+                background-color: #21669e;
+            }
+
+            tbody {
+                color: #333;
+                font-weight: 600;
+
+                td {
+                    border: 1px solid #49A0E2;
+
+                    a {
+                        color: #333 !important;
+                    }
+                }
+
+                .blueText {
+                    color: #1667a0;
+                }
+
+                .redNumberBlock {
+                    color: white !important;
+                    text-decoration: none !important;
+                    background: #b00600;
+                    padding: 1px 5px;
+                    border-radius: 3px;
+
+                    a {
+                        color: white !important;
+                    }
+                }
+
+                .greenNumberBlock {
+                    color: white !important;
+                    text-decoration: none !important;
+                    background: #5a8a26;
+                    padding: 1px 5px;
+                    border-radius: 3px;
+
+                    a {
+                        color: white !important;
+                    }
+                }
+
+                .orangeNumberBlock {
+                    color: white !important;
+                    text-decoration: none !important;
+                    background: #fc8c16;
+                    padding: 1px 5px;
+                    border-radius: 3px;
+
+                    a {
+                        color: white !important;
+                    }
+                }
+
+                .rowChan {
+                    background-color: rgba(252, 247, 225, 0);
+                }
+
+                .rowLe {
+                    background-color: #fcf7e1;
+                }
+
+            }
+        }
+    }
+
+    .body {}
+}

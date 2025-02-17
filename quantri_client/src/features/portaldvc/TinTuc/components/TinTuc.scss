@@ -1,0 +1,40 @@
+.media {
+    margin-top: 10px;
+    // border: 1px solid   #333;
+    padding: 15px 10px 10px;
+    background: white;
+    padding: 10px;
+    border: none !important;
+    box-shadow: 0px 1px 1px #ccc;
+
+
+    .media-left {
+            img {
+                width: 100%;
+                display: block;
+                border: inset 4px #fff;
+                border-style: solid;
+                position: relative;
+                box-shadow: 0px 1px 1px #ccc;
+                max-width: 30vw;
+            }
+        
+    }
+
+    .media-body {
+        .media-heading {
+            
+            a {
+                font-size: 18.2px;
+                color: #b96745;
+                &:hover{
+                    text-decoration: underline !important;
+                }
+            }
+        }
+
+        .media-shortContent {
+            text-align: justify;
+        }
+    }
+}

@@ -1,0 +1,199 @@
+.PhanAnhKienNghiPageSwapper {
+    padding: 50px 0;
+    margin: auto;
+    min-height: 80vh;
+
+    .PhanAnhKienNghiBlock {
+        width: 90%;
+        margin: auto;
+        padding: 0 16px;
+        font-size: 16px !important;
+
+        .PhanAnhKienNghiContainer {
+            .PhanAnhKienNghiSearch {
+                width: 50%;
+                margin: auto;
+            }
+
+            .PhanAnhKienNghiList {
+                width: 90%;
+                margin: auto;
+                // border: 1px solid;
+                padding: 0 16px;
+
+                .paknItem {
+                    cursor: default;
+                    display: flex;
+                    padding: 20px;
+
+                    .logoItem {
+
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .rightItem {
+                        .titleItem {
+                            font-size: 16px;
+                            color: #0072bc;
+                            text-align: justify;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+
+                        .fromItem {
+                            font-size: 12px;
+                            color: #6A94B6;
+                            font-weight: 700;
+                        }
+
+                        .shortContent {
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+
+                        .buttonSearchPortal_Detail {
+                            cursor: pointer;
+                            float: right;
+                            color: #fff;
+                            font-weight: 500;
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            margin: auto;
+                            padding: 0 5px !important;
+
+                            &:hover {
+                                background-color: rgb(211, 153, 72);
+                            }
+                        }
+                    }
+                }
+
+                .paknItem+.paknItem {
+                    border-top: 1px solid #E9F0F8;
+                }
+            }
+
+            .buttonSearchPortal {
+                color: #fff;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                font-size: 17px;
+                margin: auto;
+
+                &:hover {
+                    background-color: rgb(211, 153, 72);
+                }
+            }
+
+            .ant-btn-default {
+                border: none;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .PhanAnhKienNghiPageSwapper {
+
+        .PhanAnhKienNghiBlock {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .PhanAnhKienNghiPageSwapper {
+
+        .PhanAnhKienNghiBlock {
+            width: 95%;
+
+            .PhanAnhKienNghiContainer {
+                .PhanAnhKienNghiSearch {
+                    width: unset;
+
+                    .ant-row {
+                        align-items: center;
+                    }
+
+                    .ant-col {
+                        padding: 0;
+                    }
+
+                    label {
+                        font-size: 13px !important;
+                    }
+
+                    #PhanAnhKienNghiSearch_tuKhoa {
+                        font-size: 12PX;
+                    }
+
+                    .ant-form-item-label {
+                        flex: unset
+                    }
+
+                    .ant-form-item {
+                        margin: 0;
+                    }
+                }
+
+                .PhanAnhKienNghiList {
+                    width: unset;
+                    margin: unset;
+                    padding: unset;
+
+                    .paknItem {
+                        font-size: 12px;
+
+                        .logoItem {
+                            padding: 0;
+                        }
+
+                        .rightItem {
+                            padding: 0 0 0 10px;
+
+                            .titleItem {
+                                font-size: 13px;
+                            }
+
+                            .fromItem {
+                                font-size: 11px;
+                            }
+
+                            .shortContent {}
+
+                            .buttonSearchPortal_Detail {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+
+                .ant-btn-default {
+                    font-size: 11px;
+                    height: 25px;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .PhanAnhKienNghiPageSwapper {
+
+        .PhanAnhKienNghiBlock {
+            padding: 0;
+        }
+    }
+}
