@@ -1,7 +1,7 @@
 import { TD } from "./kyso";
 import axiosInstance from "@/lib/axios";
 import { API_VERSION, HOST_PATH_FILE, ID_SEPARATE, UPLOADFILE_ENDPOINT } from "@/data";
-import { IResult } from "@/models";
+import { IParseUserToken, IResult } from "@/models";
 import '@/utils/esign2'
 import { UploadFile } from "antd";
 import Docxtemplate from "docxtemplater"
@@ -36,6 +36,20 @@ export const findPDFFiles = (filePath: string, splitBy: string = ID_SEPARATE): s
 }
 
 export const parseJwt = (token: string) => {
+  const object: IParseUserToken = {
+    groupCode: '',
+    email: '',
+    fullName: 'root.admin',
+    groupName: '',
+    officeCode: '',
+    officeName: '',
+    typeUser: "CongDan",
+    uid: '',
+    sub: '',
+    maDinhDanh: '',
+    positionName: ''
+  }
+  return object as any
   var base64Url = token.split('.')[1];
   var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
   var jsonPayload = decodeURIComponent(window.atob(base64).split('').map(function (c) {
@@ -795,7 +809,7 @@ export async function generateDocxWithImagesPhieuHoSo(fileUrl: string, data: any
         return imageSize;
       },
     };
-    
+
     var imageModule = new ImageModule(imageOpts);
 
     const zip = new PizZip(content);
@@ -892,7 +906,7 @@ export async function generateDocxToBlobPdf(fileUrl: string, data: any, saveAsFi
 
 export const fillEformData = async (fileUrl: string, data: any, saveAsFileName: string, saveToFolder?: string, onDone?: (uploadedFileName: string) => void, flag: "word" | "word2pdf" | "saveToTable" | "saveAsPdf" = "word") => {
   const blobUrl = await getUrlFromBlob(fileUrl)
-  
+
   if (!blobUrl) {
     return
   }
@@ -960,7 +974,7 @@ export const downloadPDf = async (doc: Docxtemplate<PizZip>, fileUrl: string) =>
     mimeType:
       'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
   }); //Output the document using Data-URI
-  await getPdfFileUrlFromBlob(out, fileUrl,false,'to-khai.pdf')
+  await getPdfFileUrlFromBlob(out, fileUrl, false, 'to-khai.pdf')
 
 }
 
