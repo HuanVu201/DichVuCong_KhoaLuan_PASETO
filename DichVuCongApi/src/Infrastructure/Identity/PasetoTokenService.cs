@@ -148,7 +148,7 @@ public class PasetoTokenService : IPasetoTokenService
                                .AddClaim("ClaimOfPaseto", GetClaims(user, ipAddress))
                                .Expiration(DateTime.Now.AddMinutes(_pasetoSettings.TokenExpirationInMinutes))
                                .TokenIdentifier(user.Id + "_" + user.Email + "_" + DateTime.Now)
-                               .AddFooter(DateTime.Now.AddMinutes(_pasetoSettings.TokenExpirationInMinutes).ToString())
+                               .AddFooter(DateTime.Now.AddMinutes(_pasetoSettings.TokenExpirationInMinutes).ToString("dd/MM/yyyy HH:mm:ss"))
                                .Encode();
     }
 

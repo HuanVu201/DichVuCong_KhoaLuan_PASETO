@@ -7,7 +7,7 @@ public static class ClaimsPrincipalExtensions
     public static string? GetEmail(this ClaimsPrincipal principal)
         => principal.FindFirstValue(TDClaims.Email);
     public static string? GetUserName(this ClaimsPrincipal principal)
-    => principal.FindFirstValue(ClaimTypes.NameIdentifier);
+    => principal.FindFirstValue(TDClaims.Sub);
 
     public static string? GetTenant(this ClaimsPrincipal principal)
         => principal.FindFirstValue(TDClaims.Tenant);

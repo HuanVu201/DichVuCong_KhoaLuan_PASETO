@@ -31,12 +31,6 @@ public class PasetoAuthenticationHandler : AuthenticationHandler<AuthenticationS
 
     protected override Task<AuthenticateResult> HandleAuthenticateAsync()
     {
-        var endpoint = Context.GetEndpoint();
-        if (endpoint?.Metadata.GetMetadata<Microsoft.AspNetCore.Authorization.AllowAnonymousAttribute>() != null)
-        {
-            return Task.FromResult(AuthenticateResult.Success(new AuthenticationTicket(new ClaimsPrincipal(), Scheme.Name)));
-        }
-
         if (!Request.Headers.ContainsKey("Authorization"))
         {
             return Task.FromResult(AuthenticateResult.Fail("Missing Authorization Header"));
@@ -44,8 +38,8 @@ public class PasetoAuthenticationHandler : AuthenticationHandler<AuthenticationS
 
         string token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
 
-        var jwtLogout = _memoryCache.Get(token)?.ToString();
-        if (jwtLogout == "Logout")
+        string tokenLogout = _memoryCache.Get(token)?.ToString() ?? string.Empty;
+        if (!string.IsNullOrEmpty(tokenLogout) && tokenLogout.Contains("Logout"))
             throw new UnauthorizedException("Authentication Failed.");
 
         PasetoTokenValidationResult result = _pasetoTokenService.DecodePasetoToken(token);
@@ -129,7 +123,27 @@ public class PasetoAuthenticationHandler : AuthenticationHandler<AuthenticationS
         }
         else
         {
+            var endpoint = Context.GetEndpoint();
+            if (endpoint?.Metadata.GetMetadata<Microsoft.AspNetCore.Authorization.AllowAnonymousAttribute>() != null)
+            {
+                return Task.FromResult(AuthenticateResult.Success(new AuthenticationTicket(new ClaimsPrincipal(), Scheme.Name)));
+            }
+
             throw new UnauthorizedException("Authentication Failed.");
         }
     }
 }
+
+// var a = _currentUser.GetUserId();
+// var b = _currentUser.GetUserOfficeCode();
+// var c = _currentUser.GetUserGroupCode();
+// var d = _currentUser.GetUserFullName();
+// var e = _currentUser.GetUserGroupName();
+// var f = _currentUser.GetUserOfficeName();
+// var g = _currentUser.GetUserEmail();
+// var h = _currentUser.GetUserName();
+// var i = _currentUser.GetUserMaDinhDanh();
+// var j = _currentUser.GetUserPositionName();
+// var k = _currentUser.GetTypeUser();
+// var l = _currentUser.GetTenant();
+// var m = _currentUser.IsAuthenticated();
