@@ -43,6 +43,22 @@ public sealed class TokensController : VersionNeutralApiController
         return _pasetoTokenService.GetTokenAsync(request, GetIpAddress()!, cancellationToken, GetDevice());
     }
 
+    [Authorize]
+    [HttpPost("GetPublicToken")]
+    [OpenApiOperation("GetPublicTokenAsync", "")]
+    public Task<string> GetTokenAsync(string jsonRequest)
+    {
+        return _pasetoTokenService.GetPublicTokenAsync(jsonRequest, GetIpAddress()!);
+    }
+
+    [AllowAnonymous]
+    [HttpPost("GetAsymmetricPublicKey")]
+    [OpenApiOperation("GetAsymmetricPublicKey", "")]
+    public Task<PasetoPublicKeyResponse> GetAsymmetricPublicKey()
+    {
+        return _pasetoTokenService.GetAsymmetricPublicKey();
+    }
+
     [HttpPost("ldaplogin")]
     [AllowAnonymous]
     [TenantIdHeader]

@@ -23,5 +23,6 @@ public static class TDClaims
     public const string TypeUser = "typeUser";
     public const string PositionName = "positionName";
     public const string MaDinhDanh = "maDinhDanh";
+    public const string JsonRequest = "jsonRequest";
 
 }

@@ -20,9 +20,9 @@ export const GetToken = createAsyncThunk
             // const userData: IParseUserToken = parseJwt(res.data.token)
             // thunkApi.dispatch(setUserData(userData))
             thunkApi.dispatch(togglerLoginModalVisible(false))
-            if (Formio) {
-                Formio.setToken(res.data.token)
-            }
+            // if (Formio) {
+            //     Formio.setToken(res.data.token)
+            // }
             return res.data;
         } catch (error) {
             return thunkApi.rejectWithValue(error as IError)

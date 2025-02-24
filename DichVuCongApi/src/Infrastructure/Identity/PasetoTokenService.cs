@@ -18,6 +18,11 @@ using System.Security.Cryptography;
 using Newtonsoft.Json.Linq;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.AspNetCore.Http;
+using Paseto.Cryptography.Key;
+using DocumentFormat.OpenXml.Spreadsheet;
+using TD.DichVuCongApi.Application.Common.Interfaces;
+using System.Security.Cryptography.X509Certificates;
+using Org.BouncyCastle.Asn1.X9;
 
 namespace TD.DichVuCongApi.Infrastructure.Identity;
 public class PasetoTokenService : IPasetoTokenService
@@ -30,13 +35,17 @@ public class PasetoTokenService : IPasetoTokenService
     private readonly LDAPSettings _ldapSettings;
     private readonly IServiceLogger _serviceLogger;
     private readonly IMemoryCache _memoryCache;
+    private readonly ICurrentUser _currentUser;
     public PasetoTokenService(
         UserManager<ApplicationUser> userManager,
         IOptions<PasetoSettings> pasetoSettings,
         IStringLocalizer<PasetoTokenService> localizer,
         TDTenantInfo? currentTenant,
         IOptions<SecuritySettings> securitySettings,
-        IOptions<LDAPSettings> ldapSettings, IServiceLogger serviceLogger, IMemoryCache memoryCache)
+        IOptions<LDAPSettings> ldapSettings,
+        IServiceLogger serviceLogger,
+        IMemoryCache memoryCache,
+        ICurrentUser currentUser)
     {
         _userManager = userManager;
         _t = localizer;
@@ -46,6 +55,7 @@ public class PasetoTokenService : IPasetoTokenService
         _ldapSettings = ldapSettings.Value;
         _serviceLogger = serviceLogger;
         _memoryCache = memoryCache;
+        _currentUser = currentUser;
     }
 
     public async Task<TokenResponse> GetTokenAsync(PasetoTokenRequest request, string ipAddress, CancellationToken cancellationToken, string? device = null)
@@ -118,6 +128,19 @@ public class PasetoTokenService : IPasetoTokenService
         return await GenerateTokensAndUpdateUser(user, ipAddress, null, true);
     }
 
+    public async Task<string> GetPublicTokenAsync(string jsonRequest, string ipAddress)
+    {
+        PasetoAsymmetricKeyPair asymmetricKey = GetAsymmetricKey();
+
+        string publicToken = new PasetoBuilder().Use(ProtocolVersion.V2, Purpose.Public)
+                               .WithKey(asymmetricKey.SecretKey)
+                               .AddClaim("ClaimData", GetClaimsForPublicToken(jsonRequest, ipAddress))
+                               .Expiration(DateTime.Now.AddMinutes(_pasetoSettings.PublicTokenExpirationInMinutes))
+                               .AddFooter(DateTime.Now.AddMinutes(_pasetoSettings.PublicTokenExpirationInMinutes).ToString("dd/MM/yyyy HH:mm:ss"))
+                               .Encode();
+        return publicToken;
+    }
+
     private async Task<TokenResponse> GenerateTokensAndUpdateUser(ApplicationUser user, string ipAddress, string? device = null, bool? isRefreshToken = false)
     {
         string token = GeneratePasetoToken(user, ipAddress);
@@ -148,7 +171,7 @@ public class PasetoTokenService : IPasetoTokenService
                                .AddClaim("ClaimOfPaseto", GetClaims(user, ipAddress))
                                .Expiration(DateTime.Now.AddMinutes(_pasetoSettings.TokenExpirationInMinutes))
                                .TokenIdentifier(user.Id + "_" + user.Email + "_" + DateTime.Now)
-                               .AddFooter(DateTime.Now.AddMinutes(_pasetoSettings.TokenExpirationInMinutes).ToString("dd/MM/yyyy HH:mm:ss"))
+                               //.AddFooter(DateTime.Now.AddMinutes(_pasetoSettings.TokenExpirationInMinutes).ToString("dd/MM/yyyy HH:mm:ss"))
                                .Encode();
     }
 
@@ -230,6 +253,47 @@ public class PasetoTokenService : IPasetoTokenService
         }
     }
 
+    public PasetoAsymmetricKeyPair GetAsymmetricKey()
+    {
+        if (string.IsNullOrEmpty(_pasetoSettings.PrivateKey))
+        {
+            throw new NotFoundException("Invalid config PublicKeyInput");
+        }
+
+        using (SHA256 sha256 = SHA256.Create())
+        {
+            byte[] bytes = Encoding.UTF8.GetBytes(_pasetoSettings.Key);
+            byte[] hashBytes = sha256.ComputeHash(bytes); // Luôn trả về 32 bytes
+
+            PasetoAsymmetricKeyPair asymmetricKey = new PasetoBuilder().Use(ProtocolVersion.V2, Purpose.Public)
+                                   .GenerateAsymmetricKeyPair(hashBytes);
+
+            var x = asymmetricKey.PublicKey;
+            var y = asymmetricKey.PublicKey.Key;
+
+            return asymmetricKey;
+        }
+    }
+
+    public async Task<PasetoPublicKeyResponse> GetAsymmetricPublicKey()
+    {
+        if (string.IsNullOrEmpty(_pasetoSettings.PrivateKey))
+        {
+            throw new NotFoundException("Invalid config PublicKeyInput");
+        }
+
+        using (SHA256 sha256 = SHA256.Create())
+        {
+            byte[] bytes = Encoding.UTF8.GetBytes(_pasetoSettings.Key);
+            byte[] hashBytes = sha256.ComputeHash(bytes); // Luôn trả về 32 bytes
+
+            PasetoAsymmetricKeyPair asymmetricKey = new PasetoBuilder().Use(ProtocolVersion.V2, Purpose.Public)
+                                   .GenerateAsymmetricKeyPair(hashBytes);
+
+            return new PasetoPublicKeyResponse(Convert.ToBase64String(asymmetricKey.PublicKey.Key.ToArray()), asymmetricKey.PublicKey.Protocol);
+        }
+    }
+
     private IEnumerable<Claim> GetClaims(ApplicationUser user, string ipAddress) =>
         new List<Claim>
         {
@@ -265,4 +329,14 @@ public class PasetoTokenService : IPasetoTokenService
             new(TDClaims.Fullname, user.FullName ?? string.Empty),
             new(TDClaims.MaDinhDanh, user.MaDinhDanhOfficeCode ?? string.Empty),
         };
+
+    private IEnumerable<Claim> GetClaimsForPublicToken(string jsonRequest, string ipAddress) =>
+        new List<Claim>
+        {
+            new(TDClaims.JsonRequest, jsonRequest),
+            new(TDClaims.Sub, _currentUser!.GetUserName() ?? string.Empty),
+            new(TDClaims.IpAddress, ipAddress),
+            new(TDClaims.Tenant, _currentTenant!.Id),
+        };
+
 }

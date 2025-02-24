@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import { Layout, theme, Button, Spin } from "antd";
 import { SIDER_MENU_WIDTH } from "../../../../data";
 import { Link, useLocation } from "react-router-dom";
-import { BellOutlined, MenuFoldOutlined, MenuUnfoldOutlined, SearchOutlined, SolutionOutlined } from "@ant-design/icons";
+import { BellOutlined, CaretDownOutlined, MenuFoldOutlined, MenuUnfoldOutlined, SearchOutlined, SolutionOutlined } from "@ant-design/icons";
 import { MenuProps } from "antd/es/menu";
 import { Service } from "@/services";
 import { DropDownUser } from "../dropdown/DropDownUser";
@@ -159,7 +159,7 @@ const AntdLayoutContainer = ({
 
           <AntdMenu
             theme={menuTheme}
-            style={{ width: "100%" }}
+            style={{ width: "100%", display: 'flex', alignItems: 'center' }}
             mode="horizontal"
             selectedKeys={[location.pathname + location.search]}
             generateMenu={{
@@ -168,6 +168,7 @@ const AntdLayoutContainer = ({
               value: "fullPath",
               useValueAsLink: true,
             }}
+            overflowedIndicator={<CaretDownOutlined style={{ color: '#333' }} />}
           />
           <AntdSpace>
             <Link to='/dvc/dstailieuhdsdchocanbo'>
